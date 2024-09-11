@@ -2,8 +2,8 @@ import React from "react";
 
 import Home from "../landingPage/homeScreen/index";
 import About from "../landingPage/aboutScreen/index";
-import Header from "../landingPage/homeScreen/Header";
-import Footer from "../landingPage/homeScreen/Footer";
+import Header from "../Header/index"
+import Footer from "../Footer/index";
 import ChooseScreen from "./chooseScreen";
 import ServiceScreen from "./serviceScreen";
 import BlockScreen from "./blogScreen";
