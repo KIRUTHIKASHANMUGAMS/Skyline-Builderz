@@ -38,7 +38,7 @@ function Service() {
         </div>
         <div className="service-cards-details">
           <Row>
-            <Col md="4">
+            <Col lg="4" md="6" sm="12">
               <Card style={{ marginBottom: "20px" }}>
                 <div className="service-main-card">
                   <div style={{ textAlign: "justify" }}>
@@ -54,7 +54,7 @@ function Service() {
                 </div>
               </Card>
             </Col>
-            <Col md="4">
+            <Col lg="4" md="6" sm="12">
               <Card style={{ marginBottom: "20px" }}>
                 <div className="service-main-card">
                   <div style={{ textAlign: "justify" }}>
@@ -71,7 +71,7 @@ function Service() {
               </Card>
             </Col>
 
-            <Col md="4">
+            <Col lg="4" md="6" sm="12">
               <Card style={{ marginBottom: "20px" }}>
                 <div className="service-main-card">
                   <div style={{ textAlign: "justify" }}>
@@ -89,8 +89,8 @@ function Service() {
             </Col>
           </Row>
           <Row>
-            <Col md="4">
-              <Card style={{ marginBottom: "20px" }}>
+          <Col lg="4" md="6" sm="12">
+          <Card style={{ marginBottom: "20px" }}>
                 <div className="service-main-card">
                   <div style={{ textAlign: "justify" }}>
                     <img src={security} className="service-image" alt="" />
@@ -105,7 +105,7 @@ function Service() {
                 </div>
               </Card>
             </Col>
-            <Col md="4">
+            <Col lg="4" md="6" sm="12">
               <Card style={{ marginBottom: "20px" }}>
                 <div className="service-main-card">
                   <div style={{ textAlign: "justify" }}>
@@ -122,7 +122,7 @@ function Service() {
               </Card>
             </Col>
 
-            <Col md="4">
+            <Col lg="4" md="6" sm="12">
               <Card style={{ marginBottom: "20px" }}>
                 <div className="service-main-card">
                   <div style={{ textAlign: "justify" }}>
@@ -140,8 +140,8 @@ function Service() {
             </Col>
           </Row>
           <Row>
-            <Col md="4">
-              <Card style={{ marginBottom: "20px" }}>
+          <Col lg="4" md="6" sm="12">
+          <Card style={{ marginBottom: "20px" }}>
                 <div className="service-main-card">
                   <div style={{ textAlign: "justify" }}>
                     <img src={air} className="service-image" alt="" />
@@ -173,7 +173,7 @@ function Service() {
               </Card>
             </Col>
 
-            <Col md="4">
+            <Col lg="4" md="6" sm="12">
               <Card style={{ marginBottom: "20px" }}>
                 <div className="service-main-card">
                   <div style={{ textAlign: "justify" }}>
@@ -191,8 +191,8 @@ function Service() {
             </Col>
           </Row>
           <Row>
-            <Col md="4">
-              <Card style={{ marginBottom: "20px" }}>
+          <Col lg="4" md="6" sm="12">
+          <Card style={{ marginBottom: "20px" }}>
                 <div className="service-main-card">
                   <div style={{ textAlign: "justify" }}>
                     <img src={air} className="service-image" alt="" />
@@ -207,7 +207,7 @@ function Service() {
                 </div>
               </Card>
             </Col>
-            <Col md="4">
+            <Col lg="4" md="6" sm="12">
               <Card style={{ marginBottom: "20px" }}>
                 <div className="service-main-card">
                   <div style={{ textAlign: "justify" }}>
@@ -224,7 +224,7 @@ function Service() {
               </Card>
             </Col>
 
-            <Col md="4">
+            <Col lg="4" md="6" sm="12">
               <Card style={{ marginBottom: "20px" }}>
                 <div className="service-main-card">
                   <div style={{ textAlign: "justify" }}>
