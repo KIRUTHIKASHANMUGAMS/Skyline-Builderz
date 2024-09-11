@@ -1,9 +1,11 @@
 import React from "react";
+import { Container } from "react-bootstrap";
 
 function Banner() {
   return (
     <div>
       <div className="background-banner">
+        <Container>
         <div className="banner-details">
           <p className="banner-content">About Us</p>
           <div className="banner-text">
@@ -11,6 +13,8 @@ function Banner() {
             &bull; <span style={{ color: "#FFCC29" }}> About us</span>{" "}
           </div>
         </div>
+        </Container>
+     
       </div>
     </div>
   );

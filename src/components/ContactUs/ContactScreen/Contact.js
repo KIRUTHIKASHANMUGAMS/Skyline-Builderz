@@ -10,7 +10,7 @@ function Contact() {
     <div style={{ marginTop: "100px", marginBottom: "100px" }}>
       <Container>
         <Row>
-          <Col>
+          <Col lg="6" md="12" sm="12">
             <div>
               <p className="about-head">Get In Touch</p>
             </div>
@@ -26,7 +26,7 @@ function Contact() {
                   {" "}
                   <span>
                     {" "}
-                    <img src={phone} alt="" />
+                    <img src={phone} alt="" className="contact-image" />
                   </span>{" "}
                   <span className="about-li-content">
                     Call us: +(406) 555-0120{" "}
@@ -38,7 +38,7 @@ function Contact() {
                   {" "}
                   <span>
                     {" "}
-                    <img src={email} alt="" />
+                    <img src={email} alt="" className="contact-image" />
                   </span>{" "}
                   <span className="about-li-content">
                     Email: support@example.com{" "}
@@ -50,7 +50,7 @@ function Contact() {
                   {" "}
                   <span>
                     {" "}
-                    <img src={location} alt="" />
+                    <img src={location} alt="" className="contact-image" />
                   </span>{" "}
                   <span className="about-li-content">
                     2972 Westheimer Rd. Santa Ana, Illinois, USA{" "}
@@ -59,7 +59,7 @@ function Contact() {
               </div>
             </div>
           </Col>
-          <Col>
+          <Col lg="6" md="12" sm="12">
             <p className="form-control-contact">Send a message</p>
             <Form>
               <Row className="mb-5">

@@ -7,17 +7,23 @@ import facebook from "../../../images/facebook.svg";
 import instagram from "../../../images/instagram.svg";
 import twitter from "../../../images/twitter.svg";
 import linkedin from "../../../images/linkedin.svg";
-import subscribe from "../../../images/subscribe.svg";
+import { Link } from "react-router-dom";
+import Form from 'react-bootstrap/Form';
+import InputGroup from 'react-bootstrap/InputGroup';
+import arrow from "../../../images/arrow-go.svg";
 
 function Footer() {
   return (
     <div>
       <footer className="bg-dark text-white  ">
-        <Container fluid className="main-footer">
-          <div className="footer-content">
+        <Container >
+          <div  className="main-footer" >
             <Row>
-              <Col md={3}>
-                <img className="footer-img" src={logo} alt="logo" />
+              <Col  lg={3} md={6} sm={12} xs={12} className="pb-3">
+              <div style={{textAlign:"left"}}>
+              <img className="footer-img-logo" src={logo} alt="logo" />
+
+              </div>
 
                 <p className="footer-para">
                   Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
@@ -25,14 +31,14 @@ function Footer() {
                 </p>
                 <div className="footer-image-head">
                   <Row>
-                    <Col md={3}>
+                    <Col md={2} xs={2}>
                       <img
                         src={facebook}
                         alt="facebook"
                         className="footer-image"
                       />
                     </Col>
-                    <Col md={3}>
+                    <Col md={2} xs={2}>
                       <img
                         src={instagram}
                         alt="instagram"
@@ -40,7 +46,7 @@ function Footer() {
                       />
                     </Col>
 
-                    <Col md={3}>
+                    <Col md={2} xs={2}>
                       <img
                         src={twitter}
                         alt="twitter"
@@ -48,7 +54,7 @@ function Footer() {
                       />
                     </Col>
 
-                    <Col md={3}>
+                    <Col md={2} xs={2}>
                       <img
                         src={linkedin}
                         alt="linkedin"
@@ -58,39 +64,39 @@ function Footer() {
                   </Row>
                 </div>
               </Col>
-              <Col md={2}>
+              <Col lg={2} md={6} sm={6} xs={12} className="pb-3">
                 <div className="footer-contact">
-                  <h5 className="pb-2">Contact</h5>
-                  <p>(629) 555-0129</p>
-                  <p>info@example.com</p>
-                  <p>6391 Elgin St, Celina, 10299</p>
+                  <h5 className="pb-2  ps-3 footer-content-head">Contact</h5>
+                  <p className=" ps-3">(629) 555-0129</p>
+                  <p className=" ps-3">info@example.com</p>
+                  <p className=" ps-3">6391 Elgin St, Celina, 10299</p>
                 </div>
               </Col>
 
-              <Col md={2}>
+              <Col lg={2} md={4} sm={6} xs={12} className="pb-3">
                 <div className="footer-contact ">
-                  <h5 className="pb-2">Page</h5>
-                  <ul className="list-unstyled ">
+                  <h5 className="pb-2 ps-3 footer-content-head">Page</h5>
+                  <ul >
                     <li>
-                      <p> About Us</p>
+                      <p> <Link to="/about">About Us</Link> </p>
                     </li>
                     <li>
-                      <p> Contact Us</p>
+                      <p> <Link to="/contact">Contact Us</Link> </p>
                     </li>
                     <li>
-                      <p> Blogs</p>
+                      <p> <Link to="/blog">Blogs</Link> </p>
                     </li>
                     <li>
-                      <p>Service</p>
+                      <p> <Link to="/service">Service</Link></p>
                     </li>
                   </ul>
                 </div>
               </Col>
 
-              <Col md={2}>
+              <Col  lg={3} md={4} sm={6} xs={12} className="pb-3">
                 <div className="footer-contact ">
-                  <h5 className="pb-2">Quick Links</h5>
-                  <ul className="list-unstyled">
+                  <h5 className="pb-2  ps-3 footer-content-head">Quick Links</h5>
+                  <ul >
                     <li>
                       <p> Terms and Conditions</p>
                     </li>
@@ -98,7 +104,7 @@ function Footer() {
                       <p> Privacy Policy</p>
                     </li>
                     <li>
-                      <p> FAQs</p>
+                      <p>  <Link to="/faq">FAQS </Link> </p>
                     </li>
                     <li>
                       <p> Support Center</p>
@@ -106,19 +112,29 @@ function Footer() {
                   </ul>
                 </div>
               </Col>
-              <Col md={3}>
+              <Col lg={2} md={4} sm={6}  xs={12} className="pb-3">
                 <div className="footer-contact ">
-                  <h5 className="pb-2">Subscribe</h5>
+                  <h5 className="pb-2 footer-content-head">Subscribe</h5>
 
-                  <form className="d-flex justify-content-center">
-                    <img className="footer-img" src={subscribe} alt="logo" />
-                  </form>
+                  <Form>
+                                <InputGroup>
+
+                                    <Form.Control
+                                        type="text"
+                                        placeholder="Get product updates"
+                                        aria-label="Search"
+                                    />
+                                    <InputGroup.Text style={{ backgroundColor: "#FFCC29" }}>
+                                        <img src={arrow} alt='' />
+                                    </InputGroup.Text>
+                                </InputGroup>
+                            </Form>
                 </div>
               </Col>
             </Row>
             <Row>
               <Col>
-                <div>
+                <div className="footer-content-hr">
                   <hr className="footer-hr" />
                 </div>
               </Col>

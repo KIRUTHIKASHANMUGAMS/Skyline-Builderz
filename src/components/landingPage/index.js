@@ -1,4 +1,5 @@
 import React from "react";
+
 import Home from "../landingPage/homeScreen/index";
 import About from "../landingPage/aboutScreen/index";
 import Header from "../landingPage/homeScreen/Header";
@@ -11,9 +12,14 @@ import SubscriptionScreen from "../landingPage/subscriptionScreen/index";
 import TestimonialScreen from "./testimonialScreen";
 function Landing() {
   return (
-    <div>
+    <div >
+      <div className="banner-background">
       <Header />
       <Home />
+      </div>
+
+    
+      
       <About />
       <ChooseScreen />
       <ServiceScreen />

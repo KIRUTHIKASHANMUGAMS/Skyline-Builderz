@@ -11,19 +11,22 @@ import clock from "../../../images/clock.svg";
 function Blog() {
   return (
     <div>
+      <div className="our-blog">
+
+
       <Container fluid className="blog-section">
-        <div className="service-page">
-          <div className="service-content">
+        <div className="service-page-subscription">
+          <div className="service-content-subscription">
             <div className="service-main">
               <img src={choose} alt="welcome" />{" "}
               <small className="about-welcome"> Our Blog </small>
             </div>
           </div>
           <div>
-            <p className="service-head">Latest News and Articles </p>
+            <p className="service-head-details">Latest News and Articles </p>
           </div>
-          <div className="service-right ">
-            <p>
+          <div className="service-right-details">
+          <p className="service-para">
               Pellentesque vehicula eros neque, maximus mattis est sagittis
               Nulla facilisi. In sed pretium metus. Proin pretium id urna sit
               amet tincidunt.
@@ -34,110 +37,118 @@ function Blog() {
         <div>
           <Container>
             <Row>
-              <Col md="4">
-                <Card style={{ marginBottom: "30px" }}>
+              <Col md="6" lg="4" xs="12">
+                <Card className="card-rotate" style={{ marginBottom: "30px" }}>
                   <div className="service-main-card-blog">
                     <div style={{ textAlign: "justify" }}>
                       <Card.Img variant="top" src={blog} />
                       <div>
-                        <Row>
-                          <Col>
-                            <div className="blog-det">
-                              <img src={person} alt="" />
-                              <small>John Kennis</small>
-                            </div>
-                          </Col>
-                          <Col>
-                            <div className="blog-clock">
-                              <img src={clock} alt="" />{" "}
-                              <small>April 2, 2022</small>
-                            </div>
-                          </Col>
-                        </Row>
+                        <div className="blog-details">
+
+                          <div className="blog-det">
+                            <img src={person} alt="" />
+                            <small className="ps-1"> John Kennis</small>
+                          </div>
+
+                          <div className="blog-clock">
+                            <img src={clock} alt="" />{" "}
+                            <small className="ps-1"> April 2, 2022</small>
+                          </div>
+
+                        </div>
                       </div>
                     </div>
-                    <p className="service-head-main-blog">
-                      Understanding Your Home’s Electrical Capacity
-                    </p>
-                    <p className="footer-right-service-blog">
-                      Sagittis Nulla facilisi. In sed pretium metus. Proin
-                      pretium Turna sit amet tincidunt.
-                    </p>
-                    <button className="contact-btn">
-                      Read More <small></small>{" "}
-                    </button>{" "}
+                    <div className="blog-content-details">
+                      <p className="head-main-service">
+                        Understanding Your Home’s Electrical Capacity
+                      </p>
+                      <p className="footer-right-service-blog pb-1">
+                      Pellentesque vehicula eros neque, maximus mattis est sagittis Nulla facilisi. In sed pretium metus. Proin pretium id urna sit amet tincidunt. Interdum et malesuada.
+                      </p>
+                      <button className="contact-btn-banner grow_spin ">
+                        Read More <small></small>{" "}
+                      </button>{" "}
+                    </div>
+
                   </div>
                 </Card>
               </Col>
-              <Col md="4">
-                <Card style={{ marginBottom: "30px" }}>
+              <Col md="6" lg="4" xs="12">
+                <Card className="card-rotate" style={{ marginBottom: "30px" }}>
                   <div className="service-main-card-blog">
                     <div style={{ textAlign: "justify" }}>
                       <Card.Img variant="top" src={blog} />
                       <div>
-                        <Row>
-                          <Col>
-                            <div className="blog-det">
-                              <img src={person} alt="" />
-                              <small>John Kennis</small>
-                            </div>
-                          </Col>
-                          <Col>
-                            <div className="blog-clock">
-                              <img src={clock} alt="" />{" "}
-                              <small>April 2, 2022</small>
-                            </div>
-                          </Col>
-                        </Row>
+
+                        <div className="blog-details">
+
+                          <div className="blog-det">
+                            <img src={person} alt="" />
+                            <small className="ps-1">John Kennis</small>
+                          </div>
+
+                          <div className="blog-clock">
+                            <img src={clock} alt="" />{" "}
+                            <small className="ps-1">April 2, 2022</small>
+                          </div>
+
+                        </div>
+
                       </div>
                     </div>
-                    <p className="service-head-main-blog">
-                      Understanding Your Home’s Electrical Capacity
-                    </p>
-                    <p className="footer-right-service-blog">
-                      Sagittis Nulla facilisi. In sed pretium metus. Proin
-                      pretium Turna sit amet tincidunt.
-                    </p>
-                    <button className="contact-btn">
-                      Read More <small></small>{" "}
-                    </button>{" "}
+                    <div className="blog-content-details">
+                      <p className="head-main-service">
+                        Understanding Your Home’s Electrical Capacity
+                      </p>
+                      <p className="footer-right-service-blog pb-1">
+                      Pellentesque vehicula eros neque, maximus mattis est sagittis Nulla facilisi. In sed pretium metus. Proin pretium id urna sit amet tincidunt. Interdum et malesuada.
+                      </p>
+                      <button className="contact-btn-banner grow_spin">
+                        Read More <small></small>{" "}
+                      </button>{" "}
+                    </div>
+
                   </div>
                 </Card>
               </Col>
 
-              <Col md="4">
-                <Card style={{ marginBottom: "30px" }}>
+              <Col md="6" lg="4" xs="12">
+                <Card className="card-rotate" style={{ marginBottom: "30px" }}>
                   <div className="service-main-card-blog">
                     <div style={{ textAlign: "justify" }}>
                       <Card.Img variant="top" src={blog} />
                       <div>
-                        <Row>
-                          <Col>
-                            <div className="blog-det">
-                              <img src={person} alt="" />
-                              <small>John Kennis</small>
-                            </div>
-                          </Col>
-                          <Col>
-                            <div className="blog-clock">
-                              <img src={clock} alt="" />{" "}
-                              <small>April 2, 2022</small>
-                            </div>
-                          </Col>
-                        </Row>
+
+                        <div className="blog-details">
+
+                          <div className="blog-det">
+                            <img src={person} alt="" />
+                            <small className="ps-1">John Kennis</small>
+                          </div>
+
+                          <div className="blog-clock">
+                            <img src={clock} alt="" />{" "}
+                            <small className="ps-1">April 2, 2022</small>
+                          </div>
+
+                        </div>
+
+
                       </div>
                     </div>
-                    <p className="service-head-main-blog">
-                      {" "}
-                      Understanding Your Home’s Electrical Capacity
-                    </p>
-                    <p className="footer-right-service-blog ">
-                      Sagittis Nulla facilisi. In sed pretium metus. Proin
-                      pretium Turna sit amet tincidunt.
-                    </p>
-                    <button className="contact-btn">
-                      Read More <small></small>{" "}
-                    </button>{" "}
+                    <div className="blog-content-details">
+                      <p className="head-main-service">
+                        {" "}
+                        Understanding Your Home’s Electrical Capacity
+                      </p>
+                      <p className="footer-right-service-blog pb-1 ">
+                      Pellentesque vehicula eros neque, maximus mattis est sagittis Nulla facilisi. In sed pretium metus. Proin pretium id urna sit amet tincidunt. Interdum et malesuada.
+                      </p>
+                      <button className="contact-btn-banner grow_spin">
+                        Read More <small></small>{" "}
+                      </button>{" "}
+                    </div>
+
                   </div>
                 </Card>
               </Col>
@@ -145,6 +156,7 @@ function Blog() {
           </Container>
         </div>
       </Container>
+      </div>
     </div>
   );
 }

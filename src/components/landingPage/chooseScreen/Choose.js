@@ -9,8 +9,9 @@ function Choose() {
   return (
     <div>
       <Container fluid>
+
         <Row>
-          <Col md="6" className="project-image ">
+          <Col  lg="6"md="12" xs="12" className="project-image ">
             <div className="project-content">
               <div className="stats">
                 <div className="stat-item">
@@ -32,25 +33,35 @@ function Choose() {
               </div>
             </div>
           </Col>
-          <Col md="6" className="info-section" style={{ paddingLeft: "70px" }}>
-            <div>
-              <div className="info-main">
-                <img src={choose} alt="welcome" />{" "}
-                <small className="about-welcome"> Why Choose Us </small>
-              </div>
-              <p className="info-head">Few Reasons Why You Should Choose Us</p>
-              <p className="footer-right ">
-                Pellentesque vehicula eros neque, maximus mattis est sagittis
-                Nulla facilisi. In sed pretium metus. Proin pretium id urna sit
-                amet tincidunt. Interdum et malesuada.
-              </p>
+          <Col lg="6" md="12" xs="12" className="info-section" >
+          <Container>
+            <div className="choose-detail">
+            <div className="service-page">
+          <div className="service-content">
+            <div className="service-main">
+            <img src={choose} alt="welcome" />{" "}
+            <small className="about-welcome"> Why Choose Us </small>
+            </div>
+          </div>
+          <div>
+            <p className="service-head">Few Reasons Why You Should Choose Us</p>
+          </div>
+          <div className="service-right ">
+          <p className="banner-sub-about ">
+              Pellentesque vehicula eros neque, maximus mattis est sagittis
+              Nulla facilisi. In sed pretium metus. Proin pretium id urna sit
+              amet tincidunt.
+            </p>
+          </div>
+        </div>
+            
               <div className="project-experience">
                 <ul>
                   <li>
-                    <img src={tick} alt="" /> 35 Years Experience
+                    <img src={tick} alt="" /> <small className="project-li">35 Years Experience</small> 
                     <p
-                      className="footer-right "
-                      style={{ paddingLeft: "37px" }}
+                      className="banner-sub-about "
+                      style={{ paddingLeft: "46px" }}
                     >
                       Pellentesque vehicula eros neque, maximus mattis est
                       sagittis Nulla facilisi. In sed pretium{" "}
@@ -58,10 +69,10 @@ function Choose() {
                   </li>
                   <li>
                     {" "}
-                    <img src={tick} alt="" /> Excellence Certificate
-                    <p
-                      className="footer-right "
-                      style={{ paddingLeft: "37px" }}
+                    <img src={tick} alt="" /> <small className="project-li">Excellence Certificate</small> 
+                    
+                       <p className="banner-sub-about "
+                      style={{ paddingLeft: "46px" }}
                     >
                       Pellentesque vehicula eros neque, maximus mattis est
                       sagittis Nulla facilisi. In sed pretium{" "}
@@ -69,10 +80,10 @@ function Choose() {
                   </li>
                   <li>
                     {" "}
-                    <img src={tick} alt="" /> Affordable Price
+                    <img src={tick} alt="" /> <small className="project-li"> Affordable Price</small>
                     <p
-                      className="footer-right "
-                      style={{ paddingLeft: "37px" }}
+                      className="banner-sub-about "
+                      style={{ paddingLeft: "46px" }}
                     >
                       Pellentesque vehicula eros neque, maximus mattis est
                       sagittis Nulla facilisi. In sed pretium{" "}
@@ -81,6 +92,7 @@ function Choose() {
                 </ul>
               </div>
             </div>
+            </Container>
           </Col>
         </Row>
       </Container>

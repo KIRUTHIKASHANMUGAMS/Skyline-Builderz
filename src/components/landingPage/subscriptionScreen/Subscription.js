@@ -10,8 +10,8 @@ function Subscription() {
   return (
     <div>
       <Container fluid className="blog-section">
-        <div className="service-page-subscription">
-          <div className="service-content-subscription">
+        <div className="service-page-subscription-main">
+          <div className="service-content-subscription-detail">
             <div className="service-main">
               <img src={choose} alt="welcome" />{" "}
               <small className="about-welcome"> Our Subscriptions </small>
@@ -22,7 +22,7 @@ function Subscription() {
               Let’s Customize Work With Affordable Price{" "}
             </p>
           </div>
-          <div className="service-right ">
+          <div className="service-right-para ">
             <p>
               Pellentesque vehicula eros neque, maximus mattis est sagittis
               Nulla facilisi. In sed pretium metus. Proin pretium id urna sit
@@ -34,16 +34,16 @@ function Subscription() {
         <div>
           <Container>
             <Row>
-              <Col md="4">
+              <Col lg="4" md="6" xs="12">
                 <Card style={{ marginBottom: "30px" }}>
                   <div className="subscription-card">
-                    <div style={{ padding: "30px" }}>
+                    <div className="sub-div" >
                       <Row>
-                        <Col>
+                        <Col xs={7}>
                           <p className="subscription-head">Basic Plan </p>
                           <p className="subscription-nu">$ 599.00</p>
                         </Col>
-                        <Col>
+                        <Col xs={5}>
                           <p className="subscription-charge">
                             Per Visit Charge
                           </p>
@@ -98,28 +98,28 @@ function Subscription() {
                         </li>
                       </ul>
                     </div>
-                    <button className="contact-btn-subscription">
+                    <button className="contact-btn-subscription grow_spin">
                       Buy Now <small></small>{" "}
                     </button>{" "}
                   </div>
                 </Card>
               </Col>
-              <Col md="4">
+              <Col lg="4" md="6" xs="12">
                 <Card style={{ marginBottom: "30px" }}>
                   <div className="subscription-card">
-                    <div style={{ padding: "30px" }}>
+                  <div className="sub-div">
                       <Row>
-                        <Col>
-                          <p className="subscription-head">Professional </p>
+                      <Col xs={7}>
+                      <p className="subscription-head">Professional </p>
                           <p className="subscription-nu">$ 799.00</p>
                         </Col>
-                        <Col>
-                          <p>
-                            <button className="btn-subscription">
+                        <Col xs={5}>
+                         
+                            <button className="btn-subscription grow_spin">
                               popular <small></small>{" "}
                             </button>{" "}
-                          </p>
-                          <p>Per Visit Charge</p>
+                       
+                          <p className="sub-visit">Per Visit Charge</p>
                         </Col>
                       </Row>
                       <div>
@@ -171,22 +171,22 @@ function Subscription() {
                         </li>
                       </ul>
                     </div>
-                    <button className="contact-btn-subscription">
+                    <button className="contact-btn-subscription grow_spin">
                       Buy Now <small></small>{" "}
                     </button>{" "}
                   </div>
                 </Card>
               </Col>
-              <Col md="4">
+              <Col lg="4" md="6" xs="12">
                 <Card style={{ marginBottom: "30px" }}>
                   <div className="subscription-card">
-                    <div style={{ padding: "30px" }}>
+                  <div className="sub-div" >
                       <Row>
-                        <Col>
-                          <p className="subscription-head">Standard</p>
+                      <Col xs={7}>
+                      <p className="subscription-head">Standard</p>
                           <p className="subscription-nu">$ 499.00</p>
                         </Col>
-                        <Col>
+                        <Col xs={5}>
                           <p className="subscription-charge">
                             Per Visit Charge
                           </p>
@@ -241,7 +241,7 @@ function Subscription() {
                         </li>
                       </ul>
                     </div>
-                    <button className="contact-btn-subscription">
+                    <button className="contact-btn-subscription grow_spin">
                       Buy Now <small></small>{" "}
                     </button>{" "}
                   </div>

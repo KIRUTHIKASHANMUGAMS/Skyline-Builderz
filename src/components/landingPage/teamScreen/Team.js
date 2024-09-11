@@ -15,17 +15,19 @@ function Team() {
     <div>
       <div>
         <Container>
-          <div className="service-page">
-            <div className="service-content">
-              <div className="service-main">
+          <div className="team-page">
+           
+          <div className="service-page-details">
+          <div className="service-content-details">
+            <div className="service-main-details">
                 <img src={choose} alt="welcome" />{" "}
                 <small className="about-welcome"> Our Team </small>
               </div>
             </div>
             <div>
-              <p className="service-head">Meet Our Team</p>
+            <p className="service-head-details">Meet Our Team</p>
             </div>
-            <div className="service-right ">
+            <div className="service-right-details">
               <p>
                 Pellentesque vehicula eros neque, maximus mattis est sagittis
                 Nulla facilisi. In sed pretium metus. Proin pretium id urna sit
@@ -73,6 +75,7 @@ function Team() {
                 </Card>
               </Col>
             </Row>
+          </div>
           </div>
         </Container>
       </div>

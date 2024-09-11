@@ -9,9 +9,12 @@ import arrow from "../../../images/arrow -button.svg";
 function About() {
   return (
     <div>
-      <Container style={{ marginTop: "50px" }}>
+      <div className="about-page">
+
+      
+      <Container>
         <Row>
-          <Col md="7">
+          <Col lg="7" md="12" xs="12">
             <div className="about-content-main">
               <div className="about-content">
                 <div className="about-main">
@@ -20,7 +23,7 @@ function About() {
                 </div>
               </div>
               <div>
-                <p className="about-head" style={{ paddingTop: "10px" }}>
+                <p className="about-head" style={{ paddingTop: "30px" ,}}>
                   Making your vision come true at the basics.
                 </p>
               </div>
@@ -68,19 +71,21 @@ function About() {
                     </div>
                   </Col>
                 </Row>
-                <button className="contact-btn">Discover More</button>{" "}
+                <button className='contact-btn-service grow_spin mt-3'> Discover More <img src={arrow} alt='' style={{ paddingLeft: "10px" }} /> </button>
+
               </div>
             </div>
           </Col>
-          <Col md="5">
+          <Col lg="5" md="12" xs="12">
             <img
               src={person}
-              style={{ width: "100%", height: "650px" }}
+              style={{ width: "100%"}}
               alt=" "
             />
           </Col>
         </Row>
       </Container>
+      </div>
     </div>
   );
 }

@@ -4,7 +4,6 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import about from "../../../images/about.svg";
 import welcome from "../../../images/welcome-icon.svg";
-import number from "../../../images/35.svg";
 
 function About() {
   return (
@@ -12,41 +11,48 @@ function About() {
       <div className="about-screen">
         <Container>
           <Row>
-            <Col md="5">
-              <img src={about} className="about-image" alt="construction" />
+            <Col lg="5" md="12" xs="12">
+              <img src={about} className="about-image" width="100%" alt="construction" />
             </Col>
-            <Col md="7">
-              <div className="about-content">
-                <div className="about-main">
-                  <img src={welcome} alt="welcome" />{" "}
-                  <small className="about-welcome"> Welcome To </small>
+            <Col lg="7" md="12" xs="12">
+            <div className="future-provider">
+
+           
+              <div className="service-page">
+                <div className="service-content">
+                  <div className="service-main-provider">
+                    <img src={welcome} alt="welcome" />{" "}
+                    <small className="about-welcome"> Welcome To </small>
+                  </div>
+                </div>
+                <div>
+                  <p className="service-head">We Provide Your Future</p>
+                </div>
+                <div className="service-right ">
+                <p className="banner-sub-about">
+                    Pellentesque vehicula eros neque, maximus mattis est sagittis
+                    Nulla facilisi. In sed pretium metus. Proin pretium id urna sit
+                    amet tincidunt.
+                  </p>
+                 
+                  <p className="banner-sub-about ">In pulvinar viverra diam, nec rutrum mauris maximus non. Aenean sed quam tristique, facilisis est ac, interdum velit.</p>
+
                 </div>
               </div>
+              <div className="experience-years">
               <div>
-                <p className="about-head">We Provide Your Future</p>
-              </div>
-              <div className="footer-right ">
-                <p>
-                  Pellentesque vehicula eros neque, maximus mattis est sagittis
-                  Nulla facilisi. In sed pretium metus. Proin pretium id urna
-                  sit amet tincidunt. Interdum et malesuada.
-                </p>
-                <p>
-                  In pulvinar viverra diam, nec rutrum mauris maximus non.
-                  Aenean sed quam tristique, facilisis est ac, interdum velit.
-                </p>
-              </div>
-              <div>
-                <Row>
-                  <Col md="4">
-                    <div className="banner-experience p-3">
-                      <img src={number} alt="35" />
+                <Row >
+              
+                
+                  <Col lg="4" md="4">
+                    <div className="banner-experience ">
+                      <p className="number-banner">35</p>
                       <p className="banner-experience-text">
                         Years Of Experiance
                       </p>
                     </div>
                   </Col>
-                  <Col md="8">
+                  <Col lg="8" md="8">
                     <div className="banner-left">
                       <p>- Sed varius ipsum lacus</p>
                       <p>- Pulvinar tortor dignissim sit amet.</p>
@@ -56,7 +62,10 @@ function About() {
                       <p>- Aliquam id ante suscipi fringilla.</p>
                     </div>
                   </Col>
+                  
                 </Row>
+                </div>
+                </div>
               </div>
             </Col>
           </Row>

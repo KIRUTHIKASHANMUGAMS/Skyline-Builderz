@@ -5,7 +5,8 @@ import Banner from "./bannerScreen/Banner";
 import About from "./aboutScreen/About";
 import Experience from "./experienceScreen/Experience";
 import Service from "../landingPage/serviceScreen/Service";
-import Testimonial from "../AboutPage/testimonialScreen/Testimonial";
+import Testimonial from "../landingPage/testimonialScreen/index"
+
 function AboutPage() {
   return (
     <div>
