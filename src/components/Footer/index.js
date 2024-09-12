@@ -108,16 +108,16 @@ function Footer() {
                   <h5 className="pb-2  ps-3 footer-content-head">Quick Link</h5>
                   <ul >
                     <li>
-                      <p><Link to="/"> Terms and Condition </Link></p>
+                      <p><Link to="/#"> Terms and Condition </Link></p>
                     </li>
                     <li>
-                      <p> <Link to="/about">Privacy Policy</Link></p>
+                      <p> <Link to="/#">Privacy Policy</Link></p>
                     </li>
                     <li>
                       <p>  <Link to="/faq">FAQs </Link> </p>
                     </li>
                     <li>
-                      <p> <Link to="/about">Support Center</Link> </p>
+                      <p> <Link to="/#">Support Center</Link> </p>
                     </li>
                   </ul>
                 </div>

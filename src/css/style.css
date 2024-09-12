@@ -334,7 +334,6 @@ text-align: left;
   width: 100%;
   gap: 0px;
   border: 1px 0px 0px 0px;
-  opacity: 0px;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -433,7 +432,6 @@ text-align: left;
   padding: 10px;
   background-color: #ffffff;
   width: 143px;
-  opacity: 0px;
 }
 
 .info-head {
