@@ -8,6 +8,9 @@
         width: 39px !important;
         height: 31px !important;
     }
+    .form-product {
+        width: 80%;
+    }
 
     .future-provider {
         padding: 50px 0px 50px 0px;
@@ -46,10 +49,6 @@
     }
 
 
-    .service-head-subscription {
-        line-height: 40px;
-        font-size: 30px;
-    }
 
     .subscription-head {
         padding-top: 0px;
@@ -352,7 +351,7 @@
         margin-top: 50px;
         margin-bottom: 50px;
     }
-    
+
 }
 
 
@@ -366,6 +365,12 @@
         padding: 106px 0px 30px 49px;
         width: fit-content;
     }
+
+
+    .form-product {
+        width: 70%;
+    }
+
 
     .banner-background {
         padding: 10px 10px;
@@ -495,9 +500,16 @@
     .testimonial-main {
         padding: 30px;
     }
-.blog-details-div{
-    text-align: left;
-}
+
+    .blog-details-div {
+        text-align: left;
+    }
+
+
+    .footer-contact{
+        padding-top: 20px;
+    }
+
     .contact-btn-subscription {
         padding: 10px 20px;
         margin-top: 0px;
@@ -683,20 +695,25 @@
 
     }
 
-    .filter-para-details{
+    .filter-para-details {
         font-size: 14px;
         padding-top: 8px;
     }
+
     .about-welcome {
         font-size: 17px;
 
     }
+
     .construction-details-head {
         margin-top: 50px;
         margin-bottom: 50px;
     }
 
 }
+
+
+
 
 @media only screen and (max-width: 1300px) and (min-width:770px) {
     .logo {
@@ -706,10 +723,13 @@
     .banner-background {
         padding: 20px 20px;
     }
-
-    .command-image{
+    .construction-image-background{
+        padding: 30px;
+    }
+    .command-image {
         width: 52px;
     }
+
     .banner {
 
         padding: 106px 0px 30px 49px;
@@ -863,7 +883,7 @@
         margin-bottom: 50px;
     }
 
-   
+
 
     .banner-experience-text {
         font-size: 18px;
@@ -894,10 +914,18 @@
         width: 33px;
         height: 40px;
     }
-    .filter-para-details{
+
+    .filter-para-details {
         font-size: 12px;
     }
-  
+
+    .footer-content-head {
+
+        font-size: 21px;
+
+    }
+
+
 
 }
 
@@ -913,12 +941,19 @@
     }
 
     .contact-btn {
-        padding: 5px 10px;
+        padding: 7px 10px;
     }
 
     .contact-margin {
 
         margin-left: 0px;
+    }
+
+    .footer-content-head {
+
+        font-size: 24px;
+
+
     }
 
     .stats {

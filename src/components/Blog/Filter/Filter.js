@@ -105,7 +105,7 @@ function FilterPage() {
                                         </div>
                                         <Row>
                                             <Col lg="7" md="6" xs="6">
-                                                <img src={BlogPerson1} alt='' className='filter-img' /> <small className='filter-tum-content'>Tracey Wilson</small>
+                                                <img src={BlogPerson1} alt='' className='filter-img' /> <small className='filter-tum-content'>Tracy Wilson</small>
 
 
 
@@ -200,7 +200,7 @@ function FilterPage() {
                                         </div>
                                         <Row>
                                             <Col lg="7" md="6" xs="6">
-                                                <img src={BlogPerson1} alt='' className='filter-img' /> <small className='filter-tum-content'>Annette Black</small>
+                                                <img src={BlogPerson1} alt='' className='filter-img' /> <small className='filter-tum-content'>Anette Black</small>
 
 
 

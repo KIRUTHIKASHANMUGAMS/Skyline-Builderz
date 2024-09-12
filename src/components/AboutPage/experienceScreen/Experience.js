@@ -28,7 +28,7 @@ function Experience() {
         <Container >
           <div className="about-experience-content">
             <Row>
-              <Col lg="6" md="6" xs="12">
+              <Col lg="6" md="12" xs="12">
                 <div className="info-main">
                   <img src={welcome} alt="welcome" />{" "}
                   <small className="about-welcome"> Experience </small>
@@ -85,7 +85,7 @@ function Experience() {
                   </li>
                 </div>
               </Col>
-              <Col md="6" lg="6"  xs={12}>
+              <Col md="12" lg="6"  xs={12}>
                 <div className="timeline">
                   <div className="timeline-line"></div> {/* Vertical line */}
                   {experiences.map((item, index) => (

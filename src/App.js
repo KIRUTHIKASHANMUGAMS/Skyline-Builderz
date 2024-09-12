@@ -16,11 +16,18 @@ import ServiceDetail from "./components/ServiceDetail/index";
 import Pages from "./components/Pages/index";
 import ProjectDetail from "./components/ProjectDetails";
 import Faq from "./components/FaqPage/index";
-import PageNotFound from "./components/404/index"
+import PageNotFound from "./components/404/index";
+import ScrollButton from "./components/ScrollButton/Scroll";
+import Mouse from "./components/Mouse/Mouse";
+import ScrollToTop from "./components/landingPage/ScroolTop/Scrool";
+
 
 function App() {
   return (
     <div className="App">
+      <ScrollButton/>
+      <Mouse/>
+      <ScrollToTop/>
       <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="/about" element={<AboutPage />} />
@@ -36,7 +43,6 @@ function App() {
                     path="*"
                     element={<PageNotFound />}
                 />
-
 
 
 

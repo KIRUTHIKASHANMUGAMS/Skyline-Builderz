@@ -10,6 +10,7 @@ import security from "../../../images/Security.svg";
 import service from "../../../images/Maintenance.svg";
 import home from "../../../images/Home.svg";
 import Card from "react-bootstrap/Card";
+import { Link } from "react-router-dom";
 
 function Service() {
   return (
@@ -50,7 +51,7 @@ function Service() {
                     Sagittis Nulla facilisi. In sed pretium metus. Proin pretium
                     Turna sit amet tincidunt.
                   </p>
-                  <p className="service-read-more">Read More</p>
+                  <p className="service-read-more"> <Link to="#">Read More</Link> </p>
                 </div>
               </Card>
             </Col>
@@ -66,7 +67,7 @@ function Service() {
                     Sagittis Nulla facilisi. In sed pretium metus. Proin pretium
                     Turna sit amet tincidunt.
                   </p>
-                  <p className="service-read-more">Read More</p>
+                  <p className="service-read-more"> <Link to="#">Read More</Link></p>
                 </div>
               </Card>
             </Col>
@@ -83,12 +84,11 @@ function Service() {
                     Sagittis Nulla facilisi. In sed pretium metus. Proin pretium
                     Turna sit amet tincidunt.
                   </p>
-                  <p className="service-read-more">Read More</p>
+                  <p className="service-read-more"> <Link to="#">Read More</Link></p>
                 </div>
               </Card>
             </Col>
-          </Row>
-          <Row>
+         
           <Col lg="4" md="6" sm="12">
           <Card style={{ marginBottom: "20px" }}>
                 <div className="service-main-card">
@@ -101,7 +101,7 @@ function Service() {
                     Sagittis Nulla facilisi. In sed pretium metus. Proin pretium
                     Turna sit amet tincidunt.
                   </p>
-                  <p className="service-read-more">Read More</p>
+                  <p className="service-read-more"> <Link to="#">Read More</Link></p>
                 </div>
               </Card>
             </Col>
@@ -112,12 +112,12 @@ function Service() {
                     <img src={service} className="service-image" alt="" />
                   </div>
 
-                  <p className="service-head-main">Service & maintenance </p>
+                  <p className="service-head-main">Service maintenance </p>
                   <p className="footer-right-service ">
                     Sagittis Nulla facilisi. In sed pretium metus. Proin pretium
                     Turna sit amet tincidunt.
                   </p>
-                  <p className="service-read-more">Read More</p>
+                  <p className="service-read-more"> <Link to="#">Read More</Link></p>
                 </div>
               </Card>
             </Col>
@@ -134,7 +134,7 @@ function Service() {
                     Sagittis Nulla facilisi. In sed pretium metus. Proin pretium
                     Turna sit amet tincidunt.
                   </p>
-                  <p className="service-read-more">Read More</p>
+                  <p className="service-read-more"> <Link to="#">Read More</Link></p>
                 </div>
               </Card>
             </Col>
@@ -152,11 +152,11 @@ function Service() {
                     Sagittis Nulla facilisi. In sed pretium metus. Proin pretium
                     Turna sit amet tincidunt.
                   </p>
-                  <p className="service-read-more">Read More</p>
+                  <p className="service-read-more"> <Link to="#">Read More</Link></p>
                 </div>
               </Card>
             </Col>
-            <Col md="4">
+            <Col lg="4" md="6" sm="12">
               <Card style={{ marginBottom: "20px" }}>
                 <div className="service-main-card">
                   <div style={{ textAlign: "justify" }}>
@@ -168,7 +168,7 @@ function Service() {
                     Sagittis Nulla facilisi. In sed pretium metus. Proin pretium
                     Turna sit amet tincidunt.
                   </p>
-                  <p className="service-read-more">Read More</p>
+                  <p className="service-read-more"> <Link to="#">Read More</Link></p>
                 </div>
               </Card>
             </Col>
@@ -185,63 +185,12 @@ function Service() {
                     Sagittis Nulla facilisi. In sed pretium metus. Proin pretium
                     Turna sit amet tincidunt.
                   </p>
-                  <p className="service-read-more">Read More</p>
+                  <p className="service-read-more"> <Link to="#">Read More</Link></p>
                 </div>
               </Card>
             </Col>
           </Row>
-          <Row>
-          <Col lg="4" md="6" sm="12">
-          <Card style={{ marginBottom: "20px" }}>
-                <div className="service-main-card">
-                  <div style={{ textAlign: "justify" }}>
-                    <img src={air} className="service-image" alt="" />
-                  </div>
-
-                  <p className="service-head-main">Air condition service </p>
-                  <p className="footer-right-service">
-                    Sagittis Nulla facilisi. In sed pretium metus. Proin pretium
-                    Turna sit amet tincidunt.
-                  </p>
-                  <p className="service-read-more">Read More</p>
-                </div>
-              </Card>
-            </Col>
-            <Col lg="4" md="6" sm="12">
-              <Card style={{ marginBottom: "20px" }}>
-                <div className="service-main-card">
-                  <div style={{ textAlign: "justify" }}>
-                    <img src={electic} className="service-image" alt="" />
-                  </div>
-
-                  <p className="service-head-main">Electrical installation </p>
-                  <p className="footer-right-service">
-                    Sagittis Nulla facilisi. In sed pretium metus. Proin pretium
-                    Turna sit amet tincidunt.
-                  </p>
-                  <p className="service-read-more">Read More</p>
-                </div>
-              </Card>
-            </Col>
-
-            <Col lg="4" md="6" sm="12">
-              <Card style={{ marginBottom: "20px" }}>
-                <div className="service-main-card">
-                  <div style={{ textAlign: "justify" }}>
-                    <img src={builder} className="service-image" alt="" />
-                  </div>
-
-                  <p className="service-head-main">General Builder </p>
-                  <p className="footer-right-service ">
-                    Sagittis Nulla facilisi. In sed pretium metus. Proin pretium
-                    Turna sit amet tincidunt.
-                  </p>
-                  <p className="service-read-more">Read More</p>
-                </div>
-              </Card>
-            </Col>
-          </Row>
-          
+         
         </div>
         </div>
       </Container>

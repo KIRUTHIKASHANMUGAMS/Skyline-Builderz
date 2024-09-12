@@ -10,16 +10,17 @@ import BlockScreen from "./blogScreen";
 import TeamScreen from "./teamScreen";
 import SubscriptionScreen from "../landingPage/subscriptionScreen/index";
 import TestimonialScreen from "./testimonialScreen";
+import ScrollButton from "../ScrollButton/Scroll";
+import MouseFollower from "../Mouse/Mouse";
+
+
 function Landing() {
   return (
     <div >
       <div className="banner-background">
       <Header />
       <Home />
-      </div>
-
-    
-      
+      </div>     
       <About />
       <ChooseScreen />
       <ServiceScreen />
@@ -27,6 +28,9 @@ function Landing() {
       <TeamScreen />
       <SubscriptionScreen />
       <TestimonialScreen />
+      <ScrollButton/>
+      <MouseFollower/>
+
       <Footer />
     </div>
   );

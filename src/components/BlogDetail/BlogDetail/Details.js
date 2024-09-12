@@ -21,7 +21,7 @@ function Details() {
                
                 <Row>
 
-                    <Col lg="9">
+                    <Col lg="9" md="8">
                         <div className='blog-details-content'>
                             <img src={Construction} alt="" style={{ width: "100%" }} />
                             <div className='construction-detail'>
@@ -51,7 +51,7 @@ function Details() {
                         </div>
 
                     </Col>
-                    <Col lg="3">
+                    <Col lg="3" md="4">
                         <div className='blog-main-details'>
                             <Form>
                                 <InputGroup>

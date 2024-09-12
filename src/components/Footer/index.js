@@ -17,13 +17,13 @@ function Footer() {
     <div>
       <footer className="bg-dark text-white  ">
         <Container >
-          <div  className="main-footer" >
+          <div className="main-footer" >
             <Row>
-              <Col  lg={3} md={6} sm={12} xs={12} className="pb-3">
-              <div style={{textAlign:"left"}}>
-              <img className="footer-img-logo" src={logo} alt="logo" />
+              <Col lg={3} md={6} sm={12} xs={12} className="pb-3">
+                <div style={{ textAlign: "left" }}>
+                  <img className="footer-img-logo" src={logo} alt="logo" />
 
-              </div>
+                </div>
 
                 <p className="footer-para">
                   Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
@@ -32,34 +32,44 @@ function Footer() {
                 <div className="footer-image-head">
                   <Row>
                     <Col md={2} xs={2}>
-                      <img
+                    <Link to="/">
+
+                    <img
                         src={facebook}
                         alt="facebook"
                         className="footer-image"
                       />
+                    </Link>
+                  
                     </Col>
                     <Col md={2} xs={2}>
+                    <Link to="/">
                       <img
                         src={instagram}
                         alt="instagram"
                         className="footer-image"
                       />
+                      </Link>
                     </Col>
 
                     <Col md={2} xs={2}>
+                    <Link to="/">
                       <img
                         src={twitter}
                         alt="twitter"
                         className="footer-image"
                       />
+                      </Link>
                     </Col>
 
                     <Col md={2} xs={2}>
+                    <Link to="/#">
                       <img
                         src={linkedin}
                         alt="linkedin"
                         className="footer-image"
                       />
+                      </Link>
                     </Col>
                   </Row>
                 </div>
@@ -73,11 +83,11 @@ function Footer() {
                 </div>
               </Col>
 
-              <Col lg={2} md={4} sm={6} xs={12} className="pb-3">
+              <Col lg={2} md={3} sm={6} xs={12} className="pb-3">
                 <div className="footer-contact ">
                   <h5 className="pb-2 ps-3 footer-content-head">Page</h5>
                   <ul >
-                  <li>
+                    <li>
                       <p> <Link to="/about">About Us</Link> </p>
                     </li>
                     <li>
@@ -93,42 +103,43 @@ function Footer() {
                 </div>
               </Col>
 
-              <Col  lg={3} md={4} sm={6} xs={12} className="pb-3">
+              <Col lg={2} md={4} sm={6} xs={12} className="pb-3">
                 <div className="footer-contact ">
-                  <h5 className="pb-2  ps-3 footer-content-head">Quick Links</h5>
+                  <h5 className="pb-2  ps-3 footer-content-head">Quick Link</h5>
                   <ul >
                     <li>
-                      <p> Terms and Conditions</p>
+                      <p><Link to="/"> Terms and Condition </Link></p>
                     </li>
                     <li>
-                      <p> Privacy Policy</p>
+                      <p> <Link to="/about">Privacy Policy</Link></p>
                     </li>
                     <li>
                       <p>  <Link to="/faq">FAQs </Link> </p>
                     </li>
                     <li>
-                      <p> Support Center</p>
+                      <p> <Link to="/about">Support Center</Link> </p>
                     </li>
                   </ul>
                 </div>
               </Col>
-              <Col lg={2} md={4} sm={6}  xs={12} className="pb-3">
+              <Col lg={3} md={5} sm={6} xs={12} className="pb-3">
                 <div className="footer-contact ">
                   <h5 className="pb-2 footer-content-head">Subscribe</h5>
 
-                  <Form>
-                                <InputGroup>
+                  <Form className="form-product">
+                    <InputGroup>
 
-                                    <Form.Control
-                                        type="text"
-                                        placeholder="Get product updates"
-                                        aria-label="Search"
-                                    />
-                                    <InputGroup.Text style={{ backgroundColor: "#FFCC29" }}>
-                                        <img src={arrow} alt='' />
-                                    </InputGroup.Text>
-                                </InputGroup>
-                            </Form>
+                      <Form.Control
+                        type="text"
+                        size="lg"
+                        placeholder="Get product"
+                        aria-label="Search"
+                      />
+                      <InputGroup.Text style={{ backgroundColor: "#FFCC29" }}>
+                        <img src={arrow} alt='' />
+                      </InputGroup.Text>
+                    </InputGroup>
+                  </Form>
                 </div>
               </Col>
             </Row>
