@@ -5,6 +5,7 @@ import Col from "react-bootstrap/Col";
 import choose from "../../../images/choose.svg";
 import Card from "react-bootstrap/Card";
 import Tick from "../../../images/blank-tick.svg";
+import { Link } from "react-router-dom";
 
 function Subscription() {
   return (
@@ -98,9 +99,11 @@ function Subscription() {
                         </li>
                       </ul>
                     </div>
+                    <Link to="/">
                     <button className="contact-btn-subscription grow_spin">
                       Buy Now <small></small>{" "}
                     </button>{" "}
+                    </Link>
                   </div>
                 </Card>
               </Col>
@@ -171,9 +174,12 @@ function Subscription() {
                         </li>
                       </ul>
                     </div>
+                    <Link to="/">
+
                     <button className="contact-btn-subscription grow_spin">
                       Buy Now <small></small>{" "}
                     </button>{" "}
+                    </Link>
                   </div>
                 </Card>
               </Col>
@@ -241,9 +247,12 @@ function Subscription() {
                         </li>
                       </ul>
                     </div>
+                    <Link to="/">
+
                     <button className="contact-btn-subscription grow_spin">
                       Buy Now <small></small>{" "}
                     </button>{" "}
+                    </Link>
                   </div>
                 </Card>
               </Col>

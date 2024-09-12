@@ -5,6 +5,7 @@ import Col from "react-bootstrap/Col";
 import person from "../../../images/person4.svg";
 import choose from "../../../images/choose.svg";
 import arrow from "../../../images/arrow -button.svg";
+import { Link } from "react-router-dom";
 
 function About() {
   return (
@@ -71,7 +72,8 @@ function About() {
                     </div>
                   </Col>
                 </Row>
-                <button className='contact-btn-service grow_spin mt-3'> Discover More <img src={arrow} alt='' style={{ paddingLeft: "10px" }} /> </button>
+                <Link to="/"> <button className='contact-btn-service grow_spin mt-3'> Discover More <img src={arrow} alt='' style={{ paddingLeft: "10px" }} /> </button>
+                </Link>
 
               </div>
             </div>

@@ -88,16 +88,16 @@ function Footer() {
                   <h5 className="pb-2 ps-3 footer-content-head">Page</h5>
                   <ul >
                     <li>
-                      <p> <Link to="/about">About Us</Link> </p>
+                      <p> <Link className="hover-link" to="/about">About Us</Link> </p>
                     </li>
                     <li>
-                      <p> <Link to="/contact">Contact Us</Link> </p>
+                      <p> <Link className="hover-link" to="/contact">Contact Us</Link> </p>
                     </li>
                     <li>
-                      <p> <Link to="/blog">Blogs</Link> </p>
+                      <p> <Link className="hover-link" to="/blog">Blogs</Link> </p>
                     </li>
                     <li>
-                      <p> <Link to="/service">Service</Link></p>
+                      <p> <Link className="hover-link" to="/service">Service</Link></p>
                     </li>
                   </ul>
                 </div>
@@ -108,16 +108,16 @@ function Footer() {
                   <h5 className="pb-2  ps-3 footer-content-head">Quick Link</h5>
                   <ul >
                     <li>
-                      <p><Link to="/#"> Terms and Condition </Link></p>
+                      <p><Link className="hover-link" to="/#"> Terms and Condition </Link></p>
                     </li>
                     <li>
-                      <p> <Link to="/#">Privacy Policy</Link></p>
+                      <p> <Link className="hover-link" to="/#">Privacy Policy</Link></p>
                     </li>
                     <li>
-                      <p>  <Link to="/faq">FAQs </Link> </p>
+                      <p>  <Link className="hover-link" to="/faq">FAQs </Link> </p>
                     </li>
                     <li>
-                      <p> <Link to="/#">Support Center</Link> </p>
+                      <p> <Link className="hover-link" to="/#">Support Center</Link> </p>
                     </li>
                   </ul>
                 </div>

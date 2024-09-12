@@ -50,8 +50,8 @@ function Service() {
                                     <p ><button className="service-card-team">Roofing Services</button>  </p>
                                     <p className="service-card-sub"> Aenean massa sociis natoque penatibus et magnis dis parturient montes, </p>
 
-                                    <button className='contact-btn-service grow_spin'> Read More <img src={arrow} alt='' style={{ paddingLeft: "10px" }} /> </button>
-
+                                    <Link to="/service-details" ><button className='contact-btn-service grow_spin'> Read More <img src={arrow} alt='' style={{ paddingLeft: "10px" }} /> </button>
+                                    </Link>
                                 </div>
                             </Card>
                         </Col>
@@ -66,8 +66,8 @@ function Service() {
                                     <p ><button className="service-card-team">Flooring Services</button>  </p>
                                     <p className="service-card-sub"> Aenean massa sociis natoque penatibus et magnis dis parturient montes, </p>
 
-                                    <button className='contact-btn-service grow_spin'> Read More <img src={arrow} alt='' style={{ paddingLeft: "10px" }} /> </button>
-
+                                    <Link to="/service-details" ><button className='contact-btn-service grow_spin'> Read More <img src={arrow} alt='' style={{ paddingLeft: "10px" }} /> </button>
+                                    </Link>
                                 </div>
                             </Card>
                         </Col>
@@ -81,8 +81,8 @@ function Service() {
                                     <p ><button className="service-card-team">Painting Services</button>  </p>
                                     <p className="service-card-sub"> Aenean massa sociis natoque penatibus et magnis dis parturient montes, </p>
 
-                                    <button className='contact-btn-service grow_spin'> Read More <img src={arrow} alt='' style={{ paddingLeft: "10px" }} /> </button>
-
+                                    <Link to="/service-details" ><button className='contact-btn-service grow_spin'> Read More <img src={arrow} alt='' style={{ paddingLeft: "10px" }} /> </button>
+                                    </Link>
                                 </div>
                             </Card>
                         </Col>
@@ -96,8 +96,8 @@ function Service() {
                                     <p ><button className="service-card-team">Plumbing Services</button>  </p>
                                     <p className="service-card-sub"> Aenean massa sociis natoque penatibus et magnis dis parturient montes, </p>
 
-                                    <button className='contact-btn-service grow_spin'> Read More <img src={arrow} alt='' style={{ paddingLeft: "10px" }} /> </button>
-
+                                    <Link to="/service-details" ><button className='contact-btn-service grow_spin'> Read More <img src={arrow} alt='' style={{ paddingLeft: "10px" }} /> </button>
+                                    </Link>
                                 </div>
                             </Card>
                         </Col>
@@ -111,8 +111,8 @@ function Service() {
                                     <p ><button className="service-card-team">Electrical Services</button>  </p>
                                     <p className="service-card-sub"> Aenean massa sociis natoque penatibus et magnis dis parturient montes, </p>
 
-                                    <button className='contact-btn-service grow_spin'> Read More <img src={arrow} alt='' style={{ paddingLeft: "10px" }} /> </button>
-
+                                    <Link to="/service-details" ><button className='contact-btn-service grow_spin'> Read More <img src={arrow} alt='' style={{ paddingLeft: "10px" }} /> </button>
+                                    </Link>
                                 </div>
                             </Card>
                         </Col>
@@ -141,8 +141,8 @@ function Service() {
                                     <p ><button className="service-card-team">Roofing Services</button>  </p>
                                     <p className="service-card-sub"> Aenean massa sociis natoque penatibus et magnis dis parturient montes, </p>
 
-                                    <button className='contact-btn-service grow_spin'> Read More <img src={arrow} alt='' style={{ paddingLeft: "10px" }} /> </button>
-
+                                    <Link to="/service-details" ><button className='contact-btn-service grow_spin'> Read More <img src={arrow} alt='' style={{ paddingLeft: "10px" }} /> </button>
+                                    </Link>
                                 </div>
                             </Card>
                         </Col>
@@ -157,8 +157,8 @@ function Service() {
                                     <p ><button className="service-card-team ">Flooring Services</button>  </p>
                                     <p className="service-card-sub"> Aenean massa sociis natoque penatibus et magnis dis parturient montes, </p>
 
-                                    <button className='contact-btn-service grow_spin'> Read More <img src={arrow} alt='' style={{ paddingLeft: "10px" }} /> </button>
-
+                                    <Link to="/service-details" ><button className='contact-btn-service grow_spin'> Read More <img src={arrow} alt='' style={{ paddingLeft: "10px" }} /> </button>
+                                    </Link>
                                 </div>
                             </Card>
                         </Col>

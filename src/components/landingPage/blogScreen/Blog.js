@@ -7,6 +7,7 @@ import Card from "react-bootstrap/Card";
 import blog from "../../../images/blog.svg";
 import person from "../../../images/person.svg";
 import clock from "../../../images/clock.svg";
+import { Link } from "react-router-dom";
 
 function Blog() {
   return (
@@ -65,9 +66,11 @@ function Blog() {
                       <p className="footer-right-service-blog pb-1">
                       Pellentesque vehicula eros neque, maximus mattis est sagittis Nulla facilisi. In sed pretium metus. Proin pretium id urna sit amet tincidunt. Interdum et malesuada.
                       </p>
+                      <Link to="/">
                       <button className="contact-btn-banner grow_spin ">
                         Read More <small></small>{" "}
                       </button>{" "}
+                      </Link>
                     </div>
 
                   </div>
@@ -103,9 +106,12 @@ function Blog() {
                       <p className="footer-right-service-blog pb-1">
                       Pellentesque vehicula eros neque, maximus mattis est sagittis Nulla facilisi. In sed pretium metus. Proin pretium id urna sit amet tincidunt. Interdum et malesuada.
                       </p>
+                      <Link to="/">
+
                       <button className="contact-btn-banner grow_spin">
                         Read More <small></small>{" "}
                       </button>{" "}
+                      </Link>
                     </div>
 
                   </div>
@@ -144,9 +150,12 @@ function Blog() {
                       <p className="footer-right-service-blog pb-1 ">
                       Pellentesque vehicula eros neque, maximus mattis est sagittis Nulla facilisi. In sed pretium metus. Proin pretium id urna sit amet tincidunt. Interdum et malesuada.
                       </p>
+                      <Link to="/">
+
                       <button className="contact-btn-banner grow_spin">
                         Read More <small></small>{" "}
                       </button>{" "}
+                      </Link>
                     </div>
 
                   </div>

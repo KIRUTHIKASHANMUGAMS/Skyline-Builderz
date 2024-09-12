@@ -2,9 +2,13 @@
 import React from "react";
 import banner from "../../../images/setting.svg";
 import arrow from "../../../images/arrow.svg";
+import { Link } from "react-router-dom";
+import { Container } from "react-bootstrap";
 
 const Banner = () => {
   return (
+<Container>
+
 
     <div className="banner">
       <p className="banner-img">     <img src={banner} alt="text"/> <span className="banner-img-text">We Provide Electric Services For Industrial Project</span></p>
@@ -17,6 +21,7 @@ const Banner = () => {
         Quisque sit amet faucibus magna. Donec purus mi, commodo id commodo
         vel, imperdiet ut mauris. Ut ultricies arcu risus,
       </p>
+      <Link to="/" >
       <button className="contact-btn-banner grow_spin">
         Get Started{" "}
         <small className="arrow-container">
@@ -24,7 +29,10 @@ const Banner = () => {
         </small>
       </button>
 
+      </Link>
+
     </div>
+    </Container>
 
   );
 };
