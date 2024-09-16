@@ -30,48 +30,58 @@ function Footer() {
                   odit aut fugit consequuntur magni dolores eos qui ratione.
                 </p>
                 <div className="footer-image-head">
-                  <Row>
-                    <Col md={2} xs={2}>
-                    <Link to="/">
+          
+                      <div className="footer-icon">
+                        <Link to="/">
+                        <div class="icon-box">
+                          <img
+                            src={facebook}
+                            alt="facebook"
 
-                    <img
-                        src={facebook}
-                        alt="facebook"
-                        className="footer-image"
-                      />
-                    </Link>
-                  
-                    </Col>
-                    <Col md={2} xs={2}>
-                    <Link to="/">
-                      <img
-                        src={instagram}
-                        alt="instagram"
-                        className="footer-image"
-                      />
-                      </Link>
-                    </Col>
+                          />
+                          </div>
+                        </Link>
+                      </div>
 
-                    <Col md={2} xs={2}>
-                    <Link to="/">
-                      <img
-                        src={twitter}
-                        alt="twitter"
-                        className="footer-image"
-                      />
-                      </Link>
-                    </Col>
 
-                    <Col md={2} xs={2}>
-                    <Link to="/#">
-                      <img
-                        src={linkedin}
-                        alt="linkedin"
-                        className="footer-image"
-                      />
-                      </Link>
-                    </Col>
-                  </Row>
+                      <div className="footer-icon">
+                        <Link to="/">
+                        <div class="icon-box">
+                          <img
+                            src={instagram}
+                            alt="instagram"
+
+                          />
+                          </div>
+                        </Link>
+                      </div>
+
+
+    
+                      <div className="footer-icon">
+                        <Link to="/">
+                        <div class="icon-box">
+                          <img
+                            src={twitter}
+                            alt="twitter"
+
+                          />
+                          </div>
+                        </Link>
+                      </div>
+
+
+                      <div className="footer-icon">
+                        <Link to="/">
+                        <div class="icon-box">
+                          <img
+                            src={linkedin}
+                            alt="linkedin"
+
+                          />
+                          </div>
+                        </Link>
+                      </div>
                 </div>
               </Col>
               <Col lg={2} md={6} sm={6} xs={12} className="pb-3">
@@ -124,9 +134,9 @@ function Footer() {
               </Col>
               <Col lg={3} md={5} sm={6} xs={12} className="pb-3">
                 <div className="footer-contact ">
-                  <h5 className="pb-2 footer-content-head">Subscribe</h5>
+                  <h5 className="pb-2  ps-3  footer-content-head">Subscribe</h5>
 
-                  <Form className="form-product">
+                  <Form className="form-product   ps-3 ">
                     <InputGroup>
 
                       <Form.Control
@@ -135,7 +145,8 @@ function Footer() {
                         placeholder="Get product"
                         aria-label="Search"
                       />
-                      <InputGroup.Text style={{ backgroundColor: "#FFCC29" }}>
+                      <InputGroup.Text className="button-spin-hover" style={{ backgroundColor: "#FFCC29" }}>
+
                         <img src={arrow} alt='' />
                       </InputGroup.Text>
                     </InputGroup>

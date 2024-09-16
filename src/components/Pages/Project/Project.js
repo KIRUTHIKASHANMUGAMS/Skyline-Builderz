@@ -1,4 +1,4 @@
-import React from "react";
+import React , {useState} from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -12,134 +12,74 @@ import person7 from "../../../images/person-detail-7.svg";
 import person8 from "../../../images/person-detail-8.svg";
 import person9 from "../../../images/person-detail-9.svg";
 import { Link } from "react-router-dom";
-
-
-
 import Card from "react-bootstrap/Card";
+import { Modal } from "react-bootstrap";
 
 function Project() {
+
+  const [showModal, setShowModal] = useState(false);
+  const [selectedBlog, setSelectedBlog] = useState(null);
+
+  const handleClose = () => setShowModal(false);
+  const handleShow = (details) => {
+    setSelectedBlog(details);
+    setShowModal(true);
+  };
+
+  const details = [
+    { name: "Lawn Landscape", content: "House, Office", img: person1 },
+    { name: "Living Room", content: "House, Office", img: person2 },
+    { name: "Industry machine issue", content: "House, Office", img: person3 },
+    { name: "Electrical & Maintanace", content: "House, Office", img: person4 },
+    { name: "Industry machine issue", content: "House, Office", img: person5 },
+    { name: "Industry machine issue", content: "House, Office", img: person6 },
+    { name: "Electrical & Maintanace", content: "House, Office", img: person7 },
+    { name: "Lawn Landscape", content: "House, Office", img: person8 },
+    { name: "Living Room", content: "House, Office", img: person9 },
+
+
+
+  ]
   return (
     <div>
       <div>
         <Container>
           <div className="team-page">
-      
-          <div>
-            <Row>
-              <Col md="4">
-              <Link to="/project-details">
-                <Card style={{ marginBottom: "30px" }}>
-                  <div className="service-main-card-team">
-                    <div style={{ textAlign: "justify" }}>
-                      <Card.Img variant="top" src={person1} />
-                    </div>
 
-                    <p className="service-head-main-team"> Lawn Landscape </p>
-                    <p className="footer-right-service-team"> House,  Office  </p>
-                  </div>
-                </Card>
-                </Link>
-              </Col>
-              <Col md="4">
-                <Card style={{ marginBottom: "30px" }}>
-                  <div className="service-main-card-team">
-                    <div style={{ textAlign: "justify" }}>
-                      <Card.Img variant="top" src={person2} />
-                    </div>
+            <div>
+              <Row>
+                {details.map((details) => (
+                  <Col md="4">
+                    <Link to="/project-details">
+                      <Card style={{ marginBottom: "30px" }}>
+                        <div className="service-main-card-team">
+                          <div onClick={() => handleShow(details)} style={{ textAlign: "justify" }}>
+                            <Card.Img variant="top" src={details.img} />
+                          </div>
 
-                    <p className="service-head-main-team">Living Room </p>
-                    <p className="footer-right-service-team">House,  Office </p>
-                  </div>
-                </Card>
-              </Col>
+                          <p className="service-head-main-team"> {details.name} </p>
+                          <p className="footer-right-service-team"> {details.content}  </p>
+                        </div>
+                      </Card>
+                    </Link>
+                  </Col>
+                ))}
 
-              <Col md="4">
-                <Card style={{ marginBottom: "30px" }}>
-                  <div className="service-main-card-team">
-                    <div style={{ textAlign: "justify" }}>
-                      <Card.Img variant="top" src={person3} />
-                    </div>
-
-                    <p className="service-head-main-team">Industry machine issue </p>
-                    <p className="footer-right-service-team ">House,  Office </p>
-                  </div>
-                </Card>
-              </Col>
-              <Col md="4">
-                <Card style={{ marginBottom: "30px" }}>
-                  <div className="service-main-card-team">
-                    <div style={{ textAlign: "justify" }}>
-                      <Card.Img variant="top" src={person4} />
-                    </div>
-
-                    <p className="service-head-main-team">Electrical & Maintanace </p>
-                    <p className="footer-right-service-team ">House,  Office </p>
-                  </div>
-                </Card>
-              </Col>
-              <Col md="4">
-                <Card style={{ marginBottom: "30px" }}>
-                  <div className="service-main-card-team">
-                    <div style={{ textAlign: "justify" }}>
-                      <Card.Img variant="top" src={person5} />
-                    </div>
-
-                    <p className="service-head-main-team">Industry machine issue </p>
-                    <p className="footer-right-service-team ">House,  Office </p>
-                  </div>
-                </Card>
-              </Col>
-              <Col md="4">
-                <Card style={{ marginBottom: "30px" }}>
-                  <div className="service-main-card-team">
-                    <div style={{ textAlign: "justify" }}>
-                      <Card.Img variant="top" src={person6} />
-                    </div>
-
-                    <p className="service-head-main-team">Industry machine issue </p>
-                    <p className="footer-right-service-team ">House,  Office </p>
-                  </div>
-                </Card>
-              </Col>
-              <Col md="4">
-                <Card style={{ marginBottom: "30px" }}>
-                  <div className="service-main-card-team">
-                    <div style={{ textAlign: "justify" }}>
-                      <Card.Img variant="top" src={person9} />
-                    </div>
-
-                    <p className="service-head-main-team">Electrical & Maintanace </p>
-                    <p className="footer-right-service-team ">House,  Office </p>
-                  </div>
-                </Card>
-              </Col>
-              <Col md="4">
-                <Card style={{ marginBottom: "30px" }}>
-                  <div className="service-main-card-team">
-                    <div style={{ textAlign: "justify" }}>
-                      <Card.Img variant="top" src={person7} />
-                    </div>
-
-                    <p className="service-head-main-team">Industry machine issue</p>
-                    <p className="footer-right-service-team ">House,  Office </p>
-                  </div>
-                </Card>
-              </Col>
-              <Col md="4">
-                <Card style={{ marginBottom: "30px" }}>
-                  <div className="service-main-card-team">
-                    <div style={{ textAlign: "justify" }}>
-                      <Card.Img variant="top" src={person8} />
-                    </div>
-
-                    <p className="service-head-main-team">Industry machine issue </p>
-                    <p className="footer-right-service-team ">House,  Office </p>
-                  </div>
-                </Card>
-              </Col>
-            </Row>
+              
+               
+              </Row>
+            </div>
           </div>
-          </div>
+
+
+          {selectedBlog && (
+            <Modal show={showModal} onHide={handleClose}>
+
+              <Card.Img className="mx-auto" src={selectedBlog.img} />
+
+
+            </Modal>
+          )}
         </Container>
       </div>
     </div>

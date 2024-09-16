@@ -8,6 +8,12 @@ import blog from "../../../images/blog.svg";
 import person from "../../../images/person.svg";
 import clock from "../../../images/clock.svg";
 import { Link } from "react-router-dom";
+import Blog1 from '../../../images/blog 1.svg';
+import Blog2 from '../../../images/blog2.svg';
+import Blog3 from '../../../images/blog3.svg';
+
+
+
 
 function Blog() {
   return (
@@ -15,156 +21,155 @@ function Blog() {
       <div className="our-blog">
 
 
-      <Container fluid className="blog-section">
-        <div className="service-page-subscription">
-          <div className="service-content-subscription">
-            <div className="service-main">
-              <img src={choose} alt="welcome" />{" "}
-              <small className="about-welcome"> Our Blog </small>
+        <Container fluid className="blog-section">
+          <div className="service-page-subscription">
+            <div className="service-content-subscription">
+              <div className="service-main">
+                <img src={choose} alt="welcome" />{" "}
+                <small className="about-welcome"> Our Blog </small>
+              </div>
+            </div>
+            <div>
+              <p className="service-head-details">Latest News and Articles </p>
+            </div>
+            <div className="service-right-details">
+              <p className="service-para">
+                Pellentesque vehicula eros neque, maximus mattis est sagittis
+                Nulla facilisi. In sed pretium metus. Proin pretium id urna sit
+                amet tincidunt.
+              </p>
             </div>
           </div>
+
           <div>
-            <p className="service-head-details">Latest News and Articles </p>
+            <Container>
+              <Row>
+                <Col md="6" lg="4" xs="12">
+                  <Card className="card-rotate" style={{ marginBottom: "30px" }}>
+                    <div className="service-main-card-blog">
+                      <div style={{ textAlign: "justify" }}>
+                        <Card.Img variant="top" src={Blog1} />
+                        <div>
+                          <div className="blog-details">
+
+                            <div className="blog-det">
+                              <img src={person} alt="" />
+                              <small className="ps-1"> John Kennis</small>
+                            </div>
+
+                            <div className="blog-clock">
+                              <img src={clock} alt="" />{" "}
+                              <small className="ps-1"> April 2, 2022</small>
+                            </div>
+
+                          </div>
+                        </div>
+                      </div>
+                      <div className="blog-content-details">
+                        <p className="head-main-service">
+                          Understanding Your Home’s Electrical Capacity
+                        </p>
+                        <p className="footer-right-service-blog pb-1">
+                          Pellentesque vehicula eros neque, maximus mattis est sagittis Nulla facilisi. In sed pretium metus. Proin pretium id urna sit amet tincidunt. Interdum et malesuada.
+                        </p>
+                        <Link to="/">
+                          <button className="contact-btn-banner grow_spin ">
+                            Read More <small></small>{" "}
+                          </button>{" "}
+                        </Link>
+                      </div>
+
+                    </div>
+
+                  </Card>
+                </Col>
+                <Col md="6" lg="4" xs="12">
+                  <Card className="card-rotate" style={{ marginBottom: "30px" }}>
+                    <div className="service-main-card-blog">
+                      <div style={{ textAlign: "justify" }}>
+                        <Card.Img variant="top" src={Blog3} />
+                        <div>
+
+                          <div className="blog-details">
+
+                            <div className="blog-det">
+                              <img src={person} alt="" />
+                              <small className="ps-1">John Dean</small>
+                            </div>
+
+                            <div className="blog-clock">
+                              <img src={clock} alt="" />{" "}
+                              <small className="ps-1">April 3, 2022</small>
+                            </div>
+
+                          </div>
+
+                        </div>
+                      </div>
+                      <div className="blog-content-details">
+                        <p className="head-main-service">
+                          Home Construction In Malibu Beach, USA                      </p>
+                        <p className="footer-right-service-blog pb-1">
+                          Pellentesque vehicula eros neque, maximus mattis est sagittis Nulla facilisi. In sed pretium metus. Proin pretium id urna sit amet tincidunt. Interdum et malesuada.
+                        </p>
+                        <Link to="/">
+
+                          <button className="contact-btn-banner grow_spin">
+                            Read More <small></small>{" "}
+                          </button>{" "}
+                        </Link>
+                      </div>
+
+                    </div>
+                  </Card>
+                </Col>
+
+                <Col md="6" lg="4" xs="12">
+                  <Card className="card-rotate" style={{ marginBottom: "30px" }}>
+                    <div className="service-main-card-blog">
+                      <div style={{ textAlign: "justify" }}>
+                        <Card.Img variant="top" src={Blog2} />
+                        <div>
+
+                          <div className="blog-details">
+
+                            <div className="blog-det">
+                              <img src={person} alt="" />
+                              <small className="ps-1">Wade Warren</small>
+                            </div>
+
+                            <div className="blog-clock">
+                              <img src={clock} alt="" />{" "}
+                              <small className="ps-1">April 4, 2022</small>
+                            </div>
+
+                          </div>
+
+
+                        </div>
+                      </div>
+                      <div className="blog-content-details">
+                        <p className="head-main-service">
+                          {" "}
+                          Systematic project helps to match more impact                      </p>
+                        <p className="footer-right-service-blog pb-1 ">
+                          Pellentesque vehicula eros neque, maximus mattis est sagittis Nulla facilisi. In sed pretium metus. Proin pretium id urna sit amet tincidunt. Interdum et malesuada.
+                        </p>
+                        <Link to="/">
+
+                          <button className="contact-btn-banner grow_spin">
+                            Read More <small></small>{" "}
+                          </button>{" "}
+                        </Link>
+                      </div>
+
+                    </div>
+                  </Card>
+                </Col>
+              </Row>
+            </Container>
           </div>
-          <div className="service-right-details">
-          <p className="service-para">
-              Pellentesque vehicula eros neque, maximus mattis est sagittis
-              Nulla facilisi. In sed pretium metus. Proin pretium id urna sit
-              amet tincidunt.
-            </p>
-          </div>
-        </div>
-
-        <div>
-          <Container>
-            <Row>
-              <Col md="6" lg="4" xs="12">
-                <Card className="card-rotate" style={{ marginBottom: "30px" }}>
-                  <div className="service-main-card-blog">
-                    <div style={{ textAlign: "justify" }}>
-                      <Card.Img variant="top" src={blog} />
-                      <div>
-                        <div className="blog-details">
-
-                          <div className="blog-det">
-                            <img src={person} alt="" />
-                            <small className="ps-1"> John Kennis</small>
-                          </div>
-
-                          <div className="blog-clock">
-                            <img src={clock} alt="" />{" "}
-                            <small className="ps-1"> April 2, 2022</small>
-                          </div>
-
-                        </div>
-                      </div>
-                    </div>
-                    <div className="blog-content-details">
-                      <p className="head-main-service">
-                        Understanding Your Home’s Electrical Capacity
-                      </p>
-                      <p className="footer-right-service-blog pb-1">
-                      Pellentesque vehicula eros neque, maximus mattis est sagittis Nulla facilisi. In sed pretium metus. Proin pretium id urna sit amet tincidunt. Interdum et malesuada.
-                      </p>
-                      <Link to="/">
-                      <button className="contact-btn-banner grow_spin ">
-                        Read More <small></small>{" "}
-                      </button>{" "}
-                      </Link>
-                    </div>
-
-                  </div>
-                </Card>
-              </Col>
-              <Col md="6" lg="4" xs="12">
-                <Card className="card-rotate" style={{ marginBottom: "30px" }}>
-                  <div className="service-main-card-blog">
-                    <div style={{ textAlign: "justify" }}>
-                      <Card.Img variant="top" src={blog} />
-                      <div>
-
-                        <div className="blog-details">
-
-                          <div className="blog-det">
-                            <img src={person} alt="" />
-                            <small className="ps-1">John Kennis</small>
-                          </div>
-
-                          <div className="blog-clock">
-                            <img src={clock} alt="" />{" "}
-                            <small className="ps-1">April 2, 2022</small>
-                          </div>
-
-                        </div>
-
-                      </div>
-                    </div>
-                    <div className="blog-content-details">
-                      <p className="head-main-service">
-                        Understanding Your Home’s Electrical Capacity
-                      </p>
-                      <p className="footer-right-service-blog pb-1">
-                      Pellentesque vehicula eros neque, maximus mattis est sagittis Nulla facilisi. In sed pretium metus. Proin pretium id urna sit amet tincidunt. Interdum et malesuada.
-                      </p>
-                      <Link to="/">
-
-                      <button className="contact-btn-banner grow_spin">
-                        Read More <small></small>{" "}
-                      </button>{" "}
-                      </Link>
-                    </div>
-
-                  </div>
-                </Card>
-              </Col>
-
-              <Col md="6" lg="4" xs="12">
-                <Card className="card-rotate" style={{ marginBottom: "30px" }}>
-                  <div className="service-main-card-blog">
-                    <div style={{ textAlign: "justify" }}>
-                      <Card.Img variant="top" src={blog} />
-                      <div>
-
-                        <div className="blog-details">
-
-                          <div className="blog-det">
-                            <img src={person} alt="" />
-                            <small className="ps-1">John Kennis</small>
-                          </div>
-
-                          <div className="blog-clock">
-                            <img src={clock} alt="" />{" "}
-                            <small className="ps-1">April 2, 2022</small>
-                          </div>
-
-                        </div>
-
-
-                      </div>
-                    </div>
-                    <div className="blog-content-details">
-                      <p className="head-main-service">
-                        {" "}
-                        Understanding Your Home’s Electrical Capacity
-                      </p>
-                      <p className="footer-right-service-blog pb-1 ">
-                      Pellentesque vehicula eros neque, maximus mattis est sagittis Nulla facilisi. In sed pretium metus. Proin pretium id urna sit amet tincidunt. Interdum et malesuada.
-                      </p>
-                      <Link to="/">
-
-                      <button className="contact-btn-banner grow_spin">
-                        Read More <small></small>{" "}
-                      </button>{" "}
-                      </Link>
-                    </div>
-
-                  </div>
-                </Card>
-              </Col>
-            </Row>
-          </Container>
-        </div>
-      </Container>
+        </Container>
       </div>
     </div>
   );

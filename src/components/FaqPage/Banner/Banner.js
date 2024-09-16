@@ -1,5 +1,8 @@
 import React from "react";
 import { Container } from "react-bootstrap";
+import { Link } from "react-router-dom";
+import { FaHome } from 'react-icons/fa'; 
+
 
 function Banner() {
   return (
@@ -11,8 +14,8 @@ function Banner() {
         <div className="banner-details">
           <p className="banner-content">FAQ</p>
           <div className="banner-text">
-            <span>Home </span>
-            &bull; <span style={{ color: "#FFCC29" }}>FAQ</span>{" "}
+          <Link
+                to="/"><span className="footer-image-banner"> Home </span></Link>  <FaHome/> <span style={{ color: "#FFCC29" }}>FAQ</span>{" "}
           </div>
         </div>
         </Container>-0434

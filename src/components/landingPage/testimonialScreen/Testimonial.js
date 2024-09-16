@@ -89,6 +89,14 @@ const TestimonialsCarousel = () => {
                           <Col md="7" xs="8">
                             <p className="testimonial-head">{testimonial.name}</p>
                             <p className="testimonial-sub">{testimonial.role}</p>
+                            
+                            <div style={{ display: "flex" }}>
+                          {[...Array(5)].map((_, i) => (
+                            <small key={i}>
+                              <img src={star} alt="" width="100%" />
+                            </small>
+                          ))}
+                        </div>
                           </Col>
                           <Col md="5" xs="4">
                             <div>
@@ -97,13 +105,7 @@ const TestimonialsCarousel = () => {
                           </Col>
                         </Row>
 
-                        <div style={{ display: "flex" }}>
-                          {[...Array(5)].map((_, i) => (
-                            <small key={i}>
-                              <img src={star} alt="" width="100%" />
-                            </small>
-                          ))}
-                        </div>
+                    
                         <div>
                           <p className="testimonial-content">{testimonial.content}</p>
                         </div>

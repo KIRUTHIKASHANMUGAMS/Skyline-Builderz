@@ -2,12 +2,20 @@
     .footer-hr {
         margin-top: 2px;
     }
+    .icon-box{
+        width: 44px;
+        height: 44px;
+    }
 
-
+    .project-experience {
+        padding-right: 0px;
+    }
+  
     .logo-img {
         width: 39px !important;
         height: 31px !important;
     }
+
     .form-product {
         width: 80%;
     }
@@ -181,7 +189,7 @@
 
     .banner {
 
-        padding: 106px 30px 0px 30px;
+        padding: 106px 10px 100px 10px;
         width: fit-content;
     }
 
@@ -232,9 +240,6 @@
         padding-top: 0px;
     }
 
-    .filter-main {
-        padding-bottom: 30px;
-    }
 
     .contact-image {
         width: 40px;
@@ -257,8 +262,7 @@
     }
 
     .filter-tum-content {
-        font-size: 13px;
-        padding-left: 2px;
+        padding-left: 8px;
     }
 
     .comment-margin {
@@ -296,7 +300,7 @@
 
 
     .banner-details {
-        padding: 50px 30px 50px 20px;
+        padding: 100px 30px 100px 20px;
 
     }
 
@@ -344,6 +348,7 @@
 
     .filter-para-details {
         padding-top: 0px;
+        font-size: 18px;
     }
 
 
@@ -352,11 +357,27 @@
         margin-bottom: 50px;
     }
 
+    .navbar-top {
+        position: fixed !important;
+        top: 0px !important;
+        left: 0px !important;
+        right: 0px !important;
+    }
+
 }
 
 
 
+@media only screen and (max-width:320px) {
+    .filter-tum-content {
+        font-size: 13px;
+    }
 
+    .filter-para-details {
+        font-size: 13px;
+        padding-top: 8px;
+    }
+}
 
 
 @media only screen and (max-width: 500px) and (min-width:431px) {
@@ -468,7 +489,7 @@
     }
 
     .about-experience-content {
-        padding: 100px 50px;
+        padding: 100px 10px;
     }
 
     .timeline-line {
@@ -488,9 +509,20 @@
 
     }
 
+    .contact-margin {
+        margin-left: 0px;
+    }
+
     .nav-auto {
         justify-content: flex-start;
         width: 100%;
+    }
+
+    .navbar-top {
+        position: fixed !important;
+        top: 0px !important;
+        left: 0px !important;
+        right: 0px !important;
     }
 
 
@@ -506,7 +538,7 @@
     }
 
 
-    .footer-contact{
+    .footer-contact {
         padding-top: 20px;
     }
 
@@ -588,10 +620,6 @@
     }
 
 
-    .about-experience-content {
-        padding: 60px 20px 0px 20px;
-    }
-
 
 
 
@@ -625,9 +653,12 @@
         padding-top: 100px;
     }
 
+    .fixed-top {
+        border-radius: 0px !important;
+    }
 
     .banner-details {
-        padding: 100px 80px 100px 0px;
+        padding: 140px 80px 100px 0px;
 
     }
 
@@ -658,7 +689,7 @@
     }
 
     .about-experience-content {
-        padding: 100px 50px;
+        padding: 100px 10px;
     }
 
     .timeline-line {
@@ -689,8 +720,8 @@
     }
 
     .filter-tum-content {
-        font-size: 12px;
-        padding-left: 2px;
+        font-size: 14px;
+        padding-left: 8px;
         padding-top: 20px;
 
     }
@@ -710,6 +741,14 @@
         margin-bottom: 50px;
     }
 
+    .navbar-top {
+        position: fixed !important;
+        top: 0px !important;
+        left: 0px !important;
+        right: 0px !important;
+    }
+
+
 }
 
 
@@ -723,31 +762,29 @@
     .banner-background {
         padding: 20px 20px;
     }
-    .construction-image-background{
+
+
+
+    .construction-image-background {
         padding: 30px;
     }
+
     .command-image {
         width: 52px;
     }
 
     .banner {
 
-        padding: 106px 0px 30px 49px;
-        width: fit-content;
+        padding: 106px 0px 90px 0px;
+        width: 520px;
     }
 
-    .service-head {
-        text-align: center;
+    .banner-left {
+        padding-top: 10px;
     }
-
-    .service-right {
-        text-align: center;
-    }
-
 
     .service-page {
         padding-top: 20px;
-        text-align: -webkit-center;
         padding: 0px;
     }
 
@@ -758,7 +795,7 @@
     .future-provider {
         padding: 50px 20px;
     }
-
+   
 
     .blog-details {
         margin-top: -54px;
@@ -769,11 +806,7 @@
     }
 
 
-    .banner {
 
-        padding: 106px 0px 30px 49px;
-        width: 520px;
-    }
 
     .navbar-brand {
         padding-left: 10px;
@@ -810,7 +843,15 @@
     }
 
     .subscription-charge {
-        padding-top: 37px;
+        padding-top: 10px;
+    }
+
+    .choose-detail {
+        padding-left: 20px;
+    }
+
+    .subscription-charge {
+        text-align: left;
     }
 
     .project-content {
@@ -871,7 +912,7 @@
     }
 
     .project-content {
-        padding: 246px 40px 40px 40px;
+        padding: 100px 40px 100px 40px;
     }
 
     .project-image {
@@ -897,9 +938,13 @@
         width: 40px;
     }
 
+    .filter-para-details {
+        font-size: 14px;
+    }
+
     .filter-tum-content {
-        font-size: 13px;
-        padding-left: 2px;
+        font-size: 14px;
+        padding-left: 8px;
     }
 
     .timeline-line {
@@ -925,6 +970,10 @@
 
     }
 
+    .construction-image-background {
+        padding: 40px;
+
+    }
 
 
 }
@@ -932,16 +981,14 @@
 
 
 @media only screen and (max-width: 1500px) and (min-width:1301px) {
-    .nav-link-spacing {
-        margin: 0px 16px;
-    }
+
 
     .banner-background {
-        padding: 50px 80px 275px 80px;
+        padding: 50px 40px 275px 40px;
     }
 
     .contact-btn {
-        padding: 7px 10px;
+        padding: 10px 25px;
     }
 
     .contact-margin {
@@ -982,10 +1029,31 @@
     }
 
     .about-experience-content {
-        padding: 100px 0px 80px 0px;
+        padding: 100px 40px 80px 40px;
     }
 
     .filter-tum-content {
-        padding-left: 2px;
+        padding-left: 8px;
+        font-size: 15px;
     }
+
+    .filter-para-details{
+        font-size: 15px;
+    }
+}
+
+
+
+@media only screen and (max-width: 1700px) and (min-width:1501px) {
+
+
+    .project-content {
+
+        padding: 200px 50px 100px 50px;
+    }
+
+    .banner-background {
+        padding: 50px 60px 275px 60px;
+    }
+
 }

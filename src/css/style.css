@@ -59,6 +59,10 @@
 
 
 
+.fixed-top{
+  border-radius: 0px !important;
+}
+
 .nav-head .navbar-menu {
   padding: 20px 160px 20px 88px;
 }
@@ -179,6 +183,7 @@
 .footer-image-head {
   text-align: justify;
   padding-top: 10px;
+  display: flex;
 }
 
 .footer-contact {
@@ -198,7 +203,7 @@ text-align: left;
 
 /* ------------- banner--------------------- */
 .banner {
-  width: 791px;
+  width: 653px;
   padding-top: 220px;
   text-align: left;
 }
@@ -555,7 +560,6 @@ text-align: left;
 
 .service-image {
   width: 60px;
-  height: 60px;
   padding-bottom: 15px;
   margin-bottom: 20px;
 }
@@ -575,6 +579,11 @@ text-align: left;
   color: #c10023;
   text-align: left;
   padding-top: 5px;
+font-size: 18px;
+font-weight: 700;
+line-height: 28px;
+text-align: left;
+
 }
 .heating-service {
  margin-top: 40px; 
@@ -656,7 +665,7 @@ text-align: left;
 }
 
 .service-main-provider {
-  padding: 10px;
+  padding: 10px 25px;
   background-color: #F1F1F1;
 }
 .blog-content-details{
@@ -853,9 +862,10 @@ color: #474747;
   border-color: #ffcc29;
   color: #000000;
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 28px;
   text-align: left;
+  color: #f1f1f1;
   margin-bottom: 10px;
 
 }
@@ -914,8 +924,10 @@ color: #474747;
   background-image: url("../images/aboutbanner.svg");
   width: 100%;
   background-position: center;
+  background-attachment: fixed; 
   background-size: cover;
   background-repeat: no-repeat, repeat;
+
 
 }
 
@@ -1135,7 +1147,6 @@ color: #474747;
 
   background-color: #FFCC29;
   border: 1px solid #FFCC29;
-  margin-left: 20px;
 }
 
 .blog-details-div{
@@ -1166,6 +1177,11 @@ color: #474747;
 .filter-img-1 {
   height: 30px;
   background-color: #C10023;
+  margin-left: 10px;
+}
+
+.filter-img{
+  margin-left: 10px;
 }
 
 .filter-page {
@@ -1193,7 +1209,8 @@ color: #474747;
  
   font-size: 18px;
   font-weight: 400;
-  line-height: 28px;
+  line-height: 35px;
+  padding-bottom: 10px;
 
 }
 
@@ -1202,7 +1219,7 @@ color: #474747;
   font-size: 18px;
   font-weight: 700;
   line-height: 30px;
-padding-left: 10px;
+  padding-left: 10px;
 }
 
 .card-filter {
@@ -1213,6 +1230,8 @@ padding-left: 10px;
 .filter-main-div {
   padding-top: 70px;
   padding-bottom: 70px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .about-welcome-blog {
@@ -1348,9 +1367,9 @@ border: 1px solid #fff;
 
   font-size: 18px;
   font-weight: 400;
-  line-height: 28px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  line-height: 30px;
+  padding-top: 10px;
+  padding-bottom: .25rem;
   text-align: left;
 }
 
@@ -1461,6 +1480,11 @@ color: #474747;
   background-size: cover;
   background-repeat: no-repeat, repeat;
 }
+/* .navbar-top{
+  top: 50px !important;
+  left: 100px !important;
+  right: 100px !important;
+} */
 
 .project-div {
   margin-top: 50px;
@@ -1544,7 +1568,7 @@ a {
   background-color: #ffcc29;
   border: none;
   border-radius: 10px;
-  padding: 8px 25px;
+  padding: 12px 25px;
   cursor: pointer;
   font-weight: bold;
   
@@ -1619,18 +1643,19 @@ button.grow_spin:hover::after {
 
 
 
+
 .card-rotate {
   transition: transform 2.5s ease;
 }
 
 .card-rotate:hover {
-  transform: rotateY(360deg); 
+  transform: rotateY(180deg); 
 
 }
 
 
 .service-main-card .service-image{
-  transition: transform 2.5s ease;
+  transition: transform 2.5s ease forwards;
 
 }
 
@@ -1647,4 +1672,61 @@ button.grow_spin:hover::after {
 
 .form-product{
   width: 81%;
+}
+
+
+.footer-image:hover{
+  transform: scale(1.5);
+
+}
+
+
+
+.footer-image-banner:hover{
+  color: #C10023;
+}
+
+
+.dropdown-item:focus, 
+.dropdown-item:hover {
+  background-color: #C10023 !important; 
+  color: #F1F1F1 !important;
+  
+}
+
+.dropdown-item {
+  padding: 10px 25px !important;
+}
+
+.dropdown-menu{
+  padding: 14px 0px   !important;
+}
+
+
+.footer-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 10px;
+}
+
+.icon-box {
+  width: 50px; /* Adjust size as needed */
+  height: 50px; /* Adjust size as needed */
+  background: #FFCC29;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px; 
+  padding: 10px;
+}
+
+.icon-box:hover{
+  background-color: #f1f1f1;
+ 
+}
+
+.icon-box img {
+  width: 70%; 
+  height: auto;
 }
