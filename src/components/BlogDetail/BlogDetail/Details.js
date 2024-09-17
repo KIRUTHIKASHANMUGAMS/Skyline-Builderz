@@ -16,7 +16,7 @@ function Details() {
     const [activeCategory, setActiveCategory] = useState([0]);
     const [activeTag, setActiveTag] = useState('Design');
 
-    const tags = ['Design', 'Building', 'Interior', 'Renovate', 'Projects', 'Service'];
+    const tags = ['Design', 'Building', 'Interior', 'Idea', 'Project', 'Service'];
 
     const handleTagClick = (tag) => {
         setActiveTag(tag);
@@ -55,7 +55,7 @@ function Details() {
 
                     <Row>
 
-                        <Col lg="9" md="8">
+                        <Col lg="8" md="8">
                             <div className='blog-details-content'>
                                 <img src={Construction} alt="" style={{ width: "100%" }} />
                                 <div className='construction-detail'>
@@ -85,7 +85,7 @@ function Details() {
                             </div>
 
                         </Col>
-                        <Col lg="3" md="4">
+                        <Col lg="4" md="4">
                             <div className='blog-main-details'>
                                 <Form>
                                     <InputGroup>
@@ -165,7 +165,7 @@ function Details() {
                                     <Container>
                                         <Row>
                                             {tags.map((tag, index) => (
-                                                <Col lg={6} xs={6} key={index} >
+                                                <Col lg={6} md="12" xs={6} key={index} >
                                                     <Link to="#">
 
                                                         <p

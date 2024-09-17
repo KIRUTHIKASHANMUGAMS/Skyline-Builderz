@@ -4,7 +4,6 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import choose from "../../../images/choose.svg";
 import Card from "react-bootstrap/Card";
-import blog from "../../../images/blog.svg";
 import person from "../../../images/person.svg";
 import clock from "../../../images/clock.svg";
 import { Link } from "react-router-dom";

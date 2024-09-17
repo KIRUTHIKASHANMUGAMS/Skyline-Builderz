@@ -16,7 +16,6 @@ import { Link } from 'react-router-dom';
 
 
 function Details() {
-    const [activeService, setActiveService] = useState(services[0]);
 
 
     const services = [
@@ -31,6 +30,8 @@ function Details() {
         "Data/Communications Cabling",
         "Ballast/Lamp Replacing"
     ];
+    const [activeService, setActiveService] = useState(services[0]);
+
     return (
         <div>
             <Container>

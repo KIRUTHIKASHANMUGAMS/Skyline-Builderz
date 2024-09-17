@@ -7,6 +7,10 @@
         height: 44px;
     }
 
+    .about-li-content{
+        margin-top: 8px;
+    }
+
     .project-experience {
         padding-right: 0px;
     }
