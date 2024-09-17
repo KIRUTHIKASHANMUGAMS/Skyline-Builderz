@@ -4,6 +4,8 @@ import phone from "../../../images/Phone.svg";
 import email from "../../../images/Email.svg";
 import location from "../../../images/Location.svg";
 import Form from "react-bootstrap/Form";
+import arrow from "../../../images/arrow -button.svg";
+import { Link } from "react-router-dom";
 
 function Contact() {
   return (
@@ -84,6 +86,10 @@ function Contact() {
                     rows={6}
                   />
                 </Col>
+              </Row>
+              <Row className="mb-5" style={{textAlign:"left"}}>
+              <Link to="/"> <button className='contact-btn-service grow_spin mt-3'> About More <img src={arrow} alt='' style={{ paddingLeft: "10px" }} /> </button>
+              </Link>
               </Row>
             </Form>
           </Col>

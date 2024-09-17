@@ -6,16 +6,17 @@ import quotation2 from "../../../images/quotation2.svg"
 import search from "../../../images/Search.svg";
 import Form from 'react-bootstrap/Form';
 import InputGroup from 'react-bootstrap/InputGroup';
-import send from "../../../images/Send.svg"
+import send from "../../../images/Send.svg";
+import { Link } from 'react-router-dom';
 
 
 
 
 function Details() {
-    const [activeCategory, setActiveCategory] = useState(null);
+    const [activeCategory, setActiveCategory] = useState([0]);
     const [activeTag, setActiveTag] = useState('Design');
 
-    const tags = ['Design', 'Building', 'Interior','Renovate' , 'Projects', 'Service'];
+    const tags = ['Design', 'Building', 'Interior', 'Renovate', 'Projects', 'Service'];
 
     const handleTagClick = (tag) => {
         setActiveTag(tag);
@@ -93,6 +94,8 @@ function Details() {
                                             type="text"
                                             placeholder="Search..."
                                             aria-label="Search"
+                                            style={{backgroundColor: "#F1F1F1"}}
+
                                         />
                                         <InputGroup.Text style={{ backgroundColor: "#FFCC29" }}>
                                             <img src={search} alt='' />
@@ -101,40 +104,51 @@ function Details() {
                                 </Form>
 
                                 <div className='pt-5' style={{ textAlign: "justify" }}>
-                                    <p className="blog-card-main">Post Categories</p>
-                                    {categories.map((category, index) => (
-                                        <div
-                                            key={index}
-                                            className="blog-card-content"
-                                            onClick={() => handleCategoryClick(category.name)}
-                                            style={{ cursor: 'pointer', fontWeight: activeCategory === category.name ? 'bold' : 'normal', color: activeCategory === category.name ? '#C10023' : 'black' }}
-                                        >
-                                            <img src={category.img} alt={category.name} />
-                                            <span className='ps-2'>{category.name}</span>
-                                        </div>
-                                    ))}
+                                    <div className='blog-post'>
+                                        <p className="blog-card-main">Post Categories</p>
+                                        {categories.map((category, index) => (
+                                            <div
+                                                key={index}
+                                                className="blog-card-content"
+                                                onClick={() => handleCategoryClick(category.name)}
+                                                style={{ cursor: 'pointer', fontWeight: activeCategory === category.name ? 'bold' : 'normal', color: activeCategory === category.name ? '#C10023' : 'black' }}
+                                            >
+                                                <img src={category.img} alt={category.name} />
+                                                <Link to="#">
+
+                                                    <span className='ps-2'>{category.name}</span>
+                                                </Link>
+                                            </div>
+                                        ))}
+                                    </div>
+
                                 </div>
 
 
                                 <div className='pt-5' style={{ textAlign: "justify" }}>
-                                    <p className="blog-card-main">Recent News</p>
-                                    {recent.map((category, index) => (
-                                        <div
-                                            key={index}
-                                            className="blog-card-content"
-                                            onClick={() => handleCategoryClick(category.name)}
-                                            style={{ cursor: 'pointer', fontWeight: activeCategory === category.name ? 'bold' : 'normal', color: activeCategory === category.name ? '#C10023' : 'black' }}
-                                        >
-                                            <Row>
-                                                <Col lg="1" xs="1"><img src={category.img} alt='' /></Col>
-                                                <Col className='ps-3'>        <span >{category.name}</span>
-                                                    <p style={{ color: "#474747" }}>{category.date}</p></Col>
+                                    <div className='blog-post'>
 
-                                            </Row>
+                                        <p className="blog-card-main">Recent News</p>
+                                        {recent.map((category, index) => (
+                                            <div
+                                                key={index}
+                                                className="blog-card-content"
+                                                onClick={() => handleCategoryClick(category.name)}
+                                                style={{ cursor: 'pointer', fontWeight: activeCategory === category.name ? 'bold' : 'normal', color: activeCategory === category.name ? '#C10023' : 'black' }}
+                                            >
+                                                <Row>
+                                                    <Col lg="1" xs="1"><img src={category.img} alt='' /></Col>
+                                                    <Col className='ps-3'>
+                                                        <Link to="#">
+                                                            <span >{category.name}</span>
+                                                        </Link>
+                                                        <p style={{ color: "#474747" }}>{category.date}</p></Col>
 
-                                        </div>
-                                    ))}
+                                                </Row>
 
+                                            </div>
+                                        ))}
+                                    </div>
 
                                 </div>
 
@@ -145,23 +159,28 @@ function Details() {
                             </div>
 
                             <div className='pt-5'>
-                                <p className="blog-card-main">Tags</p>
-                                <Container>
-                                    <Row>
-                                        {tags.map((tag, index) => (
-                                            <Col lg={6} xs={6} key={index} >
-                                                <p
-                                                    className={` p-2 ${activeTag === tag ? 'contact-btn' : ''}`}
-                                                    onClick={() => handleTagClick(tag)}
-                                                >
-                                                    {tag}
-                                                </p>
-                                            </Col>
-                                        ))}
-                                    </Row>
-                                </Container>
+                                <div className='blog-post'>
 
+                                    <p className="blog-card-main">Tags</p>
+                                    <Container>
+                                        <Row>
+                                            {tags.map((tag, index) => (
+                                                <Col lg={6} xs={6} key={index} >
+                                                    <Link to="#">
 
+                                                        <p
+                                                            className={` p-2 ${activeTag === tag ? 'contact-btn' : 'contact-btn-hover'}`}
+                                                            onClick={() => handleTagClick(tag)}
+                                                        >
+                                                            {tag}
+                                                        </p>
+                                                    </Link>
+                                                </Col>
+                                            ))}
+                                        </Row>
+                                    </Container>
+
+                                </div>
                             </div>
 
 

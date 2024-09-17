@@ -144,19 +144,18 @@ function FilterPage() {
                                                     <p className="blog-card-main">{blog.title}</p>
                                                     <p className="blog-card-content">{blog.content}</p>
                                                 </div>
-                                                <Row>
-                                                    <Col lg="7" md="6" xs="6">
-                                                        <div>
+                                                <div className='blog-detail-section'>
+                                                    <div>
 
 
-                                                            <img src={blog.person} alt='' className='filter-img' />
-                                                            <small className='filter-tum-content'>{blog.author}</small>
-                                                        </div>
-                                                    </Col>
-                                                    <Col lg="5" md="6" xs="6">
-                                                        <p className='filter-para-details'>{blog.date}</p>
-                                                    </Col>
-                                                </Row>
+                                                        <img src={blog.person} alt='' className='filter-img' />
+                                                        <small className='filter-tum-content'>{blog.author}</small>
+                                                    </div>
+
+                                                    <p className='filter-para-details'>{blog.date}</p>
+                                                </div>
+
+
                                             </div>
                                         </div>
                                     </Card>

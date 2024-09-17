@@ -135,7 +135,7 @@ function Blog() {
 
                             <div className="blog-det">
                               <img src={person} alt="" />
-                              <small className="ps-1">Wade Warren</small>
+                              <small className="ps-1">John Wick</small>
                             </div>
 
                             <div className="blog-clock">

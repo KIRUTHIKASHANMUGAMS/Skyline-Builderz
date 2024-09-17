@@ -16,7 +16,7 @@ import { Link } from 'react-router-dom';
 
 
 function Details() {
-    const [activeService, setActiveService] = useState(null);
+    const [activeService, setActiveService] = useState(services[0]);
 
 
     const services = [
@@ -174,6 +174,9 @@ function Details() {
                                     <div className="blog-card-content-service" key={index}>
                                         <Row>
                                             <Col className='ps-3 d-flex' onClick={() => setActiveService(service)}>
+
+
+
                                                 <img style={{ height: "fit-content" }} src={tick} alt='' />
                                                 <span
                                                     className="tele-service"
@@ -182,8 +185,21 @@ function Details() {
                                                         color: activeService === service ? '#C10023' : 'black'
                                                     }}
                                                 >
-                                                    {service}
+                                                    <Link to="#">                                                    {service}
+
+                                                    </Link>
                                                 </span>
+                                                <div>
+                                                </div>
+
+                                            </Col>
+
+                                        </Row>
+                                        <Row>
+                                            <Col>
+                                                <hr className='project-hr-service' />
+
+
                                             </Col>
                                         </Row>
                                     </div>

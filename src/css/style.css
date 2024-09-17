@@ -128,6 +128,17 @@
 
 
 
+.contact-btn-hover {
+  background: #FFFFFF;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+
 /* ----------------------------header-------------------------------------- */
 
 /* ---------------------------footer ------------------------------------ */
@@ -1440,6 +1451,11 @@ color: #474747;
   border: 2px solid #BBBBBB;
 }
 
+.project-hr-service {
+  border: 1px solid #BBBBBB;
+}
+
+
 .des-head {
   font-size: 40px;
   font-weight: 700;
@@ -1729,4 +1745,14 @@ button.grow_spin:hover::after {
 .icon-box img {
   width: 70%; 
   height: auto;
+}
+
+.blog-detail-section{
+  display: flex;
+  justify-content: space-between;
+}
+
+.blog-post{
+  background: #F1F1F1;
+  padding: 30px;
 }
