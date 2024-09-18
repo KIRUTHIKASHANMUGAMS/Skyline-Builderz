@@ -138,7 +138,7 @@ function Details() {
 
                                         </Col>
                                         <Col lg="6" md="6" xs="12">
-                                            <img src={construction} style={{ width: "100%" }} alt='' />
+                                            <img src={construction} style={{ width: "100%" , height:"-webkit-fill-available" }} alt='' />
                                         </Col>
                                     </Row>
 

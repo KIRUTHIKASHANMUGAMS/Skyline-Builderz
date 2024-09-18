@@ -28,12 +28,30 @@ import React, { useState } from 'react';
 function FilterPage() {
     const [showModal, setShowModal] = useState(false);
     const [selectedBlog, setSelectedBlog] = useState(null);
+    const [columns, setColumns] = useState(3);
+    const [activeIcon, setActiveIcon] = useState(sortby1);
+
+    
 
     const handleClose = () => setShowModal(false);
     const handleShow = (blog) => {
         setSelectedBlog(blog);
         setShowModal(true);
     };
+   
+
+
+    const toggleView = (colCount, icon) => {
+        setColumns(colCount);
+        setActiveIcon(icon);
+    };
+
+    const icons = [
+        { image: sortby1, columns: 3 },
+        { image: sortby2, columns: 2 },
+        { image: sortby4, columns: 1 },
+       
+    ];
 
     const blogs = [
         {
@@ -112,23 +130,29 @@ function FilterPage() {
                         <div>
 
                             <small className="about-welcome"> Sort By        <img src={Downarrow} alt="welcome" />{" "} </small>
-
-
-
-                            <img src={sortby1} alt='' className='filter-img-1' />
-
-                            <img src={sortby2} alt='' className='filter-img' />
-
-                            <img src={sortby3} alt='' className='filter-img' />
-
-                            <img src={sortby4} alt='' className='filter-img' />
+                           
+                            {icons.map((icon) => (
+                                <img
+                                    key={icon.columns}
+                                    src={icon.image}
+                                    onClick={() => toggleView(icon.columns, icon.image)}
+                                    style={{ 
+                                        cursor: 'pointer', 
+                                        opacity: activeIcon === icon.image ? 1 : 0.5, 
+                                        background: activeIcon === icon.image ? '#C10023' : '#474747'
+                                    }} 
+                                    alt='' 
+                                    className='filter-img' 
+                                />
+                            ))}
+                           
                         </div>
 
                     </div>
                     <div className='construction-blog'>
                         <Row>
                             {blogs.map((blog, index) => (
-                                <Col lg="4" md="6" xs="12" key={index}>
+                                <Col lg={12 / columns} md={6} xs="12" key={index}>
                                     <Card style={{ marginBottom: "30px" }}>
                                         <div className='card-filter'>
                                             <div style={{ textAlign: "justify" }} onClick={() => handleShow(blog)}>
@@ -171,6 +195,8 @@ function FilterPage() {
                         <Pagination.Ellipsis />
                         <Pagination.Item>{10}</Pagination.Item>
                         <Pagination.Item>{11}</Pagination.Item>
+                        <Pagination.Next />
+                        <Pagination.Last />
                     </Pagination>
                 </Container>
             </div>

@@ -12,6 +12,7 @@ import { Link } from 'react-router-dom';
 
 
 
+
 function Details() {
     const [activeCategory, setActiveCategory] = useState([0]);
     const [activeTag, setActiveTag] = useState('Design');
@@ -61,7 +62,7 @@ function Details() {
                                 <div className='construction-detail'>
 
 
-                                    <button className="filter-button-card grow_spin pt-2">Building</button>
+                                   <Link to="#" > <button className="filter-button-card grow_spin pt-2">Building</button></Link>
 
                                     <div className='blog-details-div'>
                                         <p >Home Construction In Malibu Beach, USA</p>

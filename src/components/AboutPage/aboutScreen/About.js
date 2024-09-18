@@ -12,81 +12,81 @@ function About() {
     <div>
       <div className="about-page">
 
-      
-      <Container>
-        <Row>
-          <Col lg="7" md="12" xs="12">
-            <div className="about-content-main">
-              <div className="about-content">
-                <div className="about-main">
-                  <img src={choose} alt="welcome" />{" "}
-                  <small className="about-welcome"> About Us </small>
+
+        <Container>
+          <Row>
+            <Col lg="7" md="12" xs="12">
+              <div className="about-content-main">
+                <div className="about-content">
+                  <div className="about-main">
+                    <img src={choose} alt="welcome" />{" "}
+                    <small className="about-welcome"> About Us </small>
+                  </div>
+                </div>
+                <div>
+                  <p className="about-head" style={{ paddingTop: "30px", }}>
+                    Making your vision come true at the basics.
+                  </p>
+                </div>
+                <div className="footer-right ">
+                  Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
+                  Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt
+                  auctor a ornare odio. Sed non mauris vitae erat consequat auctor
+                  eu in elit. Class aptent taciti sociosquad litora torquent per
+                  conubia nostra, per inceptos himenaeos. Mauris in erat justo.
+                  Nullam ac urna eu felis dapibus condimentum sit amet a augue.
+                </div>
+
+                <div className="about-number">
+                  <Row>
+                    <Col md="6">
+                      <div className="about-li-main">
+                        {" "}
+                        <span className="about-li"> 1 </span>{" "}
+                        <span className="about-li-content">
+                          100% Satisfaction
+                        </span>
+                      </div>
+                    </Col>
+                    <Col md="6">
+                      <div className="about-li-main">
+                        <span className="about-li"> 2 </span>{" "}
+                        <span className="about-li-content">Friendly Support</span>
+                      </div>
+                    </Col>
+
+                    <Col md="6">
+                      <div className="about-li-main">
+                        {" "}
+                        <span className="about-li"> 3 </span>{" "}
+                        <span className="about-li-content">
+                          Get Combo Offer 
+                        </span>
+                      </div>
+                    </Col>
+
+                    <Col md="6">
+                      <div className="about-li-main">
+                        <span className="about-li"> 4 </span>{" "}
+                        <span className="about-li-content">Book Appointment</span>
+                      </div>
+                    </Col>
+                  </Row>
+                  <Link to="/"> <button className='contact-btn-service grow_spin mt-3'> Discover More <img src={arrow} alt='' style={{ paddingLeft: "10px" }} /> </button>
+                  </Link>
+
                 </div>
               </div>
-              <div>
-                <p className="about-head" style={{ paddingTop: "30px" ,}}>
-                  Making your vision come true at the basics.
-                </p>
-              </div>
-              <div className="footer-right ">
-                Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
-                Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt
-                auctor a ornare odio. Sed non mauris vitae erat consequat auctor
-                eu in elit. Class aptent taciti sociosquad litora torquent per
-                conubia nostra, per inceptos himenaeos. Mauris in erat justo.
-                Nullam ac urna eu felis dapibus condimentum sit amet a augue.
-              </div>
-
-              <div className="about-number">
-                <Row>
-                  <Col md="6">
-                    <div className="about-li-main">
-                      {" "}
-                      <span className="about-li"> 1 </span>{" "}
-                      <span className="about-li-content">
-                        100% Satisfaction
-                      </span>
-                    </div>
-                  </Col>
-                  <Col md="6">
-                    <div className="about-li-main">
-                      <span className="about-li"> 2 </span>{" "}
-                      <span className="about-li-content">Friendly Support</span>
-                    </div>
-                  </Col>
-
-                  <Col md="6">
-                    <div className="about-li-main">
-                      {" "}
-                      <span className="about-li"> 3 </span>{" "}
-                      <span className="about-li-content">
-                        Get Combo Offer Exclusively
-                      </span>
-                    </div>
-                  </Col>
-
-                  <Col md="6">
-                    <div className="about-li-main">
-                      <span className="about-li"> 4 </span>{" "}
-                      <span className="about-li-content">Book Appointment</span>
-                    </div>
-                  </Col>
-                </Row>
-                <Link to="/"> <button className='contact-btn-service grow_spin mt-3'> Discover More <img src={arrow} alt='' style={{ paddingLeft: "10px" }} /> </button>
-                </Link>
-
-              </div>
-            </div>
-          </Col>
-          <Col lg="5" md="12" xs="12">
-            <img
-              src={person}
-              style={{ width: "100%"}}
-              alt=" "
-            />
-          </Col>
-        </Row>
-      </Container>
+            </Col>
+            <Col lg="5" md="12" xs="12">
+              <img
+                src={person}
+                style={{ width: "100%" }}
+                alt=" "
+              />
+            </Col>
+          </Row>
+        </Container>
       </div>
     </div>
   );

@@ -2,19 +2,20 @@
     .footer-hr {
         margin-top: 2px;
     }
-    .icon-box{
+
+    .icon-box {
         width: 44px;
         height: 44px;
     }
 
-    .about-li-content{
+    .about-li-content {
         margin-top: 8px;
     }
 
     .project-experience {
         padding-right: 0px;
     }
-  
+
     .logo-img {
         width: 39px !important;
         height: 31px !important;
@@ -799,7 +800,7 @@
     .future-provider {
         padding: 50px 20px;
     }
-   
+
 
     .blog-details {
         margin-top: -54px;
@@ -986,9 +987,12 @@
 
 @media only screen and (max-width: 1500px) and (min-width:1301px) {
 
-
     .banner-background {
         padding: 50px 40px 275px 40px;
+    }
+
+    .construction-image-background {
+        padding: 50px;
     }
 
     .contact-btn {
@@ -1041,7 +1045,7 @@
         font-size: 15px;
     }
 
-    .filter-para-details{
+    .filter-para-details {
         font-size: 15px;
     }
 }
