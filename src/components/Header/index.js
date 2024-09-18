@@ -9,7 +9,7 @@ import MobileHeader from "./MobileHeader";
 function Header() {
   const location = useLocation();
   const [isScrolled, setIsScrolled] = useState(false);
-  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 991);
 
   useEffect(() => {
     const handleScroll = () => {
