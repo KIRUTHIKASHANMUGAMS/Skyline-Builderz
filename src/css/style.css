@@ -1,4 +1,3 @@
-
 .banner-background {
   background-image: url("../images/banner.svg");
   width: 100%;
@@ -9,10 +8,12 @@
   background-size: cover;
   background-repeat: no-repeat, repeat;
 }
-.navbar-div-menu{
+
+.navbar-div-menu {
   margin-top: 12px;
   margin-bottom: 12px;
 }
+
 .banner-img {
   font-size: 18px;
   font-weight: 600;
@@ -27,10 +28,6 @@
 
 .banner-img-text {
   padding-left: 10px;
-}
-
-.contact-margin {
-  margin-left: 120px;
 }
 
 .custom-width {
@@ -59,7 +56,7 @@
 
 
 
-.fixed-top{
+.fixed-top {
   border-radius: 0px !important;
 }
 
@@ -96,9 +93,10 @@
 
 }
 
-.blog-category{
+.blog-category {
   margin-top: 50px;
 }
+
 .nav-link-spacing {
   margin: 11px 10px 0px 25px;
 }
@@ -115,7 +113,7 @@
 
 
 
- .contact-btn {
+.contact-btn {
   background-color: #ffcc29;
   border: none;
   border-radius: 10px;
@@ -146,9 +144,11 @@
   gap: 10px;
   opacity: 0px;
 }
-.footer-content-hr{
+
+.footer-content-hr {
   margin-top: 130px;
 }
+
 .footer-hr {
   border: 1.5px solid #ffffff;
   opacity: 30%;
@@ -203,13 +203,15 @@
 
 
 }
-.footer-content-head{
-font-size: 30px;
-font-weight: 700;
-line-height: 40px;
-text-align: left;
+
+.footer-content-head {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 40px;
+  text-align: left;
 
 }
+
 /*----------------------- end footer--------------------- */
 
 /* ------------- banner--------------------- */
@@ -333,7 +335,8 @@ text-align: left;
 
 
 }
-.about-page{
+
+.about-page {
   margin-top: 50px;
   margin-bottom: 100px;
 
@@ -374,16 +377,16 @@ text-align: left;
   color: #f1f1f1;
   padding: 15px 82px 15px 82px;
   gap: 0px;
-font-size: 24px;
-font-weight: 600;
-text-align: left;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: left;
 
 }
 
 
 .hover-link:hover {
   color: #C10023 !important;
-  text-decoration: underline; 
+  text-decoration: underline;
 }
 
 
@@ -402,7 +405,7 @@ text-align: left;
 }
 
 .project-li {
-  font-family:  Nunito Sans;
+  font-family: Nunito Sans;
   font-size: 20px;
   font-weight: 700;
   line-height: 30px;
@@ -477,7 +480,7 @@ text-align: left;
   align-items: left;
   gap: 10px;
   padding: 20px 0px 20px 0px;
- max-width: fit-content;
+  max-width: fit-content;
 
 }
 
@@ -546,7 +549,7 @@ text-align: left;
 .service-main-card:hover {
   background-color: #c10023;
   color: #f1f1f1;
-  
+
 }
 
 .service-main-card .footer-right-service:hover {
@@ -590,35 +593,39 @@ text-align: left;
   color: #c10023;
   text-align: left;
   padding-top: 5px;
-font-size: 18px;
-font-weight: 700;
-line-height: 28px;
-text-align: left;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: left;
 
 }
+
 .heating-service {
- margin-top: 40px; 
- margin-bottom: 50px;
+  margin-top: 40px;
+  margin-bottom: 50px;
 }
-.construct-key{
-font-size: 20px;
-font-weight: 600;
-line-height: 30px;
-text-align: left;
-color: #474747;
+
+.construct-key {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: left;
+  color: #474747;
 
 }
-.construction-main-head{
-font-size: 34px;
-font-weight: 700;
-line-height: 44px;
-text-align: left;
+
+.construction-main-head {
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 44px;
+  text-align: left;
 
 }
+
 /* ----------------- end service--------------------- */
 /* ----------blog--------------- */
 .head-main-service {
-  font-family:  Nunito Sans;
+  font-family: Nunito Sans;
   font-size: 24px;
   font-weight: 700;
   line-height: 34px;
@@ -679,7 +686,8 @@ text-align: left;
   padding: 10px 25px;
   background-color: #F1F1F1;
 }
-.blog-content-details{
+
+.blog-content-details {
   padding-top: 30px;
   padding-bottom: 30px;
 }
@@ -695,7 +703,7 @@ text-align: left;
 .service-main-card-team {
   padding: 30px 32px;
   color: #474747;
-  transition: background-color 2.5s ease; 
+  transition: background-color 2.5s ease;
 }
 
 .footer-right-service-team {
@@ -733,9 +741,10 @@ text-align: left;
   margin-top: 50px;
   padding: 90px 0px 40px 0px;
   text-align: center;
-  max-width:750px ;
+  max-width: 750px;
 }
-.project-experience li{
+
+.project-experience li {
   line-height: 50px;
 }
 
@@ -745,15 +754,17 @@ text-align: left;
   margin-top: 50px;
   padding: 100px 0px 70px 0px;
   text-align: center;
-  
-}
-.service-para{
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
-text-align: center;
 
 }
+
+.service-para {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+
+}
+
 .service-head-subscription {
   font-family: 'Courgette';
   font-size: 46px;
@@ -770,7 +781,8 @@ text-align: center;
   gap: 10px;
   padding: 10px;
 }
-.service-content-subscription-detail{
+
+.service-content-subscription-detail {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -778,15 +790,17 @@ text-align: center;
   padding-top: 10px;
   padding-bottom: 15px;
 }
+
 .subscription-li {
   padding-left: 10px;
-font-size: 16px;
-font-weight: 400;
-line-height: 25px;
-text-align: left;
-color: #474747;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  color: #474747;
 
 }
+
 .service-right-para {
   text-align: center;
 }
@@ -796,7 +810,7 @@ color: #474747;
   font-weight: 700;
   line-height: 38px;
   text-align: left;
- 
+
   margin-bottom: 0px;
   color: #000000;
 }
@@ -831,23 +845,25 @@ color: #474747;
   font-weight: 700;
   line-height: 28px;
   text-align: left;
-  
+
   margin-bottom: 30px;
 }
 
 .subscription-hr {
   border: 1.5px solid #c10023;
 }
-.subscription-card{
-  transition: background-color 2.5s ease; 
+
+.subscription-card {
+  transition: background-color 2.5s ease;
 }
 
 .subscription-card:hover {
   background-color: #c10023;
   color: #fff;
 }
-.sub-div{
- padding: 30px 30px 10px 30px;
+
+.sub-div {
+  padding: 30px 30px 10px 30px;
 }
 
 .subscription-card:hover .subscription-hr {
@@ -860,7 +876,7 @@ color: #474747;
 
 .subscription-card:hover .subscription-nu {
   color: #fff;
-  
+
 }
 
 .subscription-card:hover .subscription-charge {
@@ -887,8 +903,8 @@ color: #474747;
 /* --------------------------testimonial screen-------------- */
 .testimonial {
 
-    margin: 100px 20px 100px 20px;
-  
+  margin: 100px 20px 100px 20px;
+
 }
 
 .testimonial-head {
@@ -935,14 +951,14 @@ color: #474747;
   background-image: url("../images/aboutbanner.svg");
   width: 100%;
   background-position: center;
-  background-attachment: fixed; 
+  background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat, repeat;
 
 
 }
 
-.banner-details{
+.banner-details {
   padding: 100px 120px 90px 0px;
 }
 
@@ -1038,7 +1054,7 @@ color: #474747;
 
 .timeline {
   position: relative;
- 
+
 }
 
 .timeline-line {
@@ -1147,13 +1163,15 @@ color: #474747;
 
 
 /* --------------------blog----------------- */
-.construction-blog{
+.construction-blog {
   padding-bottom: 80px;
   padding-top: 20px;
 }
-.card-div-content{
+
+.card-div-content {
   margin-top: 20px;
 }
+
 .filter-button {
   padding: 5px 10px 5px 10px;
 
@@ -1161,13 +1179,13 @@ color: #474747;
   border: 1px solid #FFCC29;
 }
 
-.blog-details-div{
+.blog-details-div {
   padding-top: 30px;
   font-family: 'Courgette';
-    font-size: 46px;
-    font-weight: 400;
-    line-height: 56px;
-    text-align: left;
+  font-size: 46px;
+  font-weight: 400;
+  line-height: 56px;
+  text-align: left;
 }
 
 .filter-button-card {
@@ -1181,7 +1199,7 @@ color: #474747;
 
 }
 
-.filter-para-details{
+.filter-para-details {
   text-align: end;
   padding-top: 12px;
 }
@@ -1192,7 +1210,7 @@ color: #474747;
   margin-left: 10px;
 }
 
-.filter-img{
+.filter-img {
   margin-left: 10px;
 }
 
@@ -1218,7 +1236,7 @@ color: #474747;
 
 .blog-card-content {
 
- 
+
   font-size: 18px;
   font-weight: 400;
   line-height: 35px;
@@ -1308,18 +1326,19 @@ color: #474747;
   color: #fff;
   border: 1px solid #C10023;
   padding: 10px 10px;
-font-size: 24px;
-font-weight: 700;
-line-height: 34px;
-text-align: left;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 34px;
+  text-align: left;
 
 
 
 }
-.service-card-team:hover{
-color: #000000;
-background-color: #fff;
-border: 1px solid #fff;
+
+.service-card-team:hover {
+  color: #000000;
+  background-color: #fff;
+  border: 1px solid #fff;
 }
 
 .service-card-sub {
@@ -1413,15 +1432,17 @@ border: 1px solid #fff;
   margin-bottom: 10px;
 
 }
-.tele-service{
-font-size: 18px;
-font-weight: 400;
-line-height: 28px;
-text-align: left;
-color: #474747;
+
+.tele-service {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  color: #474747;
 
 
 }
+
 .project-main {
   font-size: 24px;
   font-weight: 700;
@@ -1480,9 +1501,11 @@ color: #474747;
   text-align: left;
 
 }
-.details-des-content{
+
+.details-des-content {
   padding-top: 20px;
 }
+
 .project-background-clr {
   background-color: #F1F1F1;
   padding: 20px;
@@ -1497,6 +1520,7 @@ color: #474747;
   background-size: cover;
   background-repeat: no-repeat, repeat;
 }
+
 /* .navbar-top{
   top: 50px !important;
   left: 100px !important;
@@ -1515,8 +1539,9 @@ color: #474747;
   margin-top: 50px;
   margin-bottom: 50px;
 }
- button .accordion-button{
-  position:  relative !important;
+
+button .accordion-button {
+  position: relative !important;
 }
 
 
@@ -1528,6 +1553,7 @@ a {
 .accordion-item {
   border-bottom: 1px solid #000000 !important;
 }
+
 .accordion {
   padding-top: 50px;
 }
@@ -1588,7 +1614,7 @@ a {
   padding: 12px 25px;
   cursor: pointer;
   font-weight: bold;
-  
+
 
 }
 
@@ -1610,18 +1636,25 @@ button::after {
   position: absolute;
   z-index: -1;
   display: block;
-  width: 100%; /* Cover the button fully */
-  height: 100%; /* Cover the button fully */
-  left: 0; /* Position it correctly */
-  top: 0; /* Position it correctly */
-  transform: scale(0); /* Start scaled down */
-  transition: transform 0.35s; /* Use transform for smooth transition */
+  width: 100%;
+  /* Cover the button fully */
+  height: 100%;
+  /* Cover the button fully */
+  left: 0;
+  /* Position it correctly */
+  top: 0;
+  /* Position it correctly */
+  transform: scale(0);
+  /* Start scaled down */
+  transition: transform 0.35s;
+  /* Use transform for smooth transition */
 }
 
 button[class^="slide"]:hover::after,
 button[class^="grow"]:hover::after,
 button.grow_spin:hover::after {
-  transform: scale(1); /* Scale up on hover */
+  transform: scale(1);
+  /* Scale up on hover */
 }
 
 button.grow_spin::after {
@@ -1648,14 +1681,15 @@ button.grow_spin:hover::after {
 
 
 /* Faq.css */
-.accordion-button::after{
-  position:  relative !important;
+.accordion-button::after {
+  position: relative !important;
 }
 
 
-.page-link.active, .active > .page-link{
-  background-color:#C10023 !important;
-  border: 1px solid #C10023  ;
+.page-link.active,
+.active>.page-link {
+  background-color: #C10023 !important;
+  border: 1px solid #C10023;
 }
 
 
@@ -1666,57 +1700,57 @@ button.grow_spin:hover::after {
 }
 
 .card-rotate:hover {
-  transform: rotateY(180deg); 
+  transform: rotateY(180deg);
 
 }
 
 
-.service-main-card .service-image{
+.service-main-card .service-image {
   transition: transform 2.5s ease forwards;
 
 }
 
 
 .service-main-card:hover .service-image {
-  transform: rotateY(360deg); 
+  transform: rotateY(360deg);
 
 }
 
 
 .nav-link-active {
-  color: #C10023  !important; 
+  color: #C10023 !important;
 }
 
-.form-product{
+.form-product {
   width: 81%;
 }
 
 
-.footer-image:hover{
+.footer-image:hover {
   transform: scale(1.5);
 
 }
 
 
 
-.footer-image-banner:hover{
+.footer-image-banner:hover {
   color: #C10023;
 }
 
 
-.dropdown-item:focus, 
+.dropdown-item:focus,
 .dropdown-item:hover {
-  background-color: #C10023 !important; 
+  background-color: #C10023 !important;
   color: #F1F1F1 !important;
-  
+
 }
 
 .dropdown-item {
-  padding: 10px 25px !important;
+  padding: 15px 25px !important;
 }
 
-.dropdown-menu{
-  padding: 14px 0px   !important;
+.dropdown-menu {
+  padding: 14px 0px !important;
 }
 
 
@@ -1728,32 +1762,105 @@ button.grow_spin:hover::after {
 }
 
 .icon-box {
-  width: 50px; /* Adjust size as needed */
-  height: 50px; /* Adjust size as needed */
+  width: 50px;
+  /* Adjust size as needed */
+  height: 50px;
+  /* Adjust size as needed */
   background: #FFCC29;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 5px; 
+  border-radius: 5px;
   padding: 10px;
 }
 
-.icon-box:hover{
+.icon-box:hover {
   background-color: #f1f1f1;
- 
+
 }
 
 .icon-box img {
-  width: 70%; 
+  width: 70%;
   height: auto;
 }
 
-.blog-detail-section{
+.blog-detail-section {
   display: flex;
   justify-content: space-between;
 }
 
-.blog-post{
+.blog-post {
   background: #F1F1F1;
   padding: 30px;
+}
+
+/* .nav-icon {
+  margin-top: 7px;
+} */
+
+/* MobileHeader.css */
+.mobile-header {
+  flex-direction: column;
+  align-items: baseline;
+  background-color: #f8f9fa;
+
+  padding: 15px;
+}
+
+.logo {
+  text-align: center;
+}
+
+.offcanvas {
+  background-color: #000 !important;
+  color: #F1F1F1 !important;
+}
+
+.mobile-nav a {
+  text-align: left;
+
+
+}
+
+.mobile-nav {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+}
+
+.mobile-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mobile-nav a {
+  text-decoration: none;
+  color: #ecf0f1;
+  margin: 5px 0;
+}
+
+.mobile-nav button {
+  margin-top: 10px;
+  padding: 10px 20px;
+}
+
+.offcanvas-header .btn-close {
+  color: #F1F1F1 !important;
+}
+
+.mobilebar-div {
+  border-bottom: 1px solid #252525;
+  padding: 20px 20px;
+}
+
+.drop-menu{
+  padding: 10px;
+}
+
+
+.navbar-expand-lg .navbar-nav .dropdown-menu{
+  padding-top: 0px  !important;
+  padding-bottom: 0px !important;
 }

@@ -55,54 +55,20 @@ function Subscription() {
                       </div>
 
                       <ul className="project-experience">
-                        <li>
-                          <img src={Tick} alt="" />
-                          <small className="subscription-li">
-                            Electrical Service
-                          </small>
-                        </li>
-                        <li>
-                          <img src={Tick} alt="" />
-                          <small className="subscription-li">
-                            Distribution Power Systemss
-                          </small>
-                        </li>
-                        <li>
-                          <img src={Tick} alt="" />
-                          <small className="subscription-li">
-                            High & Medium Voltages
-                          </small>
-                        </li>
-                        <li>
-                          <img src={Tick} alt="" />
-                          <small className="subscription-li">
-                            Industrial Control Systems
-                          </small>
-                        </li>
-                        <li>
-                          <img src={Tick} alt="" />
-                          <small className="subscription-li">
-                            Switch Installation
-                          </small>
-                        </li>
-                        <li>
-                          <img src={Tick} alt="" />
-                          <small className="subscription-li">
-                            Generator Installations
-                          </small>
-                        </li>
-                        <li>
-                          <img src={Tick} alt="" />
-                          <small className="subscription-li">
-                            Innovative Construction
-                          </small>
-                        </li>
+                        <p className='pb-1 d-flex'><img style={{ height: "fit-content" }} src={Tick} alt='' /><span className="subscription-li" > Electrical Service</span> </p>
+                        <p className='pb-1 d-flex'><img style={{ height: "fit-content" }} src={Tick} alt='' /><span className="subscription-li" >  Distribution Power Systems</span> </p>
+                        <p className='pb-1 d-flex'><img style={{ height: "fit-content" }} src={Tick} alt='' /><span className="subscription-li">    High & Medium Voltages</span> </p>
+                        <p className='pb-1 d-flex'><img style={{ height: "fit-content" }} src={Tick} alt='' /><span className="subscription-li" >   Industrial Control Systems</span> </p>
+                        <p className='pb-1 d-flex'><img style={{ height: "fit-content" }} src={Tick} alt='' /><span className="subscription-li">    Switch Installation     </span> </p>
+                        <p className='pb-1 d-flex'><img style={{ height: "fit-content" }} src={Tick} alt='' /><span className="subscription-li">   Generator Installations     </span> </p>
+                        <p className='pb-1 d-flex'><img style={{ height: "fit-content" }} src={Tick} alt='' /><span className="subscription-li">    Innovative Construction    </span> </p>
+
                       </ul>
                     </div>
                     <Link to="/">
-                    <button className="contact-btn-subscription grow_spin">
-                      Buy Now <small></small>{" "}
-                    </button>{" "}
+                      <button className="contact-btn-subscription grow_spin">
+                        Buy Now <small></small>{" "}
+                      </button>{" "}
                     </Link>
                   </div>
                 </Card>
@@ -110,18 +76,18 @@ function Subscription() {
               <Col lg="4" md="6" xs="12">
                 <Card style={{ marginBottom: "30px" }}>
                   <div className="subscription-card">
-                  <div className="sub-div">
+                    <div className="sub-div">
                       <Row>
-                      <Col xs={7}>
-                      <p className="subscription-head">Professional </p>
+                        <Col xs={7}>
+                          <p className="subscription-head">Professional </p>
                           <p className="subscription-nu">$ 799.00</p>
                         </Col>
                         <Col xs={5}>
-                         
-                            <button className="btn-subscription grow_spin">
-                              popular <small></small>{" "}
-                            </button>{" "}
-                       
+
+                          <button className="btn-subscription grow_spin">
+                            popular <small></small>{" "}
+                          </button>{" "}
+
                           <p className="sub-visit">Per Visit Charge</p>
                         </Col>
                       </Row>
@@ -130,55 +96,21 @@ function Subscription() {
                       </div>
 
                       <ul className="project-experience">
-                        <li>
-                          <img src={Tick} alt="" />
-                          <small className="subscription-li">
-                            PLC Controls{" "}
-                          </small>
-                        </li>
-                        <li>
-                          <img src={Tick} alt="" />
-                          <small className="subscription-li">
-                            Conveyor systems{" "}
-                          </small>
-                        </li>
-                        <li>
-                          <img src={Tick} alt="" />
-                          <small className="subscription-li">
-                            Wiring renovations{" "}
-                          </small>
-                        </li>
-                        <li>
-                          <img src={Tick} alt="" />
-                          <small className="subscription-li">
-                            Electric Water Heater Repair{" "}
-                          </small>
-                        </li>
-                        <li>
-                          <img src={Tick} alt="" />
-                          <small className="subscription-li">
-                            Service And Panel Upgrades{" "}
-                          </small>
-                        </li>
-                        <li>
-                          <img src={Tick} alt="" />
-                          <small className="subscription-li">
-                            Efficient Lighting Solutions{" "}
-                          </small>
-                        </li>
-                        <li>
-                          <img src={Tick} alt="" />
-                          <small className="subscription-li">
-                            Site lighting{" "}
-                          </small>
-                        </li>
+                        <p className='pb-1 d-flex'><img style={{ height: "fit-content" }} src={Tick} alt='' /><span className="subscription-li" >   PLC Controls</span> </p>
+                        <p className='pb-1 d-flex'><img style={{ height: "fit-content" }} src={Tick} alt='' /><span className="subscription-li" >   Conveyor systems</span> </p>
+                        <p className='pb-1 d-flex'><img style={{ height: "fit-content" }} src={Tick} alt='' /><span className="subscription-li">      Wiring renovations</span> </p>
+                        <p className='pb-1 d-flex'><img style={{ height: "fit-content" }} src={Tick} alt='' /><span className="subscription-li" > Electric Water Heater Repair</span> </p>
+                        <p className='pb-1 d-flex'><img style={{ height: "fit-content" }} src={Tick} alt='' /><span className="subscription-li">   Service And Panel Upgrades   </span> </p>
+                        <p className='pb-1 d-flex'><img style={{ height: "fit-content" }} src={Tick} alt='' /><span className="subscription-li">    Efficient Lighting Solutions    </span> </p>
+                        <p className='pb-1 d-flex'><img style={{ height: "fit-content" }} src={Tick} alt='' /><span className="subscription-li">      Site lighting    </span> </p>
+
                       </ul>
                     </div>
                     <Link to="/">
 
-                    <button className="contact-btn-subscription grow_spin">
-                      Buy Now <small></small>{" "}
-                    </button>{" "}
+                      <button className="contact-btn-subscription grow_spin">
+                        Buy Now <small></small>{" "}
+                      </button>{" "}
                     </Link>
                   </div>
                 </Card>
@@ -186,10 +118,10 @@ function Subscription() {
               <Col lg="4" md="6" xs="12">
                 <Card style={{ marginBottom: "30px" }}>
                   <div className="subscription-card">
-                  <div className="sub-div" >
+                    <div className="sub-div" >
                       <Row>
-                      <Col xs={7}>
-                      <p className="subscription-head">Standard</p>
+                        <Col xs={7}>
+                          <p className="subscription-head">Standard</p>
                           <p className="subscription-nu">$ 499.00</p>
                         </Col>
                         <Col xs={5}>
@@ -203,55 +135,22 @@ function Subscription() {
                       </div>
 
                       <ul className="project-experience">
-                        <li>
-                          <img src={Tick} alt="" />
-                          <small className="subscription-li">
-                            Cable Tray Installations{" "}
-                          </small>
-                        </li>
-                        <li>
-                          <img src={Tick} alt="" />
-                          <small className="subscription-li">
-                            Wiring Upgrades{" "}
-                          </small>
-                        </li>
-                        <li>
-                          <img src={Tick} alt="" />
-                          <small className="subscription-li">
-                            Energy Efficient Lighting{" "}
-                          </small>
-                        </li>
-                        <li>
-                          <img src={Tick} alt="" />
-                          <small className="subscription-li">
-                            Emergency Generating{" "}
-                          </small>
-                        </li>
-                        <li>
-                          <img src={Tick} alt="" />
-                          <small className="subscription-li">
-                            Pools And Hot Tubs
-                          </small>
-                        </li>
-                        <li>
-                          <img src={Tick} alt="" />
-                          <small className="subscription-li">
-                            Air Conditioning Units
-                          </small>
-                        </li>
-                        <li>
-                          <img src={Tick} alt="" />
-                          <small className="subscription-li">
-                            Generating Systems{" "}
-                          </small>
-                        </li>
+
+                        <p className='pb-1 d-flex'><img style={{ height: "fit-content" }} src={Tick} alt='' /><span className="subscription-li" >  Cable Tray Installations</span> </p>
+                        <p className='pb-1 d-flex'><img style={{ height: "fit-content" }} src={Tick} alt='' /><span className="subscription-li">   Wiring Upgrades</span> </p>
+                        <p className='pb-1 d-flex'><img style={{ height: "fit-content" }} src={Tick} alt='' /><span className="subscription-li" >  Energy Efficient Lighting</span> </p>
+                        <p className='pb-1 d-flex'><img style={{ height: "fit-content" }} src={Tick} alt='' /><span className="subscription-li">       Emergency Generating  </span> </p>
+                        <p className='pb-1 d-flex'><img style={{ height: "fit-content" }} src={Tick} alt='' /><span className="subscription-li">    Pools And Hot Tubs   </span> </p>
+                        <p className='pb-1 d-flex'><img style={{ height: "fit-content" }} src={Tick} alt='' /><span className="subscription-li">    Air Conditioning Units    </span> </p>
+                        <p className='pb-1 d-flex'><img style={{ height: "fit-content" }} src={Tick} alt='' /><span className="subscription-li" >     Generating Systems</span> </p>
+
                       </ul>
                     </div>
                     <Link to="/">
 
-                    <button className="contact-btn-subscription grow_spin">
-                      Buy Now <small></small>{" "}
-                    </button>{" "}
+                      <button className="contact-btn-subscription grow_spin">
+                        Buy Now <small></small>{" "}
+                      </button>{" "}
                     </Link>
                   </div>
                 </Card>

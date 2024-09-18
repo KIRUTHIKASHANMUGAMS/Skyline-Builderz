@@ -756,7 +756,21 @@
 
 }
 
+@media only screen and (max-width:991px){
+    .custom-width {
+        flex-direction: column;
 
+    }
+
+    .nav-auto {
+        justify-content: flex-start;
+        width: 100%;
+    }
+    .contact-margin{
+        margin-left: 0px;
+    }
+
+}
 
 
 @media only screen and (max-width: 1300px) and (min-width:770px) {
@@ -818,20 +832,11 @@
     }
 
 
-    .contact-margin {
-        margin-left: 75px;
-    }
-
+   
 
     .service-main-card-blog {
         padding: 10px;
         padding-bottom: 20px;
-    }
-
-
-
-    .contact-margin {
-        margin-left: 45px;
     }
 
     .service-page {
