@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Construction from "../../../images/construction.svg"
+import Construction from "../../../images/blog2.webp"
 import { Container, Col, Row } from 'react-bootstrap'
 import quotation1 from "../../../images/quotation1.svg"
 import quotation2 from "../../../images/quotation2.svg"

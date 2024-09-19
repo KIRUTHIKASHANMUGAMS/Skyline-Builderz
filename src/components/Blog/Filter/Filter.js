@@ -2,20 +2,19 @@ import { Col, Container, Row, Card, Modal } from 'react-bootstrap';
 import Filter from "../../../images/filter.svg";
 import sortby1 from "../../../images/sortby1.svg";
 import sortby2 from "../../../images/sortby2.svg";
-import sortby3 from "../../../images/sortby3.svg";
 import sortby4 from "../../../images/sortby4.svg";
 import Downarrow from "../../../images/downarrow.svg"
-import Blog1 from '../../../images/blog 1.svg';
+import Blog1 from '../../../images/blog1.webp';
 
-import Blog2 from '../../../images/blog2.svg';
+import Blog2 from '../../../images/blog2.webp';
 
-import Blog3 from '../../../images/blog3.svg';
+import Blog3 from '../../../images/blog3.webp';
 
-import Blog4 from '../../../images/blog4.svg';
+import Blog4 from '../../../images/blog4.webp';
 
-import Blog5 from '../../../images/blog5.svg';
+import Blog5 from '../../../images/blog5.webp';
 
-import Blog6 from '../../../images/blog6.svg';
+import Blog6 from '../../../images/blog6.webp';
 import BlogPerson1 from "../../../images/blog-person-1.svg"
 import BlogPerson2 from "../../../images/blog-person-2.svg"
 

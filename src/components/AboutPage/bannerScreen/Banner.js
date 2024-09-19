@@ -9,11 +9,11 @@ function Banner() {
       <div className="background-banner">
         <Container>
           <div className="banner-details">
-            <p className="banner-content">About Us</p>
+            <p className="banner-content">About </p>
             <div className="banner-text">
               <Link
                 to="/"><span className="footer-image-banner"> Home </span></Link>
-              <FaHome/> <span style={{ color: "#FFCC29" }}> About us</span>{" "}
+              <FaHome/> <span style={{ color: "#FFCC29" }}> About </span>{" "}
             </div>
           </div>
         </Container>

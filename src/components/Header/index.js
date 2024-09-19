@@ -53,16 +53,16 @@ function Header() {
                 <Nav.Link as={Link} to="/about" className={`nav-link-spacing ${location.pathname === '/about' ? 'nav-link-active' : ''}`}>
                   About
                 </Nav.Link>
-                <NavDropdown title="Service" id="basic-nav-dropdown" className={`nav-link-spacing ${location.pathname.startsWith('/service') ? 'nav-link-active' : ''}`}>
-                  <NavDropdown.Item as={Link} to="/service">Service</NavDropdown.Item>
+                <NavDropdown title="Services" id="basic-nav-dropdown" className={`nav-link-spacing ${location.pathname.startsWith('/service') ? 'nav-link-active' : ''}`}>
+                  <NavDropdown.Item as={Link} to="/service">Services</NavDropdown.Item>
                   <NavDropdown.Item as={Link} to="/service-details">Service Detail</NavDropdown.Item>
                 </NavDropdown>
-                <NavDropdown title="Blog" id="basic-nav-dropdown" className={`nav-link-spacing ${location.pathname.startsWith('/blog') ? 'nav-link-active' : ''}`}>
-                  <NavDropdown.Item as={Link} to="/blog">Blog</NavDropdown.Item>
+                <NavDropdown title="Blogs" id="basic-nav-dropdown" className={`nav-link-spacing ${location.pathname.startsWith('/blog') ? 'nav-link-active' : ''}`}>
+                  <NavDropdown.Item as={Link} to="/blog">Blogs</NavDropdown.Item>
                   <NavDropdown.Item as={Link} to="/blog-details">Blog Detail</NavDropdown.Item>
                 </NavDropdown>
-                <NavDropdown title="Project" id="basic-nav-dropdown" className={`nav-link-spacing ${location.pathname.startsWith('/project') ? 'nav-link-active' : ''}`}>
-                  <NavDropdown.Item as={Link} to="/project">Project</NavDropdown.Item>
+                <NavDropdown title="Pages" id="basic-nav-dropdown" className={`nav-link-spacing ${location.pathname.startsWith('/project') ? 'nav-link-active' : ''}`}>
+                  <NavDropdown.Item as={Link} to="/project">Projects</NavDropdown.Item>
                   <NavDropdown.Item as={Link} to="/project-details">Project Detail</NavDropdown.Item>
                 </NavDropdown>
               </Nav>

@@ -7,9 +7,9 @@ import Card from "react-bootstrap/Card";
 import person from "../../../images/person.svg";
 import clock from "../../../images/clock.svg";
 import { Link } from "react-router-dom";
-import Blog1 from '../../../images/blog 1.svg';
-import Blog2 from '../../../images/blog2.svg';
-import Blog3 from '../../../images/blog3.svg';
+import Blog1 from '../../../images/blog1.webp';
+import Blog2 from '../../../images/blog2.webp';
+import Blog3 from '../../../images/blog3.webp';
 
 
 

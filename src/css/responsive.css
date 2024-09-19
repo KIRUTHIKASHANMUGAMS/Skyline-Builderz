@@ -531,6 +531,10 @@
     }
 
 
+    .about-screen{
+        padding-bottom: 10px;
+    }
+
 }
 
 @media only screen and (max-width: 768px) and (min-width:501px) {
@@ -768,6 +772,10 @@
     }
     .contact-margin{
         margin-left: 0px;
+    }
+
+    .according-main{
+        margin-top: 50px;
     }
 
 }

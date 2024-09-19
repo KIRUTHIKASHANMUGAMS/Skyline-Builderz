@@ -34,7 +34,7 @@ function Experience() {
                   <small className="about-welcome"> Experience </small>
                 </div>
                 <p className="info-head-experience">
-                  Let’s Build Somethin Creative Together{" "}
+                  Let’s Build Something Creative Together{" "}
                 </p>
                 <p className="footer-right-experience ">
                   Pellentesque vehicula eros neque, maximus mattis est sagittis

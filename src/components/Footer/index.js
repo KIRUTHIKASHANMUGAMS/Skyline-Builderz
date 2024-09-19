@@ -115,10 +115,10 @@ function Footer() {
 
               <Col lg={2} md={4} sm={6} xs={12} className="pb-3">
                 <div className="footer-contact ">
-                  <h5 className="pb-2  ps-3 footer-content-head">Quick Link</h5>
+                  <h5 className="pb-2  ps-3 footer-content-head">Quick Links</h5>
                   <ul >
                     <li>
-                      <p><Link className="hover-link" to="/#"> Terms and Condition </Link></p>
+                      <p><Link className="hover-link" to="/#"> Terms and Conditions </Link></p>
                     </li>
                     <li>
                       <p> <Link className="hover-link" to="/#">Privacy Policy</Link></p>
