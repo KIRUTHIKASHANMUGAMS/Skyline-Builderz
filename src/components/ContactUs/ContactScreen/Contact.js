@@ -42,7 +42,7 @@ function Contact() {
               </Row>
               <Row className="mb-4">
                 <Col>
-                  <Form.Control size="lg" placeholder="Address" />
+                  <Form.Control size="lg" placeholder="Email" />
                 </Col>
               </Row>
               <Row className="mb-4">

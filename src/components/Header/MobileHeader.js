@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { FaBars, FaTimes, FaPlus, FaMinus } from "react-icons/fa";
 import logo from "../../images/logo.svg";
 import Offcanvas from 'react-bootstrap/Offcanvas';
+import { Container } from "react-bootstrap";
 
 function MobileHeader(...props) {
     const [isOpen, setIsOpen] = useState(false);
@@ -29,6 +30,7 @@ function MobileHeader(...props) {
     };
 
     return (
+        <Container>
         <div className="mobile-header">
             <div className="mobile-between">
                 <div className="logo">
@@ -56,14 +58,14 @@ function MobileHeader(...props) {
                         </div>
 
                         {/* Services Dropdown */}
-                        <div onClick={() => handleDropDown('services')} className="mobilebar-div" style={{ cursor: "pointer", display: "flex", justifyContent: "space-between" }}>
-                        <Link to="#" >Service</Link>
+                        <div onClick={() => handleDropDown('services')} className="mobilebar-div" style={{ cursor: "pointer", display: "flex", justifyContent: "space-between" ,alignItems:"center" }}>
+                        <Link to="#" >Services</Link>
                             {dropdowns.services ? <FaMinus fill="white" /> : <FaPlus fill="white" />}
                         </div>
                         {dropdowns.services && (
                             <div className="drop-menu">
                                 <div className="mobilebar-div">
-                                    <Link to="/service" style={{paddingLeft:"10px"}} onClick={handleClose}>Service</Link>
+                                    <Link to="/service" style={{paddingLeft:"10px"}} onClick={handleClose}>Services</Link>
                                 </div>
                                 <div className="mobilebar-div">
                                     <Link to="/service-details" style={{paddingLeft:"10px"}} onClick={handleClose}>Service Detail</Link>
@@ -72,14 +74,14 @@ function MobileHeader(...props) {
                         )}
 
                         {/* Blog Dropdown */}
-                        <div onClick={() => handleDropDown('blog')} className="mobilebar-div" style={{ cursor: "pointer", display: "flex", justifyContent: "space-between" }}>
-                        <Link to="#" >Blog</Link>
+                        <div onClick={() => handleDropDown('blog')} className="mobilebar-div" style={{ cursor: "pointer", display: "flex", justifyContent: "space-between",alignItems:"center" }}>
+                        <Link to="#" >Blogs</Link>
                             {dropdowns.blog ? <FaMinus fill="white" /> : <FaPlus fill="white" />}
                         </div>
                         {dropdowns.blog && (
                             <div>
                                 <div className="mobilebar-div">
-                                    <Link to="/blog" style={{paddingLeft:"10px"}} onClick={handleClose}>Blog</Link>
+                                    <Link to="/blog" style={{paddingLeft:"10px"}} onClick={handleClose}>Blogs</Link>
                                 </div>
                                 <div className="mobilebar-div">
                                     <Link to="/blog-details" style={{paddingLeft:"10px"}} onClick={handleClose}>Blog Detail</Link>
@@ -88,14 +90,14 @@ function MobileHeader(...props) {
                         )}
 
                         {/* Pages Dropdown */}
-                        <div onClick={() => handleDropDown('pages')} className="mobilebar-div" style={{ cursor: "pointer", display: "flex", justifyContent: "space-between" }}>
+                        <div onClick={() => handleDropDown('pages')} className="mobilebar-div" style={{ cursor: "pointer", display: "flex", justifyContent: "space-between",alignItems:"center" }}>
                         <Link to="#" >Pages</Link>
                             {dropdowns.pages ? <FaMinus fill="white" /> : <FaPlus fill="white" />}
                         </div>
                         {dropdowns.pages && (
                             <div className="drop-menu">
                                 <div className="mobilebar-div">
-                                    <Link to="/project" style={{paddingLeft:"10px"}} onClick={handleClose}>Project</Link>
+                                    <Link to="/project" style={{paddingLeft:"10px"}} onClick={handleClose}>Projects</Link>
                                 </div>
                                 <div className="mobilebar-div">
                                     <Link to="/project-details" style={{paddingLeft:"10px"}} onClick={handleClose}>Project Detail</Link>
@@ -112,6 +114,7 @@ function MobileHeader(...props) {
                 )}
             </Offcanvas>
         </div>
+        </Container>
     );
 }
 

@@ -34,7 +34,7 @@ function Experience() {
                   <small className="about-welcome"> Experience </small>
                 </div>
                 <p className="info-head-experience">
-                  Let’s Build Somethin Creative Together{" "}
+                  Let’s Build Something Creative Together{" "}
                 </p>
                 <p className="footer-right-experience ">
                   Pellentesque vehicula eros neque, maximus mattis est sagittis
@@ -89,13 +89,14 @@ function Experience() {
                 <div className="timeline">
                   <div className="timeline-line"></div> {/* Vertical line */}
                   {experiences.map((item, index) => (
-                    <div className="timeline-item" key={index}>
-                      <div className="timeline-year">{item.year}</div>
-                      <div className="timeline-content">
-                        <div className="timeline-circle"></div>
-                        {item.description}
-                      </div>
-                    </div>
+                     <div className="timeline-item" key={index}>
+                     <div className="timeline-arrow"></div> {/* Arrow mark */}
+                     <div className="timeline-circle"></div>
+                     <div className="timeline-year">{item.year}</div>
+                     <div className="timeline-content">
+                       {item.description}
+                     </div>
+                   </div>
                   ))}
                 </div>
               </Col>

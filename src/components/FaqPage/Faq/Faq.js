@@ -1,97 +1,92 @@
-import React from 'react'
+import React, { useState } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import image from "../../../images/faq-image.svg";
-import Accordion from 'react-bootstrap/Accordion';
+import image from "../../../images/faq-image.webp";
+import { FaPlus, FaMinus } from "react-icons/fa";
 
 function Faq() {
+    const [expandedIndex, setExpandedIndex] = useState(null); 
+
+    const according = [
+        {
+            heading: "What is Agency?",
+            content: "Improve efficiency, provide a better customer experience with modern technology services available around."
+        },
+        {
+            heading: "Nulla vitae est risus. Aenean aliquam dolor a massa?",
+            content: "Improve efficiency, provide a better customer experience with modern technology services available around."
+        },
+        {
+            heading: "Pellentesque habitant morbi tristique senectus?",
+            content: "Improve efficiency, provide a better customer experience with modern technology services available around."
+        },
+        {
+            heading: "Habitant morbi tristique senectus?",
+            content: "Improve efficiency, provide a better customer experience with modern technology services available around."
+        },
+        {
+            heading: "What should be listed on a business card?",
+            content: "Improve efficiency, provide a better customer experience with modern technology services available around."
+        },
+        {
+            heading: "Why we are the best company?",
+            content: "Improve efficiency, provide a better customer experience with modern technology services available around."
+        },
+        {
+            heading: "How the template process works?",
+            content: "Improve efficiency, provide a better customer experience with modern technology services available around."
+        },
+        {
+            heading: "Company mission & vision?",
+            content: "Improve efficiency, provide a better customer experience with modern technology services available around."
+        },
+    ];
+
+    const toggleContent = (index) => {
+        setExpandedIndex(expandedIndex === index ? null : index); 
+    };
+
     return (
         <div>
             <div className='faq-div'>
                 <Container>
                     <div>
-                        <p className="about-head">Frequently Asked Questions </p>
+                        <p className="about-head">Frequently Asked Questions</p>
                         <br />
                     </div>
                     <Row>
                         <Col lg="6">
-
                             <img src={image} alt='' width="85%" />
                         </Col>
                         <Col lg="6">
+                        <div className='according-main'>
+                        {according.map((item, index) => (
+                                <div className="according-div" key={index}>
+                                    <div
 
-                            <Accordion defaultActiveKey={['0']} alwaysOpen>
-                                <Accordion.Item eventKey="0">
-                                    <Accordion.Header>What is Agency ?</Accordion.Header>
-                                    <Accordion.Body >
-                                        Improve efficiency, provide a better customer experience with
-                                        modern technolo services available around Improve efficiency,
-                                        provide a better customer experience
-                                    </Accordion.Body>
-                                </Accordion.Item>
-                                <Accordion.Item eventKey="1">
-                                    <Accordion.Header>Nulla vitae est risus. Aenean aliquam dolor a massa ?</Accordion.Header>
-                                    <Accordion.Body>
-                                        Improve efficiency, provide a better customer experience with
-                                        modern technolo services available around Improve efficiency,
-                                        provide a better customer experience
-                                    </Accordion.Body>
-                                </Accordion.Item>
-                                <Accordion.Item eventKey="3">
-                                    <Accordion.Header>Pellentesque habitant morbi tristique senectus ?</Accordion.Header>
-                                    <Accordion.Body>
-                                        Improve efficiency, provide a better customer experience with
-                                        modern technolo services available around Improve efficiency,
-                                        provide a better customer experience
-                                    </Accordion.Body>
-                                </Accordion.Item>
-                                <Accordion.Item eventKey="4">
-                                    <Accordion.Header>Habitant morbi tristique senectus ?</Accordion.Header>
-                                    <Accordion.Body>
-                                        Improve efficiency, provide a better customer experience with
-                                        modern technolo services available around Improve efficiency,
-                                        provide a better customer experience
-                                    </Accordion.Body>
-                                </Accordion.Item>
-                                <Accordion.Item eventKey="5">
-                                    <Accordion.Header>What should be listed on a business card?</Accordion.Header>
-                                    <Accordion.Body>
-                                        Improve efficiency, provide a better customer experience with
-                                        modern technolo services available around Improve efficiency,
-                                        provide a better customer experience
-                                    </Accordion.Body>
-                                </Accordion.Item>
-                                <Accordion.Item eventKey="6">
-                                    <Accordion.Header>Why we are best company?</Accordion.Header>
-                                    <Accordion.Body>
-                                        Improve efficiency, provide a better customer experience with
-                                        modern technolo services available around Improve efficiency,
-                                        provide a better customer experience
-                                    </Accordion.Body>
-                                </Accordion.Item>
-                                <Accordion.Item eventKey="7">
-                                    <Accordion.Header>How the template process works?</Accordion.Header>
-                                    <Accordion.Body>
-                                        Improve efficiency, provide a better customer experience with
-                                        modern technolo services available around Improve efficiency,
-                                        provide a better customer experience
-                                    </Accordion.Body>
-                                </Accordion.Item>
-                                <Accordion.Item eventKey="8">
-                                    <Accordion.Header>Company mission & vision?</Accordion.Header>
-                                    <Accordion.Body>
-                                        Improve efficiency, provide a better customer experience with
-                                        modern technolo services available around Improve efficiency,
-                                        provide a better customer experience
-                                    </Accordion.Body>
-                                </Accordion.Item>
-                            </Accordion>
+                                        style={{ cursor: "pointer", display: "flex", justifyContent: "space-between", alignItems: "center" }}
+                                        onClick={() => toggleContent(index)}
+                                    >
+                                        <span className='according-heading'>{item.heading}</span>
+                                       <div style={{paddingLeft:"10px"}}> {expandedIndex === index ? <FaMinus size={20} fill="#C10023" /> : <FaPlus  size={20}  fill="#C10023" />}</div>
+                                    </div>
 
+
+
+                                    {expandedIndex === index && (
+                                        <div className='according-content'>
+                                            {item.content}
+                                        </div>
+                                    )}
+                                </div>
+                            ))}
+                        </div>
+                           
                         </Col>
                     </Row>
                 </Container>
             </div>
         </div>
-    )
+    );
 }
 
-export default Faq
+export default Faq;

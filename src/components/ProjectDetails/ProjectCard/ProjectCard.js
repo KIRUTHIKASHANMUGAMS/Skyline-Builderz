@@ -1,8 +1,8 @@
 import React from 'react'
 import { Container, Row ,Col ,Card} from 'react-bootstrap';
-import person4 from "../../../images/person-detail-4.svg";
-import person5 from "../../../images/person-detail-5.svg";
-import person6 from "../../../images/person-detail-6.svg";
+import person4 from "../../../images/person-detail-4.webp";
+import person5 from "../../../images/person-detail-5.webp";
+import person6 from "../../../images/person-detail-6.webp";
 
 function ProjectCard() {
   return (

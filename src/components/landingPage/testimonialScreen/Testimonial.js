@@ -6,9 +6,9 @@ import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import { Card, Row, Col } from 'react-bootstrap';
 import star from "../../../images/Star.svg";
-import testmonial3 from "../../../images/testmonial3.svg";
-import testmonial1 from "../../../images/testmonial1.svg";
-import testmonial2 from "../../../images/testmonial2.svg";
+import testmonial3 from "../../../images/testimonial3.webp";
+import testmonial1 from "../../../images/testimonial1.webp";
+import testmonial2 from "../../../images/testimonial2.webp";
 import qoutes from "../../../images/quotes.svg";
 import choose from "../../../images/choose.svg";
 import Container from "react-bootstrap/Container";
@@ -35,6 +35,7 @@ const testimonials = [
 ];
 
 const TestimonialsCarousel = () => {
+  
   return (
     <div>
       <Container fluid>
@@ -65,14 +66,17 @@ const TestimonialsCarousel = () => {
             loop
             center
             margin={10}
-            autoplay
-            autoplayTimeout={5000}
+
+               autoplay
+              autoplayTimeout={5000}
             smartSpeed={450}
             animateOut="fadeOut"
             animateIn="fadeIn"
             responsive={{
               0: { items: 1 },
-              768: { items: 2 },
+              605:{items:2},
+              749: { items: 3 },
+              768:{items:2},
               1170: { items: 3 },
             }}
           >
@@ -81,7 +85,8 @@ const TestimonialsCarousel = () => {
                 <Card className="testimonial-card-details" style={{ marginBottom: "30px" }}>
                   <Row>
                     <Col md="5">
-                      <Card.Img variant="left" style={{ width: "100%" }} src={testimonial.imgSrc} />
+                
+                      <Card.Img variant="left" style={{ width: "100%" , objectFit:"cover" }} src={testimonial.imgSrc} />
                     </Col>
                     <Col md="7">
                       <div className="testimonial-main">

@@ -1,12 +1,12 @@
 import React, { useState } from 'react'
 import { Container, Col, Row } from 'react-bootstrap'
-import person from "../../../images/person-1.svg";
+import person from "../../../images/person-1.webp";
 import clock from "../../../images/clock-service.svg";
 import price from "../../../images/price-service.svg";
 import technology from "../../../images/techno-service.svg";
 import estimate from "../../../images/estimate-sevice.svg";
 import tick from "../../../images/tick.svg";
-import construction from "../../../images/construction-details.svg";
+import construction from "../../../images/construction-details.webp";
 import { Link } from 'react-router-dom';
 
 
@@ -155,11 +155,11 @@ function Details() {
 
                             <div className='blog-main-details'>
                                 <div className="construction-image-background">
-                                    <p className='discount-content'>Providing Varity
-                                        Electical Services</p>
+                                    <p className='discount-content'>Providing Variety
+                                        Electrical Services</p>
                                     < Link to="#">   <button className='discount-button grow_spin'>
                                         Discount 25% <br />
-                                        Rewiring Services
+                                        <span style={{fontWeight:"bold"}}>Rewiring Services</span>
                                     </button></Link>
                                     < Link to="#"><p className='discount-content pt-2'>Click to Get Discount</p></Link>
 
@@ -170,7 +170,7 @@ function Details() {
 
 
                             <div className='pt-5' style={{ textAlign: "justify" }}>
-                                <p className="blog-card-main">Our Services</p>
+                                <p className='construction-main-head'>Our Services</p>
                                 {services.map((service, index) => (
                                     <div className="blog-card-content-service" key={index}>
                                         <Row>
@@ -183,7 +183,7 @@ function Details() {
                                                     className="tele-service"
                                                     style={{
                                                         marginLeft: "14px",
-                                                        color: activeService === service ? '#C10023' : 'black'
+                                                        color: activeService === service ? '#C10023' : '#474747'
                                                     }}
                                                 >
                                                     <Link to="#">                                                    {service}

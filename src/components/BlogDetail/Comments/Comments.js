@@ -17,96 +17,86 @@ function Comments() {
                 <Row>
                     <Col lg="9">
                         <p className="construction-main-head construction-details-head">Comments</p>
-                        <Row className='comment-contents' >
 
 
-                            <Col lg="1" md="2"  xs="3">
-                                <div className='d-flex justify-content-end'>   <img src={blog} alt='' className='command-image'/></div>
+                        <div className='comment-contents'>
 
-                            </Col>
-                            <Col lg="10" md="10" xs="9">
-                                <div style={{ textAlign: "start" }}>
-                                    <p className="construction-main-head">Darlene Robertson</p>
-                                    <p className="blog-card-content">1 Month ago</p>
-                                    <p className="blog-card-content">Sed sed risus pretium quam vulputate dignissim suspendisse in est. In dictum non consectetur a erat nam at lectus.</p>
+                            <div>   <img src={blog} alt='' className='command-image' /></div>
 
-                                    <Row>
-                                        <Col lg="2" xs="6"><img src={like} alt='' /> <span>158</span></Col>
-                                        <Col lg="2" xs="6"><img src={chat} alt="" /> <span>Reply</span></Col>
 
-                                    </Row>
+                            <div style={{ textAlign: "start", marginLeft: "20px" }}>
+                                <p className="construction-main-head">Darlene Robertson</p>
+                                <p className="blog-card-content">1 Month ago</p>
+                                <p className="blog-card-content">Sed sed risus pretium quam vulputate dignissim suspendisse in est. In dictum non consectetur a erat nam at lectus.</p>
+
+                                <div style={{display:"flex"}} >
+                                   <p><img src={like} alt='' /> <span>158</span></p> 
+                                    <p style={{marginLeft:"30px"}}><img src={chat}  alt="" /> <span>Reply</span></p>
                                 </div>
 
 
-                            </Col>
-                        </Row>
-                        <Row className='comment-contents' >
-                            <Col lg="1" md="2"  xs="3">
-                                <div className='d-flex justify-content-end'>   <img src={blog2} alt='' className='command-image' /></div>
-                            </Col>
-                            <Col lg="10" md="10" xs="9">
-                                <div style={{ textAlign: "start" }}>
-                                    <p className="construction-main-head">Wade Warren</p>
-                                    <p className="blog-card-content">1 Month ago</p>
-                                    <p className="blog-card-content">Sed sed risus pretium quam vulputate dignissim suspendisse in est. In dictum non consectetur a erat nam at lectus.</p>
 
-                                    <Row>
-                                        <Col lg="2" xs="6"><img src={like} alt='' /> <span>158</span></Col>
-                                        <Col lg="2" xs="6"><img src={chat} alt="" /> <span>Reply</span></Col>
+                            </div>
 
-                                    </Row>
+
+                        </div>
+                        <div className='comment-contents'>
+
+                            <div>   <img src={blog2} alt='' className='command-image' /></div>
+
+                            <div style={{ textAlign: "start", marginLeft: "20px" }}>
+                                <p className="construction-main-head">Wade Warren</p>
+                                <p className="blog-card-content">1 Month ago</p>
+                                <p className="blog-card-content">Sed sed risus pretium quam vulputate dignissim suspendisse in est. In dictum non consectetur a erat nam at lectus.</p>
+
+                          
+                                <div style={{display:"flex"}} >
+                                   <p><img src={like} alt='' /> <span>158</span></p> 
+                                    <p style={{marginLeft:"30px"}}><img src={chat}  alt="" /> <span>Reply</span></p>
                                 </div>
 
+                            </div>
 
-                            </Col>
-                        </Row>
+                        </div>
                         <div className='comment-margin'>
-                        <Row className='comment-contents '  >
-                        
+                            <div className='comment-contents'>
 
-                           
-                            <Col lg="1" md="2"  xs="3">
-                                <div className='d-flex justify-content-end'>   <img src={blog3} alt='' className='command-image' /></div>
-                            </Col>
-                            <Col lg="10" md="10" xs="9">
-                                <div style={{ textAlign: "start" }}>
+                                <div >   <img src={blog3} alt='' className='command-image' /></div>
+
+                                <div style={{ textAlign: "start", marginLeft: "20px" }}>
                                     <p className="construction-main-head">Annette Black</p>
                                     <p className="blog-card-content">1 Month ago</p>
                                     <p className="blog-card-content">Sed sed risus pretium quam vulputate dignissim suspendisse in est. In dictum non consectetur a erat nam at lectus.</p>
 
-                                    <Row>
-                                        <Col lg="2" xs="6"><img src={like} alt='' /> <span>158</span></Col>
-                                        <Col lg="2" xs="6"><img src={chat} alt="" /> <span>Reply</span></Col>
-
-                                    </Row>
+                               
+                                    <div style={{display:"flex"}} >
+                                   <p><img src={like} alt='' /> <span>158</span></p> 
+                                    <p style={{marginLeft:"30px"}}><img src={chat}  alt="" /> <span>Reply</span></p>
                                 </div>
 
+                                </div>
 
-                            </Col>
-                        
-                        </Row>
+                            </div>
                         </div>
 
-                        <Row className='comment-contents' >
-                            <Col lg="1" md="3" xs="3"> 
-                                <div className='d-flex justify-content-end'>   <img src={blog4} alt='' className='command-image' /></div>
-                            </Col>
-                            <Col lg="10" md="9" xs="9">
-                                <div style={{ textAlign: "start" }}>
-                                    <p className="construction-main-head">Ralph Edwards</p>
-                                    <p className="blog-card-content">1 Month ago</p>
-                                    <p className="blog-card-content">Sed sed risus pretium quam vulputate dignissim suspendisse in est. In dictum non consectetur a erat nam at lectus.</p>
+                        <div className='comment-contents'>
 
-                                    <Row>
-                                        <Col lg="2" xs="6"><img src={like} alt='' /> <span>158</span></Col>
-                                        <Col lg="2" xs="6"><img src={chat} alt="" /> <span>Reply</span></Col>
+                            <div >   <img src={blog4} alt='' className='command-image' /></div>
 
-                                    </Row>
+                            <div style={{ textAlign: "start", marginLeft: "20px" }}>
+                                <p className="construction-main-head">Ralph Edwards</p>
+                                <p className="blog-card-content">1 Month ago</p>
+                                <p className="blog-card-content">Sed sed risus pretium quam vulputate dignissim suspendisse in est. In dictum non consectetur a erat nam at lectus.</p>
+
+                                <div style={{display:"flex"}} >
+                                   <p><img src={like} alt='' /> <span>158</span></p> 
+                                    <p style={{marginLeft:"30px"}}><img src={chat}  alt="" /> <span>Reply</span></p>
                                 </div>
 
+                            </div>
 
-                            </Col>
-                        </Row>
+
+                        </div>
                     </Col>
                 </Row>
 

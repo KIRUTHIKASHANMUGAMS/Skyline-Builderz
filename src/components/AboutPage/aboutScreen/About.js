@@ -40,36 +40,35 @@ function About() {
                 <div className="about-number">
                   <Row>
                     <Col md="6">
-                      <div className="about-li-main">
-                        {" "}
-                        <span className="about-li"> 1 </span>{" "}
-                        <span className="about-li-content">
-                          100% Satisfaction
-                        </span>
-                      </div>
+                    <div className="about-li-main">
+                    <p className='pb-1 d-flex align-items-center'> <span className="about-li"> 1 </span>{" "}<span className="about-li-content" style={{ marginLeft: "20px" }}>                          100% Satisfaction
+                    </span> </p>
+                  </div>
+
+                     
                     </Col>
                     <Col md="6">
-                      <div className="about-li-main">
-                        <span className="about-li"> 2 </span>{" "}
-                        <span className="about-li-content">Friendly Support</span>
-                      </div>
+                    <div className="about-li-main">
+                    <p className='pb-1 d-flex align-items-center'> <span className="about-li"> 2 </span>{" "}<span className="about-li-content" style={{ marginLeft: "20px" }}>                       
+                    Friendly Support</span> </p>
+                  </div>
+                  
                     </Col>
 
                     <Col md="6">
-                      <div className="about-li-main">
-                        {" "}
-                        <span className="about-li"> 3 </span>{" "}
-                        <span className="about-li-content">
-                          Get Combo Offer 
-                        </span>
-                      </div>
+                    <div className="about-li-main">
+                    <p className='pb-1 d-flex align-items-center'> <span className="about-li"> 3 </span>{" "}<span className="about-li-content" style={{ marginLeft: "20px" }}>                       
+                    Get Combo Offer Exclusively       </span> </p>
+                  </div>
+                     
                     </Col>
 
                     <Col md="6">
-                      <div className="about-li-main">
-                        <span className="about-li"> 4 </span>{" "}
-                        <span className="about-li-content">Book Appointment</span>
-                      </div>
+                    <div className="about-li-main">
+                    <p className='pb-1 d-flex align-items-center'> <span className="about-li"> 4 </span>{" "}<span className="about-li-content" style={{ marginLeft: "20px" }}>                       
+                    Book Appointment      </span> </p>
+                  </div>
+                     
                     </Col>
                   </Row>
                   <Link to="/"> <button className='contact-btn-service grow_spin mt-3'> Discover More <img src={arrow} alt='' style={{ paddingLeft: "10px" }} /> </button>

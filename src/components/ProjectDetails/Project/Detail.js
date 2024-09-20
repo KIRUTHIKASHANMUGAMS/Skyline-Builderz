@@ -1,5 +1,4 @@
 import React from 'react'
-import project from "../../../images/project-image.svg"
 import { Col, Container, Row } from 'react-bootstrap'
 
 function Detail() {

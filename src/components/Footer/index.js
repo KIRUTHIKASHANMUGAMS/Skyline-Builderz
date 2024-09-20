@@ -30,58 +30,58 @@ function Footer() {
                   odit aut fugit consequuntur magni dolores eos qui ratione.
                 </p>
                 <div className="footer-image-head">
-          
-                      <div className="footer-icon">
-                        <Link to="/">
-                        <div class="icon-box">
-                          <img
-                            src={facebook}
-                            alt="facebook"
 
-                          />
-                          </div>
-                        </Link>
+                  <div className="footer-icon">
+                    <Link to="/">
+                      <div class="icon-box">
+                        <img
+                          src={facebook}
+                          alt="facebook"
+
+                        />
                       </div>
+                    </Link>
+                  </div>
 
 
-                      <div className="footer-icon">
-                        <Link to="/">
-                        <div class="icon-box">
-                          <img
-                            src={instagram}
-                            alt="instagram"
+                  <div className="footer-icon">
+                    <Link to="/">
+                      <div class="icon-box">
+                        <img
+                          src={instagram}
+                          alt="instagram"
 
-                          />
-                          </div>
-                        </Link>
+                        />
                       </div>
+                    </Link>
+                  </div>
 
 
-    
-                      <div className="footer-icon">
-                        <Link to="/">
-                        <div class="icon-box">
-                          <img
-                            src={twitter}
-                            alt="twitter"
 
-                          />
-                          </div>
-                        </Link>
+                  <div className="footer-icon">
+                    <Link to="/">
+                      <div class="icon-box">
+                        <img
+                          src={twitter}
+                          alt="twitter"
+
+                        />
                       </div>
+                    </Link>
+                  </div>
 
 
-                      <div className="footer-icon">
-                        <Link to="/">
-                        <div class="icon-box">
-                          <img
-                            src={linkedin}
-                            alt="linkedin"
+                  <div className="footer-icon">
+                    <Link to="/">
+                      <div class="icon-box">
+                        <img
+                          src={linkedin}
+                          alt="linkedin"
 
-                          />
-                          </div>
-                        </Link>
+                        />
                       </div>
+                    </Link>
+                  </div>
                 </div>
               </Col>
               <Col lg={2} md={6} sm={6} xs={12} className="pb-3">
@@ -115,10 +115,10 @@ function Footer() {
 
               <Col lg={2} md={4} sm={6} xs={12} className="pb-3">
                 <div className="footer-contact ">
-                  <h5 className="pb-2  ps-3 footer-content-head">Quick Link</h5>
+                  <h5 className="pb-2  ps-3 footer-content-head">Quick Links</h5>
                   <ul >
                     <li>
-                      <p><Link className="hover-link" to="/#"> Terms and Condition </Link></p>
+                      <p><Link className="hover-link" to="/#"> Terms and Conditions </Link></p>
                     </li>
                     <li>
                       <p> <Link className="hover-link" to="/#">Privacy Policy</Link></p>
@@ -145,9 +145,10 @@ function Footer() {
                         placeholder="Get product"
                         aria-label="Search"
                       />
-                      <InputGroup.Text className="button-spin-hover" style={{ backgroundColor: "#FFCC29" }}>
+                      <InputGroup.Text className="button-spin-hover " style={{ backgroundColor: "#FFCC29" }}>
+                        <Link to="#">     <img src={arrow} alt='' />
 
-                        <img src={arrow} alt='' />
+                        </Link>
                       </InputGroup.Text>
                     </InputGroup>
                   </Form>

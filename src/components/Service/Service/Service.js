@@ -1,15 +1,19 @@
 import React , {useState} from 'react'
 import { Container, Col, Row } from 'react-bootstrap'
-import person1 from "../../../images/person-1.svg";
-import person2 from "../../../images/person-2.svg";
+import person1 from "../../../images/person-1.webp";
+import person2 from "../../../images/person-2.webp";
 
-import person3 from "../../../images/person-3.svg";
+import person3 from "../../../images/person-3.webp";
 
-import person4 from "../../../images/person-4.svg";
+import person4 from "../../../images/person-4.webp";
 
-import person5 from "../../../images/person-5.svg";
+import person5 from "../../../images/person-5.webp";
 
-import person6 from "../../../images/person-6.svg";
+import person6 from "../../../images/person-6.webp";
+import person7 from "../../../images/person-7.webp";
+import person8 from "../../../images/person-8.webp";
+import person9 from "../../../images/person-9.webp";
+
 import { Card } from 'react-bootstrap';
 import arrow from "../../../images/arrow -button.svg";
 import { Link } from 'react-router-dom';
@@ -29,22 +33,22 @@ function Service() {
             name: "Flooring Services", content: "Aenean massa sociis natoque penatibus et magnis dis parturient montes,", button: "Read More", img: person3
         },
         {
-            name: "painting Services", content: "Aenean massa sociis natoque penatibus et magnis dis parturient montes,", button: "Read More", img: person4
+            name: "Painting Services", content: "Aenean massa sociis natoque penatibus et magnis dis parturient montes,", button: "Read More", img: person4
         },
         {
-            name: "Pluming Services", content: "Aenean massa sociis natoque penatibus et magnis dis parturient montes,", button: "Read More", img: person5
+            name: "Plumbing Services", content: "Aenean massa sociis natoque penatibus et magnis dis parturient montes,", button: "Read More", img: person5
         },
         {
             name: "Electrical Services", content: "Aenean massa sociis natoque penatibus et magnis dis parturient montes,", button: "Read More", img: person6
         },
         {
-            name: "Heating Services", content: "Aenean massa sociis natoque penatibus et magnis dis parturient montes,", button: "Read More", img: person1
+            name: "Carpentry Services", content: "Aenean massa sociis natoque penatibus et magnis dis parturient montes,", button: "Read More", img: person7
         },
         {
-            name: "pluming Services", content: "Aenean massa sociis natoque penatibus et magnis dis parturient montes,", button: "Read More", img: person4
+            name: "Renovation Services", content: "Aenean massa sociis natoque penatibus et magnis dis parturient montes,", button: "Read More", img: person9
         },
         {
-            name: "Electrical Services", content: "Aenean massa sociis natoque penatibus et magnis dis parturient montes,", button: "Read More", img: person2
+            name: "Washing Services", content: "Aenean massa sociis natoque penatibus et magnis dis parturient montes,", button: "Read More", img: person8
         },
     ]
 

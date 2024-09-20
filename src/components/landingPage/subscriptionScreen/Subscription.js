@@ -36,8 +36,8 @@ function Subscription() {
           <Container>
             <Row>
               <Col lg="4" md="6" xs="12">
-                <Card style={{ marginBottom: "30px" }}>
-                  <div className="subscription-card">
+                <Card className="subscription-card"  >
+                  <div >
                     <div className="sub-div" >
                       <Row>
                         <Col xs={7}>
@@ -74,8 +74,8 @@ function Subscription() {
                 </Card>
               </Col>
               <Col lg="4" md="6" xs="12">
-                <Card style={{ marginBottom: "30px" }}>
-                  <div className="subscription-card">
+                <Card className="subscription-card" >
+                  <div >
                     <div className="sub-div">
                       <Row>
                         <Col xs={7}>
@@ -116,8 +116,8 @@ function Subscription() {
                 </Card>
               </Col>
               <Col lg="4" md="6" xs="12">
-                <Card style={{ marginBottom: "30px" }}>
-                  <div className="subscription-card">
+                <Card className="subscription-card" >
+                  <div >
                     <div className="sub-div" >
                       <Row>
                         <Col xs={7}>

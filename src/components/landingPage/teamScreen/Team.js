@@ -3,10 +3,10 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import choose from "../../../images/choose.svg";
-import person1 from "../../../images/person1.svg";
-import person2 from "../../../images/person2.svg";
+import person1 from "../../../images/person1.webp";
+import person2 from "../../../images/person2.webp";
 
-import person3 from "../../../images/person3.svg";
+import person3 from "../../../images/person3.webp";
 
 import Card from "react-bootstrap/Card";
 

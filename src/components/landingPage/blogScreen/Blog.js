@@ -7,9 +7,9 @@ import Card from "react-bootstrap/Card";
 import person from "../../../images/person.svg";
 import clock from "../../../images/clock.svg";
 import { Link } from "react-router-dom";
-import Blog1 from '../../../images/blog 1.svg';
-import Blog2 from '../../../images/blog2.svg';
-import Blog3 from '../../../images/blog3.svg';
+import Blog1 from '../../../images/blog1.webp';
+import Blog2 from '../../../images/blog2.webp';
+import Blog3 from '../../../images/blog3.webp';
 
 
 
@@ -66,8 +66,7 @@ function Blog() {
                       </div>
                       <div className="blog-content-details">
                         <p className="head-main-service">
-                          Understanding Your Home’s Electrical Capacity
-                        </p>
+                        World’s Largest Home Buildings Construction                        </p>
                         <p className="footer-right-service-blog pb-1">
                           Pellentesque vehicula eros neque, maximus mattis est sagittis Nulla facilisi. In sed pretium metus. Proin pretium id urna sit amet tincidunt. Interdum et malesuada.
                         </p>
