@@ -66,8 +66,7 @@ function Blog() {
                       </div>
                       <div className="blog-content-details">
                         <p className="head-main-service">
-                          Understanding Your Home’s Electrical Capacity
-                        </p>
+                        World’s Largest Home Buildings Construction                        </p>
                         <p className="footer-right-service-blog pb-1">
                           Pellentesque vehicula eros neque, maximus mattis est sagittis Nulla facilisi. In sed pretium metus. Proin pretium id urna sit amet tincidunt. Interdum et malesuada.
                         </p>

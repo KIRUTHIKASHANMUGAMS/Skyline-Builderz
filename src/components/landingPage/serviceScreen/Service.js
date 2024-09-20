@@ -27,7 +27,7 @@ function Service() {
             </div>
           </div>
           <div>
-            <p className="service-head-details">How We Work</p>
+            <p className="service-head-details">How We Works</p>
           </div>
           <div className="service-right-details">
             <p className="service-para">

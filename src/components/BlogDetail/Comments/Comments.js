@@ -29,11 +29,13 @@ function Comments() {
                                 <p className="blog-card-content">1 Month ago</p>
                                 <p className="blog-card-content">Sed sed risus pretium quam vulputate dignissim suspendisse in est. In dictum non consectetur a erat nam at lectus.</p>
 
-                                <Row>
-                                    <Col lg="2" xs="6"><img src={like} alt='' /> <span>158</span></Col>
-                                    <Col lg="2" xs="6"><img src={chat} alt="" /> <span>Reply</span></Col>
+                                <div style={{display:"flex"}} >
+                                   <p><img src={like} alt='' /> <span>158</span></p> 
+                                    <p style={{marginLeft:"30px"}}><img src={chat}  alt="" /> <span>Reply</span></p>
+                                </div>
 
-                                </Row>
+
+
                             </div>
 
 
@@ -47,11 +49,12 @@ function Comments() {
                                 <p className="blog-card-content">1 Month ago</p>
                                 <p className="blog-card-content">Sed sed risus pretium quam vulputate dignissim suspendisse in est. In dictum non consectetur a erat nam at lectus.</p>
 
-                                <Row>
-                                    <Col lg="2" xs="6"><img src={like} alt='' /> <span>158</span></Col>
-                                    <Col lg="2" xs="6"><img src={chat} alt="" /> <span>Reply</span></Col>
+                          
+                                <div style={{display:"flex"}} >
+                                   <p><img src={like} alt='' /> <span>158</span></p> 
+                                    <p style={{marginLeft:"30px"}}><img src={chat}  alt="" /> <span>Reply</span></p>
+                                </div>
 
-                                </Row>
                             </div>
 
                         </div>
@@ -65,11 +68,12 @@ function Comments() {
                                     <p className="blog-card-content">1 Month ago</p>
                                     <p className="blog-card-content">Sed sed risus pretium quam vulputate dignissim suspendisse in est. In dictum non consectetur a erat nam at lectus.</p>
 
-                                    <Row>
-                                        <Col lg="2" xs="6"><img src={like} alt='' /> <span>158</span></Col>
-                                        <Col lg="2" xs="6"><img src={chat} alt="" /> <span>Reply</span></Col>
+                               
+                                    <div style={{display:"flex"}} >
+                                   <p><img src={like} alt='' /> <span>158</span></p> 
+                                    <p style={{marginLeft:"30px"}}><img src={chat}  alt="" /> <span>Reply</span></p>
+                                </div>
 
-                                    </Row>
                                 </div>
 
                             </div>
@@ -84,13 +88,12 @@ function Comments() {
                                 <p className="blog-card-content">1 Month ago</p>
                                 <p className="blog-card-content">Sed sed risus pretium quam vulputate dignissim suspendisse in est. In dictum non consectetur a erat nam at lectus.</p>
 
-                                <Row>
-                                    <Col lg="2" xs="6"><img src={like} alt='' /> <span>158</span></Col>
-                                    <Col lg="2" xs="6"><img src={chat} alt="" /> <span>Reply</span></Col>
+                                <div style={{display:"flex"}} >
+                                   <p><img src={like} alt='' /> <span>158</span></p> 
+                                    <p style={{marginLeft:"30px"}}><img src={chat}  alt="" /> <span>Reply</span></p>
+                                </div>
 
-                                </Row>
                             </div>
-
 
                         </div>
                     </Col>

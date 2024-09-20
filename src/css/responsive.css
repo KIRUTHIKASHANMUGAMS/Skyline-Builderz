@@ -369,6 +369,12 @@
         right: 0px !important;
     }
 
+      
+    .subscription-card:hover {
+ 
+        transform: scale(1.0) ;
+      
+      }
 }
 
 
@@ -514,6 +520,9 @@
 
     }
 
+
+  
+
     .contact-margin {
         margin-left: 0px;
     }
@@ -534,6 +543,12 @@
     .about-screen{
         padding-bottom: 10px;
     }
+      
+    .subscription-card:hover {
+ 
+        transform: scale(1.0) ;
+      
+      }
 
 }
 
@@ -555,7 +570,12 @@
         padding: 10px 20px;
         margin-top: 0px;
     }
-
+    
+    .subscription-card:hover {
+ 
+        transform: scale(1.0) ;
+      
+      }
     .service-main-card-team {
         padding: 0px 0px;
     }

@@ -67,8 +67,8 @@ const TestimonialsCarousel = () => {
             center
             margin={10}
 
-             autoplay
-             autoplayTimeout={5000}
+               autoplay
+              autoplayTimeout={5000}
             smartSpeed={450}
             animateOut="fadeOut"
             animateIn="fadeIn"

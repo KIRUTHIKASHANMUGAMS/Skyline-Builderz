@@ -128,7 +128,7 @@ function FilterPage() {
 
                         <div>
 
-                            <small className="about-welcome"> Sort By        <img src={Downarrow} alt="welcome" />{" "} </small>
+                            <small className="about-welcome" style={{paddingRight:"15px"}}> Sort by        <img src={Downarrow} alt="welcome" />{" "} </small>
                            
                             {icons.map((icon) => (
                                 <img

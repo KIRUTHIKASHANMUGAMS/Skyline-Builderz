@@ -159,7 +159,7 @@ function Details() {
                                         Electrical Services</p>
                                     < Link to="#">   <button className='discount-button grow_spin'>
                                         Discount 25% <br />
-                                        Rewiring Services
+                                        <span style={{fontWeight:"bold"}}>Rewiring Services</span>
                                     </button></Link>
                                     < Link to="#"><p className='discount-content pt-2'>Click to Get Discount</p></Link>
 
@@ -170,7 +170,7 @@ function Details() {
 
 
                             <div className='pt-5' style={{ textAlign: "justify" }}>
-                                <p className="blog-card-main">Our Services</p>
+                                <p className='construction-main-head'>Our Services</p>
                                 {services.map((service, index) => (
                                     <div className="blog-card-content-service" key={index}>
                                         <Row>
@@ -183,7 +183,7 @@ function Details() {
                                                     className="tele-service"
                                                     style={{
                                                         marginLeft: "14px",
-                                                        color: activeService === service ? '#C10023' : 'black'
+                                                        color: activeService === service ? '#C10023' : '#474747'
                                                     }}
                                                 >
                                                     <Link to="#">                                                    {service}

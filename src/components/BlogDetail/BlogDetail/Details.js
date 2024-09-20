@@ -93,7 +93,8 @@ function Details() {
 
                                         <Form.Control
                                             type="text"
-                                            placeholder="Search..."
+                                            size='lg'
+                                            placeholder="Search"
                                             aria-label="Search"
                                             style={{backgroundColor: "#F1F1F1"}}
 
@@ -112,7 +113,7 @@ function Details() {
                                                 key={index}
                                                 className="blog-card-content"
                                                 onClick={() => handleCategoryClick(category.name)}
-                                                style={{ cursor: 'pointer', fontWeight: activeCategory === category.name ? 'bold' : 'normal', color: activeCategory === category.name ? '#C10023' : 'black' }}
+                                                style={{ cursor: 'pointer', fontWeight: activeCategory === category.name ? 'bold' : '400', color: activeCategory === category.name ? '#C10023' : '#474747' }}
                                             >
                                                 <img src={category.img} alt={category.name} />
                                                 <Link to="#">
@@ -135,7 +136,7 @@ function Details() {
                                                 key={index}
                                                 className="blog-card-content"
                                                 onClick={() => handleCategoryClick(category.name)}
-                                                style={{ cursor: 'pointer', fontWeight: activeCategory === category.name ? 'bold' : 'normal', color: activeCategory === category.name ? '#C10023' : 'black' }}
+                                                style={{ cursor: 'pointer', fontWeight: activeCategory === category.name ? 'bold' : '400', color: activeCategory === category.name ? '#C10023' : '#474747' }}
                                             >
                                                 <Row>
                                                     <Col lg="1" xs="1"><img src={category.img} alt='' /></Col>

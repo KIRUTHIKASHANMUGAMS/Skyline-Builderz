@@ -57,8 +57,8 @@ function Project() {
                             <Card.Img variant="top" src={details.img} />
                           </div>
 
-                          <p className="service-head-main-team"> {details.name} </p>
-                          <p className="footer-right-service-team"> {details.content}  </p>
+                          <p className="page-heading"> {details.name} </p>
+                          <p className="page-main-content"> {details.content}  </p>
                         </div>
                       </Card>
                     </Link>
