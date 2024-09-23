@@ -983,7 +983,7 @@
 }
 
 .banner-details {
-  padding: 100px 60px 100px 20px;
+  padding: 100px 40px 100px 20px;
 }
 
 .banner-details {
@@ -1249,8 +1249,11 @@ color: #474747;
 
 .filter-button-card {
   padding: 5px 10px 5px 10px;
-  background-color: #FFCC29;
-  border: 1px solid #FFCC29;
+  background: #FB8B2433;
+
+  color:#FB8B24;
+
+  border: 1px solid #FB8B2433;
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
@@ -1969,4 +1972,8 @@ button.grow_spin:hover::after {
   object-fit: cover !important;
   border-radius: 7px;
 
+}
+
+.input-group-text:hover{
+  background-color: #c10023 !important;
 }

@@ -884,7 +884,7 @@
 
 }
 
-@media only screen and (max-width: 968px) {
+@media only screen and (max-width: 1000px) {
     .banner-background {
         padding: 0px 0px;
     }
@@ -907,9 +907,12 @@
 
 
 }
-@media only screen and (max-width: 944px) {
+@media only screen and (max-width: 991px) {
     .about-head {
         text-align: center;
+    }
+    .project-main-details{
+        margin-top: 50px;
     }
 }
 
