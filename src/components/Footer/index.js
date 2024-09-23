@@ -20,7 +20,7 @@ function Footer() {
           <div className="main-footer" >
             <Row>
               <Col lg={3} md={6} sm={12} xs={12} className="pb-3">
-                <div style={{ textAlign: "left" }}>
+                <div style={{ textAlign: "left" , marginTop:"3px" }}>
                   <img className="footer-img-logo" src={logo} alt="logo" />
 
                 </div>
