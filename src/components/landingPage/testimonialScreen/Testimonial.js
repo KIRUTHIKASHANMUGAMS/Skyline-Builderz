@@ -35,7 +35,7 @@ const testimonials = [
 ];
 
 const TestimonialsCarousel = () => {
-  
+
   return (
     <div>
       <Container fluid>
@@ -67,25 +67,25 @@ const TestimonialsCarousel = () => {
             center
             margin={10}
 
-               autoplay
-              autoplayTimeout={5000}
-            
+            autoplay
+            autoplayTimeout={5000}
             smartSpeed={450}
             animateOut="fadeOut"
             animateIn="fadeIn"
             responsive={{
               0: { items: 1 },
-              605:{items:2},
+              605: { items: 2 },
               749: { items: 2 },
-              780:{items:2},
-              800:{items:2},
-              900:{items:2},
-              975:{items:2},
-              995:{items:2},
-              1025:{items:2},
+              768: { items: 1 },
+              780: { items: 2 },
+              800: { items: 2 },
+              900: { items: 2 },
+              975: { items: 2 },
+              995: { items: 2 },
+              1025: { items: 2 },
               1170: { items: 2 },
-              1196:{items:2},
-              1440:{items:3}
+              1196: { items: 2 },
+              1440: { items: 3 }
             }}
           >
             {testimonials.map((testimonial, index) => (
@@ -93,8 +93,8 @@ const TestimonialsCarousel = () => {
                 <Card className="testimonial-card-details" style={{ marginBottom: "30px" }}>
                   <Row>
                     <Col md="5">
-                
-                      <Card.Img variant="left" style={{ width: "100%" , objectFit:"cover" }} src={testimonial.imgSrc} />
+
+                      <Card.Img variant="left" style={{ width: "100%", objectFit: "cover" }} src={testimonial.imgSrc} />
                     </Col>
                     <Col md="7">
                       <div className="testimonial-main">
@@ -102,23 +102,23 @@ const TestimonialsCarousel = () => {
                           <Col md="7" xs="8">
                             <p className="testimonial-head">{testimonial.name}</p>
                             <p className="testimonial-sub">{testimonial.role}</p>
-                            
+
                             <div style={{ display: "flex" }}>
-                          {[...Array(5)].map((_, i) => (
-                            <small key={i}>
-                              <img src={star} alt="" width="100%" />
-                            </small>
-                          ))}
-                        </div>
+                              {[...Array(5)].map((_, i) => (
+                                <small key={i}>
+                                  <img src={star} alt="" width="100%" />
+                                </small>
+                              ))}
+                            </div>
                           </Col>
                           <Col md="5" xs="4">
                             <div>
-                              <img src={qoutes} className="quotes"  alt="" />
+                              <img src={qoutes} className="quotes" alt="" />
                             </div>
                           </Col>
                         </Row>
 
-                    
+
                         <div>
                           <p className="testimonial-content">{testimonial.content}</p>
                         </div>
