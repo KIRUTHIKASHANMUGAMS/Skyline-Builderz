@@ -543,6 +543,12 @@
 
 
 
+
+
+
+
+  
+
     .contact-margin {
         margin-left: 0px;
     }
@@ -562,6 +568,30 @@
 
     .about-screen {
         padding-bottom: 10px;
+    }
+      
+    .subscription-card:hover {
+ 
+        transform: scale(1.0) ;
+      
+      }
+
+    .subscription-card:hover {
+
+        transform: scale(1.0);
+
+    }
+
+    .footer-img-logo {
+        padding-left: 1rem;
+    }
+
+    .footer-para {
+        padding-left: 1rem;
+    }
+
+    .footer-image-head {
+        padding-left: 1rem;
     }
 
     .subscription-card:hover {
