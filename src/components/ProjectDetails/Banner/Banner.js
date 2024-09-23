@@ -15,7 +15,7 @@ function Banner() {
           <p className="banner-content">Home Construction In Malibu Beach, USA</p>
           <div className="banner-text">
           <Link
-                to="/"><span className="footer-image-banner"> Home </span></Link>             <FaHome/> <span style={{ color: "#FFCC29" }}>Project Detail</span>{" "}
+                to="/"><span className="footer-image-banner"> Home </span></Link>             <FaHome/> <span style={{ color: "#FFCC29" }}>Project Details</span>{" "}
           </div>
         </div>
         </Container>

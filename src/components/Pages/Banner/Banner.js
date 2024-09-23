@@ -16,7 +16,7 @@ function Banner() {
           <p className="banner-content">Project</p>
           <div className="banner-text">
           <Link
-                to="/"><span className="footer-image-banner"> Home </span></Link>            <FaHome/> <span style={{ color: "#FFCC29" }}>Project</span>{" "}
+                to="/"><span className="footer-image-banner"> Home </span></Link>            <FaHome/> <span style={{ color: "#FFCC29" }}>Projects</span>{" "}
           </div>
         </div>
         </Container>

@@ -55,15 +55,15 @@ function Header() {
                 </Nav.Link>
                 <NavDropdown title="Services" id="basic-nav-dropdown" className={`nav-link-spacing ${location.pathname.startsWith('/service') ? 'nav-link-active' : ''}`}>
                   <NavDropdown.Item as={Link} to="/service">Services</NavDropdown.Item>
-                  <NavDropdown.Item as={Link} to="/service-details">Service Detail</NavDropdown.Item>
+                  <NavDropdown.Item as={Link} to="/service-details">Service Details</NavDropdown.Item>
                 </NavDropdown>
                 <NavDropdown title="Blogs" id="basic-nav-dropdown" className={`nav-link-spacing ${location.pathname.startsWith('/blog') ? 'nav-link-active' : ''}`}>
                   <NavDropdown.Item as={Link} to="/blog">Blogs</NavDropdown.Item>
-                  <NavDropdown.Item as={Link} to="/blog-details">Blog Detail</NavDropdown.Item>
+                  <NavDropdown.Item as={Link} to="/blog-details">Blog Details</NavDropdown.Item>
                 </NavDropdown>
                 <NavDropdown title="Pages" id="basic-nav-dropdown" className={`nav-link-spacing ${location.pathname.startsWith('/project') ? 'nav-link-active' : ''}`}>
                   <NavDropdown.Item as={Link} to="/project">Projects</NavDropdown.Item>
-                  <NavDropdown.Item as={Link} to="/project-details">Project Detail</NavDropdown.Item>
+                  <NavDropdown.Item as={Link} to="/project-details">Project Details</NavDropdown.Item>
                 </NavDropdown>
               </Nav>
               <Nav className="d-flex justify-content-center">

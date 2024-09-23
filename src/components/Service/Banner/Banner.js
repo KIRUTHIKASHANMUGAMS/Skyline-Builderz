@@ -12,10 +12,10 @@ function Banner() {
 
      
         <div className="banner-details">
-          <p className="banner-content">Service</p>
+          <p className="banner-content">Services</p>
           <div className="banner-text">
           <Link
-                to="/"><span className="footer-image-banner"> Home </span></Link>          <FaHome />  <span style={{ color: "#FFCC29" }}>Service</span>{" "}
+                to="/"><span className="footer-image-banner"> Home </span></Link>          <FaHome />  <span style={{ color: "#FFCC29" }}>Services</span>{" "}
           </div>
         </div>
         </Container>
