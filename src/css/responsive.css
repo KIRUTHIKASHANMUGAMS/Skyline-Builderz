@@ -11,7 +11,10 @@
     .about-li-content {
         margin-top: 8px;
     }
-
+    .contact-details-main{
+        margin-top:50px;
+        margin-bottom: 50px;
+      }
     .project-experience {
         padding-right: 0px;
     }
@@ -44,6 +47,9 @@
     .main-footer {
         padding-left: 10px;
     }
+    .project-main-details{
+        margin-top: 50px;
+    }
 
     .service-page {
         padding-top: 20px;
@@ -52,9 +58,7 @@
     }
 
 
-    .quotes {
-        width: 52px;
-    }
+    
 
     .testimonial-main {
         padding: 10px;
@@ -253,6 +257,9 @@
     .filter-button {
         margin-left: 0px;
     }
+    .contact-message{
+        margin-top: 50px;
+      }
 
     .filter-img-1 {
         height: 20px;
@@ -304,11 +311,6 @@
     }
 
 
-    .banner-details {
-        padding: 100px 30px 100px 20px;
-
-    }
-
 
 
     .about-content {
@@ -357,11 +359,7 @@
     }
 
 
-    .construction-details-head {
-        margin-top: 50px;
-        margin-bottom: 50px;
-    }
-
+   
     .navbar-top {
         position: fixed !important;
         top: 0px !important;
@@ -369,12 +367,24 @@
         right: 0px !important;
     }
 
-      
+
     .subscription-card:hover {
- 
-        transform: scale(1.0) ;
-      
-      }
+
+        transform: scale(1.0);
+
+    }
+
+    .footer-img-logo {
+        padding-left: 1rem;
+    }
+
+    .footer-para {
+        padding-left: 1rem;
+    }
+
+    .footer-image-head {
+        padding-left: 1rem;
+    }
 }
 
 
@@ -394,19 +404,29 @@
 @media only screen and (max-width: 500px) and (min-width:431px) {
     .banner {
 
-        padding: 106px 0px 30px 49px;
+        padding: 106px 20px 30px 20px;
         width: fit-content;
     }
+    .quotes{
+        max-width: 65%;
+      }
 
-
+      .contact-details-main{
+        margin-top: 50px;
+        margin-bottom: 50px;
+      }
+   
+      .project-main-details{
+        margin-top: 50px;
+    }
     .form-product {
         width: 70%;
     }
+    .contact-message{
+        margin-top: 50px;
+      }
 
 
-    .banner-background {
-        padding: 10px 10px;
-    }
 
     .stats {
         padding: 10px 10px;
@@ -521,7 +541,7 @@
     }
 
 
-  
+
 
     .contact-margin {
         margin-left: 0px;
@@ -540,15 +560,27 @@
     }
 
 
-    .about-screen{
+    .about-screen {
         padding-bottom: 10px;
     }
-      
+
     .subscription-card:hover {
- 
-        transform: scale(1.0) ;
-      
-      }
+
+        transform: scale(1.0);
+
+    }
+
+    .footer-img-logo {
+        padding-left: 1rem;
+    }
+
+    .footer-para {
+        padding-left: 1rem;
+    }
+
+    .footer-image-head {
+        padding-left: 1rem;
+    }
 
 }
 
@@ -560,6 +592,20 @@
     .blog-details-div {
         text-align: left;
     }
+    .project-main-details{
+        margin-top: 50px;
+    }
+    .footer-img-logo {
+        padding-left: 1rem;
+    }
+
+    .footer-para {
+        padding-left: 1rem;
+    }
+
+    .footer-image-head {
+        padding-left: 1rem;
+    }
 
 
     .footer-contact {
@@ -570,12 +616,13 @@
         padding: 10px 20px;
         margin-top: 0px;
     }
-    
+
     .subscription-card:hover {
- 
-        transform: scale(1.0) ;
-      
-      }
+
+        transform: scale(1.0);
+
+    }
+
     .service-main-card-team {
         padding: 0px 0px;
     }
@@ -587,7 +634,7 @@
 
     .banner {
 
-        padding: 106px 0px 30px 49px;
+        padding: 106px 10px 30px 0px;
         width: fit-content;
     }
 
@@ -599,9 +646,6 @@
         text-align: center;
     }
 
-    .banner-background {
-        padding: 20px 20px;
-    }
 
     .service-page {
         padding-top: 20px;
@@ -686,10 +730,6 @@
         border-radius: 0px !important;
     }
 
-    .banner-details {
-        padding: 140px 80px 100px 0px;
-
-    }
 
     .about-content {
         width: fit-content;
@@ -765,10 +805,6 @@
 
     }
 
-    .construction-details-head {
-        margin-top: 50px;
-        margin-bottom: 50px;
-    }
 
     .navbar-top {
         position: fixed !important;
@@ -776,41 +812,88 @@
         left: 0px !important;
         right: 0px !important;
     }
-
+    .quotes{
+        max-width: 65%;
+      }
+      
+      
 
 }
 
-@media only screen and (max-width:991px){
+@media only screen and (max-width:991px) {
     .custom-width {
         flex-direction: column;
 
     }
 
+    .footer-img-logo {
+        padding-left: 1rem;
+    }
+
+    .footer-para {
+        padding-left: 1rem;
+    }
+
+    .footer-image-head {
+        padding-left: 1rem;
+    }
+  
     .nav-auto {
         justify-content: flex-start;
         width: 100%;
     }
-    .contact-margin{
+
+    .contact-margin {
         margin-left: 0px;
     }
 
-    .according-main{
+    .according-main {
         margin-top: 50px;
     }
+    
 
 }
 
+@media only screen and (max-width: 968px) {
+    .banner-background {
+        padding: 0px 0px;
+    }
+
+    .testimonial-card-details {
+        display: flex;
+        flex-direction: column;
+      }
+
+
+    
+
+
+}
+
+@media only screen and (max-width: 1300px) and (min-width:1000px) {
+    .banner-background {
+        padding: 20px 20px;
+    }
+
+
+}
+@media only screen and (max-width: 938px) {
+    .about-head {
+        text-align: center;
+    }
+}
 
 @media only screen and (max-width: 1300px) and (min-width:770px) {
     .logo {
         font-size: 20px;
     }
 
-    .banner-background {
-        padding: 20px 20px;
+    .footer-img-logo {
+        width: 95%;
     }
 
 
+ 
 
     .construction-image-background {
         padding: 30px;
@@ -860,7 +943,7 @@
     }
 
 
-   
+
 
     .service-main-card-blog {
         padding: 10px;
@@ -968,10 +1051,7 @@
         font-size: 18px;
     }
 
-    .banner-details {
-        padding: 101px 120px 90px 0px;
-    }
-
+  
     .filter-img {
         width: 40px;
     }
@@ -989,9 +1069,7 @@
         height: 600px;
     }
 
-    .footer-img-logo {
-        width: 100%;
-    }
+  
 
     .footer-image {
         width: 33px;
@@ -1081,6 +1159,10 @@
     .filter-para-details {
         font-size: 15px;
     }
+    .quotes{
+        max-width: 67%;
+      }
+      
 }
 
 
@@ -1092,7 +1174,11 @@
 
         padding: 200px 50px 100px 50px;
     }
-
+   
+    .quotes{
+        max-width: 67%;
+      }
+      
     .banner-background {
         padding: 50px 60px 275px 60px;
     }

@@ -153,14 +153,7 @@ function Details() {
                                     </div>
 
                                 </div>
-
-
-
-
-
-                            </div>
-
-                            <div className='pt-5'>
+                                <div className='pt-5'>
                                 <div className='blog-post'>
 
                                     <p className="blog-card-main">Tags</p>
@@ -184,6 +177,14 @@ function Details() {
 
                                 </div>
                             </div>
+
+
+
+
+
+                            </div>
+
+                           
 
 
 

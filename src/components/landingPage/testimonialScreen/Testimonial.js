@@ -67,17 +67,24 @@ const TestimonialsCarousel = () => {
             center
             margin={10}
 
-               autoplay
-              autoplayTimeout={5000}
+              //  autoplay
+              // autoplayTimeout={5000}
             smartSpeed={450}
             animateOut="fadeOut"
             animateIn="fadeIn"
             responsive={{
               0: { items: 1 },
               605:{items:2},
-              749: { items: 3 },
-              768:{items:2},
-              1170: { items: 3 },
+              749: { items: 2 },
+              780:{items:2},
+              800:{items:2},
+              900:{items:2},
+              975:{items:2},
+              995:{items:2},
+              1025:{items:2},
+              1170: { items: 2 },
+              1196:{items:2},
+              1440:{items:3}
             }}
           >
             {testimonials.map((testimonial, index) => (
@@ -105,7 +112,7 @@ const TestimonialsCarousel = () => {
                           </Col>
                           <Col md="5" xs="4">
                             <div>
-                              <img src={qoutes} className="quotes" style={{ width: "77%" }} alt="" />
+                              <img src={qoutes} className="quotes"  alt="" />
                             </div>
                           </Col>
                         </Row>

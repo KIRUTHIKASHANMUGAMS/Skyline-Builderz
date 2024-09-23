@@ -30,8 +30,9 @@ function MobileHeader(...props) {
     };
 
     return (
-        <Container>
+  
         <div className="mobile-header">
+                  <Container>
             <div className="mobile-between">
                 <div className="logo">
                     <img className="logo-img" src={logo} width="100%" alt="logo" />
@@ -113,8 +114,9 @@ function MobileHeader(...props) {
                     </nav>
                 )}
             </Offcanvas>
+            </Container>
         </div>
-        </Container>
+   
     );
 }
 

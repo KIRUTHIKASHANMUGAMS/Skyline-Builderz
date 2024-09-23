@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 
 function Contact() {
   return (
-    <div style={{ marginTop: "100px", marginBottom: "100px" }}>
+    <div className="contact-details-main" >
       <Container>
         <Row>
           <Col lg="6" md="6" sm="12">
@@ -30,6 +30,9 @@ function Contact() {
             </div>
           </Col>
           <Col lg="6" md="6" sm="12">
+          <div className="contact-message">
+
+        
             <p className="form-control-contact">Send a message</p>
             <Form>
               <Row className="mb-4">
@@ -60,6 +63,7 @@ function Contact() {
                 </Link>
               </Row>
             </Form>
+            </div>
           </Col>
         </Row>
       </Container>
