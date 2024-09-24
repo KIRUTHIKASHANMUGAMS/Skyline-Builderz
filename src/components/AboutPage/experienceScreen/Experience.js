@@ -42,9 +42,9 @@ function Experience() {
                   sit amet tincidunt. Interdum et malesuada.
                 </p>
                 <div className="project-experience">
-                  <li>
+                  <li >
                     <img src={tick} alt="" />{" "}
-                    <span style={{ color: "white", paddingLeft: "10px" }}>
+                    <span style={{ color: "white", paddingLeft: "10px",fontSize:"23px",fontWeight:"700", lineHeight:"34px" }}>
                       35 Years Experience
                     </span>
                     <p
@@ -58,7 +58,7 @@ function Experience() {
                   <li>
                     {" "}
                     <img src={tick} alt="" />{" "}
-                    <span style={{ color: "white", paddingLeft: "10px" }}>
+                    <span style={{ color: "white", paddingLeft: "10px",fontSize:"23px",fontWeight:"700", lineHeight:"34px" }}>
                       Excellence Certificate
                     </span>
                     <p
@@ -72,7 +72,7 @@ function Experience() {
                   <li>
                     {" "}
                     <img src={tick} alt="" />{" "}
-                    <span style={{ color: "white", paddingLeft: "10px" }}>
+                    <span style={{ color: "white", paddingLeft: "10px",fontSize:"23px",fontWeight:"700", lineHeight:"34px" }}>
                       Affordable Price
                     </span>
                     <p

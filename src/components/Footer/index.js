@@ -88,7 +88,9 @@ function Footer() {
                 <div className="footer-contact">
                   <h5 className="pb-2  ps-3 footer-content-head">Contact</h5>
                   <p className=" ps-3">(629) 555-0129</p>
-                  <p className=" ps-3">info@example.com</p>
+                  <p className="ps-3">
+    <Link className="hover-link" to="mailto:info@example.com">info@example.com</Link>
+</p>
                   <p className=" ps-3">6391 Elgin St, Celina, 10299</p>
                 </div>
               </Col>

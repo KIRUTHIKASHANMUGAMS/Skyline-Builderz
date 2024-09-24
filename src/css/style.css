@@ -1079,13 +1079,17 @@
   color: #474747;
   padding-bottom: 10px;
 }
+.tele-service:hover{
+  color: #C10023;
+  transition: color 1.5s ease;
 
+
+}
 .blog-card-content-details:hover{
   color: #C10023;
-  font-weight: bold;
   line-height: 28px;
-
-  transition: color 1.5s ease;
+font-weight: 600;
+  transition: color 0.5s ease;
 
 }
 
@@ -1683,18 +1687,25 @@ a {
   text-decoration: none !important;
   color: inherit !important;
 }
-
 .according-content {
   text-align: left;
-  padding: 30px 0px;
+  padding: 10px;
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
-  text-align: left;
   color: #474747;
-
-
+  max-height: 0; /* Default state */
+  overflow: hidden; /* Prevent overflow */
+  transition: max-height 1.5s ease, opacity 1.5s ease; /* Add opacity transition */
+  opacity: 0; /* Default state opacity */
 }
+
+.according-content.expanded {
+
+  max-height: 100px; /* Adjust this value to accommodate your content */
+  opacity: 1; /* Visible state */
+}
+
 
 .according-heading {
   font-family: Nunito Sans;
@@ -1893,8 +1904,8 @@ button.grow_spin:hover::after {
 }
 
 .icon-box {
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   background: #FFCC29;
   display: flex;
   justify-content: center;
@@ -1908,10 +1919,6 @@ button.grow_spin:hover::after {
 
 }
 
-.icon-box img {
-  width: 90%;
-  height: auto;
-}
 
 .blog-detail-section {
   display: flex;
@@ -1924,6 +1931,7 @@ button.grow_spin:hover::after {
 }
 .blog-main-details{
   margin-bottom: 50px;
+  margin-left: 25px;
 }
 .service-content-main{
   margin-left: 25px;

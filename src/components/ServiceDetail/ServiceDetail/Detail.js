@@ -30,7 +30,7 @@ function Details() {
         "Data/Communications Cabling",
         "Ballast/Lamp Replacing"
     ];
-    const [activeService, setActiveService] = useState(services[0]);
+    // const [activeService, setActiveService] = useState(services[0]);
 
     return (
         <div>
@@ -124,16 +124,16 @@ function Details() {
 
                                 <div>
                                     <p className="construction-main-head">Key benefits With Our Service</p>
-                                    <p className="banner-sub-about">Scalabl customer service through sustainable potentialities colaboratively administrate turnkey channels whereas virtual e tailers objectively seize scalable metrics whereas proactiveservices Seamlessly empower fully researched growth strategies.</p>
+                                    <p className="banner-sub-about">Scalable customer service through sustainable potentialities colaboratively administrate turnkey channels whereas virtual e tailers objectively seize scalable metrics whereas proactive services Seamlessly empower fully researched growth strategies.</p>
                                     <Row>
                                         <Col lg="6" md="6" xs="12">
                                             <div className='construction-key'>
 
-                                                <p className='pb-1 d-flex'><img style={{ height: "fit-content" }} src={tick} alt='' /><span className='construct-key' style={{ marginLeft: "14px" }}>Experience investor Technician.</span> </p>
+                                                <p className='pb-1 d-flex'><img style={{ height: "fit-content" }} src={tick} alt='' /><span className='construct-key' style={{ marginLeft: "14px" }}>Experience Investor Technician.</span> </p>
                                                 <p className='pb-1 d-flex' ><img style={{ height: "fit-content" }} src={tick} alt='' /><span className='construct-key' style={{ marginLeft: "14px" }}>Your Electrical and Security System.</span>  </p>
-                                                <p className='pb-1 d-flex'><img style={{ height: "fit-content" }} src={tick} alt='' /> <span className='construct-key' style={{ marginLeft: "14px" }}>Sources whereas high standards</span> </p>
-                                                <p className='pb-1 d-flex'><img style={{ height: "fit-content" }} src={tick} alt='' /> <span className='construct-key' style={{ marginLeft: "14px" }}>Credibly innovate granular internal</span></p>
-                                                <p className='pb-1 d-flex'><img style={{ height: "fit-content" }} src={tick} alt='' /><span className='construct-key' style={{ marginLeft: "14px" }}>Services for domestic and commercial.</span> </p>
+                                                <p className='pb-1 d-flex'><img style={{ height: "fit-content" }} src={tick} alt='' /> <span className='construct-key' style={{ marginLeft: "14px" }}>Sources Whereas High Standards</span> </p>
+                                                <p className='pb-1 d-flex'><img style={{ height: "fit-content" }} src={tick} alt='' /> <span className='construct-key' style={{ marginLeft: "14px" }}>Credibly Innovate Granular Internal</span></p>
+                                                <p className='pb-1 d-flex'><img style={{ height: "fit-content" }} src={tick} alt='' /><span className='construct-key' style={{ marginLeft: "14px" }}>Services For Domestic And Commercial.</span> </p>
                                             </div>
 
                                         </Col>
@@ -177,7 +177,7 @@ function Details() {
                                 {services.map((service, index) => (
                                     <div className="blog-card-content-service" key={index}>
                                         <Row>
-                                            <Col className='ps-3 d-flex' onClick={() => setActiveService(service)}>
+                                            <Col className='ps-3 d-flex' >
 
 
 
@@ -186,7 +186,7 @@ function Details() {
                                                     className="tele-service"
                                                     style={{
                                                         marginLeft: "14px",
-                                                        color: activeService === service ? '#C10023' : '#474747'
+                                                        // color: activeService === service ? '#C10023' : '#474747'
                                                     }}
                                                 >
                                                     <Link to="#">                                                    {service}

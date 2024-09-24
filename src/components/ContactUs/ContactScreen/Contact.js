@@ -23,9 +23,9 @@ function Contact() {
               </p>
             </div>
             <div className="about-main">
-              <p className='pb-1 d-flex'><img className="contact-image" style={{ height: "fit-content" }} src={phone} alt='' /><span className="about-li-content" >    Call us: +(406) 555-0120{" "}</span> </p>
-              <p className='pb-1 d-flex'><img className="contact-image" style={{ height: "fit-content" }} src={email} alt='' /><span className="about-li-content" >      Email: support@example.com{" "}</span> </p>
-              <p className='pb-1 d-flex'><img className="contact-image" style={{ height: "fit-content" }} src={location} alt='' /><span className="about-li-content" >    2972 Westheimer Rd. Santa Ana, Illinois, USA{" "}</span> </p>
+              <p className='pb-1 d-flex align-items-center'><img className="contact-image" style={{ height: "fit-content" }} src={phone} alt='' /><span className="about-li-content" >    Call us: +(406) 555-0120{" "}</span> </p>
+              <p className='pb-1 d-flex align-items-center'><img className="contact-image" style={{ height: "fit-content" }} src={email} alt='' /><span className="about-li-content" >      Email: support@example.com{" "}</span> </p>
+              <p className='pb-1 d-flex align-items-center'><img className="contact-image" style={{ height: "fit-content" }} src={location} alt='' /><span className="about-li-content" >    2972 Westheimer Rd. Santa Ana, Illinois, USA{" "}</span> </p>
 
             </div>
           </Col>
