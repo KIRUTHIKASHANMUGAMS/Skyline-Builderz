@@ -150,6 +150,9 @@ function Details() {
 
                         </Col>
                         <Col lg="4">
+                        <div   className='service-content-main'>
+
+                      
 
 
 
@@ -207,7 +210,7 @@ function Details() {
                                 ))}
                             </div>
 
-
+                            </div>
                         </Col>
 
                     </Row>

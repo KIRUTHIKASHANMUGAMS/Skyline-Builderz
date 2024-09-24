@@ -48,7 +48,7 @@ function About() {
                     <div className="banner-experience ">
                       <p className="number-banner">35</p>
                       <p className="banner-experience-text">
-                        Years Of Experiance
+                        Years Of Experience
                       </p>
                     </div>
                   </Col>

@@ -9,10 +9,11 @@ function Detail() {
 
             
                 <Row>
-                    <Col lg="9" className='project-image-detail'>
+                    <Col lg="8" className='project-image-detail'>
                        
                     </Col>
-                    <Col lg="3">
+
+                    <Col lg="4">
                     <div className='project-background-clr'>
 
                         <p className='project-main'>Project Information</p> 

@@ -15,6 +15,7 @@ function Choose() {
             <div className="project-content">
               <div className="stats">
                 <div className="stat-item">
+
                   <span className="stat-number">3956</span>
                   <span className="stat-label">Project Done</span>
                 </div>

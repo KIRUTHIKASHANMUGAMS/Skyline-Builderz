@@ -147,6 +147,22 @@
 }
 
 
+.contact-btn-hover:hover {
+
+  background-color: #ffcc29;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 28px;
+  color: #C10023;
+
+}
+
 /* ----------------------------header-------------------------------------- */
 
 /* ---------------------------footer ------------------------------------ */
@@ -234,7 +250,7 @@
 .number-banner {
   font-size: 90px;
   font-weight: 800;
-  line-height: 36px;
+  line-height: 54px;
   text-align: center;
   color: #C10023;
 
@@ -318,7 +334,7 @@
 
 .banner-experience {
   background-color: #f1f1f1;
-  padding: 34px 6px;
+  padding: 34px 6px 6px 6px;
   color: #000000;
 }
 
@@ -332,12 +348,12 @@
   font-weight: 400;
   line-height: 36px;
   text-align: center;
-  margin-top: 30px;
+  margin-top: 21px;
 }
 
 .banner-left {
   text-align: left;
-  padding-top: 29px;
+  padding-top: 15px;
 
   font-size: 18px;
   font-weight: 400;
@@ -383,6 +399,7 @@
   margin: 10px 0;
   display: flex;
   border: 1px solid #fff;
+  align-items: center;
 }
 
 .stat-label {
@@ -404,7 +421,7 @@
 
 .stat-number {
   background-color: #ffcc29;
-  padding: 10px;
+  padding: 15px;
   font-size: 26px;
   font-weight: 600;
   text-align: center;
@@ -842,13 +859,19 @@
 }
 
 .subscription-charge {
-  font-family: Syne;
   font-size: 18px;
   font-weight: 400;
   line-height: 28px;
   text-align: end;
   color: #474747;
   padding-top: 23px;
+}
+.sub-visit{
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: end;
+  color: #474747;
 }
 
 .contact-btn-subscription {
@@ -880,6 +903,18 @@
   color: #fff;
   transform: scale(1.1);
 
+}
+
+.subscription-card:hover .contact-btn-subscription{
+  color:#c10023
+}
+
+.subscription-card:hover .btn-subscription{
+  color:#c10023
+}
+
+.subscription-card:hover .sub-visit{
+  color:#fff
 }
 
 .sub-div {
@@ -959,9 +994,9 @@
 }
 
 .testimonial-content {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
-  line-height: 20.09px;
+  line-height: 26px;
   text-align: left;
   color: #474747;
   padding-top: 2px;
@@ -978,8 +1013,7 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat, repeat;
-
-
+  background-attachment: fixed;
 }
 
 .banner-details {
@@ -1013,24 +1047,53 @@
   margin-top: 30px;
   margin-bottom: 30px;
 }
-
 .about-li {
   border-radius: 50%;
-  padding: 9px 14px;
+  width: 40px; /* Set a fixed width */
+  height: 40px; /* Set a fixed height */
   background-color: #ffcc29;
   color: #c10023;
   text-align: center;
   font-family: Inter;
   font-size: 24px;
   font-weight: 600;
-  line-height: 29.76px;
-  text-align: center;
+  line-height: 40px; /* Center text vertically */
+}
+
+.faq-icon {
+  transition: transform 0.5s ease; 
+}
+
+.faq-icon.expanded {
+  transform: rotate(180deg); 
+
+}
+.blog-card-content-details{
+  
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+
+  color: #474747;
+  padding-bottom: 10px;
+}
+
+.blog-card-content-details:hover{
+  color: #C10023;
+  font-weight: bold;
+  line-height: 28px;
+
+  transition: color 1.5s ease;
+
 }
 
 .about-li-main {
   margin-bottom: 40px;
 }
-
+.form-control:focus{  box-shadow:none !important
+}
 .about-li-content {
   margin-left: 13px;
   font-size: 16px;
@@ -1578,6 +1641,7 @@ color: #474747;
 .project-background-clr {
   background-color: #F1F1F1;
   padding: 20px;
+  margin-left: 25px;
 }
 
 .project-main-details {
@@ -1592,6 +1656,7 @@ color: #474747;
   background-image: url("../images/project-image.webp");
   background-size: cover;
   background-repeat: no-repeat, repeat;
+  width: 100%;
 }
 
 /* .navbar-top{
@@ -1844,7 +1909,7 @@ button.grow_spin:hover::after {
 }
 
 .icon-box img {
-  width: 70%;
+  width: 90%;
   height: auto;
 }
 
@@ -1859,6 +1924,9 @@ button.grow_spin:hover::after {
 }
 .blog-main-details{
   margin-bottom: 50px;
+}
+.service-content-main{
+  margin-left: 25px;
 }
 
 /* .nav-icon {
@@ -1956,6 +2024,7 @@ button.grow_spin:hover::after {
   border-radius: 7px;
     display: flex;
     flex-direction: row;
+    height: 100%;
   
 
 
@@ -1977,4 +2046,24 @@ button.grow_spin:hover::after {
 
 .input-group-text:hover{
   background-color: #c10023 !important;
+  transition: background-color 2.5s ease !important;
+
+}
+
+
+
+/* Hide the dropdown by default */
+.nav-dropdown {
+  display: none !important;
+}
+
+/* Show the dropdown when hovering over the parent Nav item */
+.nav-item:hover .nav-dropdown {
+  display: block !important;
+}
+
+/* Optional: Style adjustments for better visibility */
+.nav-dropdown {
+  position: absolute !important; /* Position it absolutely for better control */
+  z-index: 1000; /* Ensure it appears above other elements */
 }

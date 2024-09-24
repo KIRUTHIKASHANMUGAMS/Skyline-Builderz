@@ -99,9 +99,14 @@ function Details() {
                                             style={{backgroundColor: "#F1F1F1"}}
 
                                         />
+                                       
                                         <InputGroup.Text style={{ backgroundColor: "#FFCC29" }}>
+                                        <Link to='/#'>
                                             <img src={search} alt='' />
+                                            </Link>
                                         </InputGroup.Text>
+                                    
+                                     
                                     </InputGroup>
                                 </Form>
 
@@ -111,9 +116,9 @@ function Details() {
                                         {categories.map((category, index) => (
                                             <div
                                                 key={index}
-                                                className="blog-card-content"
-                                                onClick={() => handleCategoryClick(category.name)}
-                                                style={{ cursor: 'pointer', fontWeight: activeCategory === category.name ? 'bold' : '400', color: activeCategory === category.name ? '#C10023' : '#474747' }}
+                                                className="blog-card-content-details"
+                                                // onClick={() => handleCategoryClick(category.name)}
+                                                // style={{ cursor: 'pointer', fontWeight: activeCategory === category.name ? 'bold' : '400', color: activeCategory === category.name ? '#C10023' : '#474747' }}
                                             >
                                                 <img src={category.img} alt={category.name} />
                                                 <Link to="#">
@@ -134,9 +139,9 @@ function Details() {
                                         {recent.map((category, index) => (
                                             <div
                                                 key={index}
-                                                className="blog-card-content"
-                                                onClick={() => handleCategoryClick(category.name)}
-                                                style={{ cursor: 'pointer', fontWeight: activeCategory === category.name ? 'bold' : '400', color: activeCategory === category.name ? '#C10023' : '#474747' }}
+                                                className="blog-card-content-details"
+                                               // onClick={() => handleCategoryClick(category.name)}
+                                              //  style={{ cursor: 'pointer', fontWeight: activeCategory === category.name ? 'bold' : '400', color: activeCategory === category.name ? '#C10023' : '#474747' }}
                                             >
                                                 <Row>
                                                     <Col lg="1" xs="1"><img src={category.img} alt='' /></Col>
@@ -164,8 +169,9 @@ function Details() {
                                                     <Link to="#">
 
                                                         <p
-                                                            className={` p-2 ${activeTag === tag ? 'contact-btn' : 'contact-btn-hover'}`}
-                                                            onClick={() => handleTagClick(tag)}
+                                                        className=' p-2 contact-btn-hover'
+                                                            // className={` p-2 ${activeTag === tag ? 'contact-btn' : 'contact-btn-hover'}`}
+                                                            // onClick={() => handleTagClick(tag)}
                                                         >
                                                             {tag}
                                                         </p>
@@ -176,7 +182,7 @@ function Details() {
                                     </Container>
 
                                 </div>
-                            </div>
+                             </div>
 
 
 

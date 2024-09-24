@@ -4,7 +4,7 @@ import image from "../../../images/faq-image.webp";
 import { FaPlus, FaMinus } from "react-icons/fa";
 
 function Faq() {
-    const [expandedIndex, setExpandedIndex] = useState(null); 
+    const [expandedIndex, setExpandedIndex] = useState(null);
 
     const according = [
         {
@@ -42,7 +42,7 @@ function Faq() {
     ];
 
     const toggleContent = (index) => {
-        setExpandedIndex(expandedIndex === index ? null : index); 
+        setExpandedIndex(expandedIndex === index ? null : index);
     };
 
     return (
@@ -58,29 +58,39 @@ function Faq() {
                             <img src={image} alt='' width="85%" />
                         </Col>
                         <Col lg="6">
-                        <div className='according-main'>
-                        {according.map((item, index) => (
-                                <div className="according-div" key={index}>
-                                    <div
+                            <div className='according-main'>
+                                {according.map((item, index) => (
+                                    <div className="according-div" key={index}>
+                                        <div
 
-                                        style={{ cursor: "pointer", display: "flex", justifyContent: "space-between", alignItems: "center" }}
-                                        onClick={() => toggleContent(index)}
-                                    >
-                                        <span className='according-heading'>{item.heading}</span>
-                                       <div style={{paddingLeft:"10px"}}> {expandedIndex === index ? <FaMinus size={20} fill="#C10023" /> : <FaPlus  size={20}  fill="#C10023" />}</div>
+                                            style={{ cursor: "pointer", display: "flex", justifyContent: "space-between", alignItems: "center" }}
+                                            onClick={() => toggleContent(index)}
+                                        >
+                                            <span className='according-heading'>{item.heading}</span>
+                                            <div className='faq-plus' style={{ paddingLeft: "10px" }}>
+                                                <div
+                                                    className={`faq-icon ${expandedIndex === index ? 'expanded' : ''}`}
+                                                    style={{ display: 'inline-block' }} // Ensure the icon is inline-block for transformation
+                                                >
+                                                    {expandedIndex === index ? (
+                                                        <FaMinus size={20} fill="#C10023" />
+                                                    ) : (
+                                                        <FaPlus size={20} fill="#C10023" />
+                                                    )}
+                                                </div>
+                                            </div>                                    </div>
+
+
+
+                                        {expandedIndex === index && (
+                                            <div className='according-content'>
+                                                {item.content}
+                                            </div>
+                                        )}
                                     </div>
+                                ))}
+                            </div>
 
-
-
-                                    {expandedIndex === index && (
-                                        <div className='according-content'>
-                                            {item.content}
-                                        </div>
-                                    )}
-                                </div>
-                            ))}
-                        </div>
-                           
                         </Col>
                     </Row>
                 </Container>
