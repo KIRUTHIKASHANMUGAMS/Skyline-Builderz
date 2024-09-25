@@ -57,7 +57,9 @@
 
 
 .fixed-top {
+  top: 0 !important;
   border-radius: 0px !important;
+  transition: top 2.5s ease-in !important;
 }
 
 .nav-head .navbar-menu {
@@ -363,7 +365,7 @@
 }
 
 .about-page {
-  margin-top: 50px;
+  margin-top: 100px;
   margin-bottom: 100px;
 
 }
@@ -452,9 +454,9 @@
 }
 
 .choose-detail {
-  padding-top: 130px;
+  padding-top: 100px;
   padding-left: 54px;
-  margin-bottom: 136px;
+  margin-bottom: 100px;
   max-width: 675px;
 }
 
@@ -630,10 +632,12 @@
 }
 
 .heating-service {
-  margin-top: 40px;
-  margin-bottom: 50px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
-
+.comment-bottom{
+  margin-bottom: 100px;
+}
 .construct-key {
   font-size: 20px;
   font-weight: 600;
@@ -673,7 +677,7 @@
 
 .blog-section {
   background-color: #f1f1f1;
-  padding-bottom: 85px;
+  padding-bottom: 100px;
 }
 
 .service-main-card-blog {
@@ -870,7 +874,6 @@
   font-size: 18px;
   font-weight: 400;
   line-height: 28px;
-  text-align: end;
   color: #474747;
 }
 
@@ -894,7 +897,7 @@
 
 .subscription-card {
   transition: background-color 2.5s ease;
-  width: 95%;
+  width: 100%;
   margin-bottom: 30px;
 }
 
@@ -1122,7 +1125,7 @@ font-weight: 600;
 }
 
 .about-experience-content {
-  padding: 100px 0px 80px 0px;
+  padding: 100px 0px 100px 0px;
 }
 
 .info-head-experience {
@@ -1496,7 +1499,7 @@ color: #474747;
 
 .service-card-details {
   margin-top: 100px;
-  margin-bottom: 120px;
+  margin-bottom: 100px;
 }
 
 .construction-head {
@@ -1663,23 +1666,18 @@ color: #474747;
   width: 100%;
 }
 
-/* .navbar-top{
-  top: 50px !important;
-  left: 100px !important;
-  right: 100px !important;
-} */
 
 .project-div {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 100px;
+  margin-bottom: 70px;
 }
 
 
 /* ----------------------------------- project end-------------------- */
 /* -----------------------------------faq --------------------------- */
 .faq-div {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 
@@ -1702,7 +1700,7 @@ a {
 
 .according-content.expanded {
 
-  max-height: 100px; /* Adjust this value to accommodate your content */
+  max-height: 150px; /* Adjust this value to accommodate your content */
   opacity: 1; /* Visible state */
 }
 

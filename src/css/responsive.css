@@ -3,18 +3,20 @@
         margin-top: 2px;
     }
 
+    .according-heading {
+        font-size: 22px;
+    }
+
     .icon-box {
         width: 44px;
         height: 44px;
     }
 
-    .about-li-content {
-        margin-top: 8px;
-    }
-    .contact-details-main{
-        margin-top:50px;
+    .contact-details-main {
+        margin-top: 50px;
         margin-bottom: 50px;
-      }
+    }
+
     .project-experience {
         padding-right: 0px;
     }
@@ -29,7 +31,7 @@
     }
 
     .future-provider {
-        padding: 50px 0px 50px 0px;
+        padding: 50px 0px 0px 0px;
     }
 
     .footer-img {
@@ -47,7 +49,8 @@
     .main-footer {
         padding-left: 10px;
     }
-    .project-main-details{
+
+    .project-main-details {
         margin-top: 50px;
     }
 
@@ -58,16 +61,16 @@
     }
 
 
-    
+
 
     .testimonial-main {
         padding: 10px;
 
     }
 
-.project-background-clr {
-    margin-left: 0px;
-}
+    .project-background-clr {
+        margin-left: 0px;
+    }
 
     .subscription-head {
         padding-top: 0px;
@@ -154,14 +157,14 @@
     }
 
     .project-content {
-        padding: 20px 10px;
+        padding: 50px 10px;
     }
 
     .choose-detail {
         padding-left: 0px;
         max-width: fit-content;
-        margin-bottom: 100px;
-        padding-top: 100px;
+        padding-top: 50px;
+        margin-bottom: 50px;
     }
 
     .project-li {
@@ -184,9 +187,7 @@
         font-size: 16px;
     }
 
-    .about-screen {
-        padding: 50px 0px 50px 0px;
-    }
+
 
     .banner-background {
         padding: 0px 0px 50px 0px;
@@ -247,10 +248,6 @@
     }
 
 
-    .filter-main-div {
-        padding-top: 0px;
-    }
-
 
     .contact-image {
         width: 40px;
@@ -259,9 +256,10 @@
     .filter-button {
         margin-left: 0px;
     }
-    .contact-message{
+
+    .contact-message {
         margin-top: 50px;
-      }
+    }
 
     .filter-img-1 {
         height: 20px;
@@ -305,6 +303,7 @@
 
     .blog-main-details {
         padding-top: 10px;
+        margin-bottom: 0px;
     }
 
     .blog-content-details {
@@ -361,7 +360,7 @@
     }
 
 
-   
+
     .navbar-top {
         position: fixed !important;
         top: 0px !important;
@@ -387,6 +386,10 @@
     .footer-image-head {
         padding-left: 1rem;
     }
+
+    .banner-left {
+        padding-top: 50px;
+    }
 }
 
 
@@ -409,29 +412,36 @@
         padding: 106px 20px 30px 20px;
         width: fit-content;
     }
-    .quotes{
+
+    .quotes {
         max-width: 65%;
-      }
-      
-.project-background-clr {
-    margin-left: 0px;
-}
+    }
+
+    .project-background-clr {
+        margin-left: 0px;
+    }
+
+    .blog-main-details {
+        margin-bottom: 0px;
+    }
 
 
-      .contact-details-main{
+    .contact-details-main {
         margin-top: 50px;
         margin-bottom: 50px;
-      }
-   
-      .project-main-details{
+    }
+
+    .project-main-details {
         margin-top: 50px;
     }
+
     .form-product {
         width: 70%;
     }
-    .contact-message{
+
+    .contact-message {
         margin-top: 50px;
-      }
+    }
 
 
 
@@ -456,11 +466,17 @@
     }
 
     .future-provider {
-        padding: 50px 30px;
+        padding: 50px 30px 0px 30px;
+    }
+
+    .banner-left {
+        padding-top: 50px;
     }
 
     .choose-detail {
-        padding-top: 100px;
+        padding-top: 50px;
+        margin-bottom: 50px;
+
         padding-left: 0px;
     }
 
@@ -554,7 +570,7 @@
 
 
 
-  
+
 
     .contact-margin {
         margin-left: 0px;
@@ -573,15 +589,13 @@
     }
 
 
-    .about-screen {
-        padding-bottom: 10px;
-    }
-      
+
+
     .subscription-card:hover {
- 
-        transform: scale(1.0) ;
-      
-      }
+
+        transform: scale(1.0);
+
+    }
 
     .subscription-card:hover {
 
@@ -629,14 +643,15 @@
     .blog-details-div {
         text-align: left;
     }
-    .project-main-details{
+
+    .project-main-details {
         margin-top: 50px;
     }
 
-    
-.project-background-clr {
-    margin-left: 0px;
-}
+
+    .project-background-clr {
+        margin-left: 0px;
+    }
 
     .footer-img-logo {
         padding-left: 1rem;
@@ -721,10 +736,6 @@
         padding: 0px 20px 40px 0px;
     }
 
-    .about-screen {
-        padding-bottom: 50px;
-    }
-
 
 
     .bg-body-tertiary {
@@ -754,7 +765,8 @@
     .stat-number {
         height: auto;
         font-size: 24px;
-        padding: 30px 0px;    }
+        padding: 30px 0px;
+    }
 
     .stat-label {
         padding: 30px 30px;
@@ -764,8 +776,8 @@
     .choose-detail {
         padding-left: 0px;
         max-width: fit-content;
-        margin-bottom: 100px;
-        padding-top: 100px;
+        margin-bottom: 50px;
+        padding-top: 50px;
     }
 
     .fixed-top {
@@ -821,14 +833,21 @@
 
     }
 
+    .contact-details-main {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .about-experience-content {
+        padding: 50px 10px 0px 10px;
+    }
+
     .nav-auto {
         justify-content: flex-start;
         width: 100%;
     }
 
-    .filter-img {
-        width: 30px;
-    }
+
 
     .filter-tum-content {
         font-size: 14px;
@@ -854,11 +873,12 @@
         left: 0px !important;
         right: 0px !important;
     }
-    .quotes{
+
+    .quotes {
         max-width: 65%;
-      }
-      
-      
+    }
+
+
 
 }
 
@@ -867,9 +887,14 @@
         flex-direction: column;
 
     }
-    .blog-main-details{
+    .project-content{
+        padding: 50px 40px;
+    }
+
+    .blog-main-details {
         margin-left: 0px;
     }
+
     .footer-img-logo {
         padding-left: 1rem;
     }
@@ -878,10 +903,10 @@
         margin-left: 0px;
     }
 
-    .service-content-main{
+    .service-content-main {
         margin-left: 0px;
     }
-    
+
     .footer-para {
         padding-left: 1rem;
     }
@@ -889,7 +914,27 @@
     .footer-image-head {
         padding-left: 1rem;
     }
-  
+
+    .service {
+        margin: 50px 0px;
+    }
+
+    .service-page-subscription {
+        padding: 50px 0px 0px 0px;
+    }
+
+    .blog-section {
+        padding-bottom: 50px;
+    }
+
+    .team-page {
+        margin: 50px 0px;
+    }
+
+    .service-page-subscription-main {
+        padding: 50px 0px 0px 0px;
+    }
+
     .nav-auto {
         justify-content: flex-start;
         width: 100%;
@@ -902,7 +947,63 @@
     .according-main {
         margin-top: 50px;
     }
-    
+
+    .testimonial {
+        margin: 50px 20px;
+    }
+
+    .about-page {
+        margin: 50px 0px;
+    }
+
+    .service-card-details {
+        margin: 50px 0px;
+    }
+
+    .heating-service {
+        margin: 50px 0px;
+    }
+
+    .service-card-content {
+        margin: 50px 0px;
+        padding: 50px 10px;
+    }
+
+    .construction-key {
+        padding-bottom: 50px;
+    }
+
+    .filter-main-div {
+        padding: 50px 0px;
+    }
+
+    .construction-blog {
+        padding-bottom: 50px;
+    }
+
+    .filter-page {
+        padding-bottom: 50px;
+    }
+
+    .blog-category {
+        margin-top: 50px;
+    }
+
+    .comment-bottom {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .project-div {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .faq-div {
+        margin: 50px 0px;
+    }
+
+
 
 }
 
@@ -914,10 +1015,12 @@
     .testimonial-card-details {
         display: flex;
         flex-direction: column;
-      }
+    }
 
+    .service-content-main{
+        margin-left: 0px;
+    }
 
-    
 
 
 }
@@ -929,12 +1032,18 @@
 
 
 }
+
 @media only screen and (max-width: 991px) {
     .about-head {
         text-align: center;
     }
-    .project-main-details{
+
+    .project-main-details {
         margin-top: 50px;
+    }
+
+    .about-screen {
+        padding: 50px 0px;
     }
 }
 
@@ -948,7 +1057,7 @@
     }
 
 
- 
+
 
     .construction-image-background {
         padding: 30px;
@@ -978,7 +1087,7 @@
     }
 
     .future-provider {
-        padding: 50px 20px;
+        padding: 50px 20px 0px 20px;
     }
 
 
@@ -1036,10 +1145,6 @@
 
     .info-section {
         padding: 0px;
-    }
-
-    .about-screen {
-        padding-bottom: 50px;
     }
 
 
@@ -1106,7 +1211,7 @@
         font-size: 18px;
     }
 
-  
+
     .filter-img {
         width: 40px;
     }
@@ -1124,7 +1229,7 @@
         height: 600px;
     }
 
-  
+
 
     .footer-image {
         width: 33px;
@@ -1214,10 +1319,11 @@
     .filter-para-details {
         font-size: 15px;
     }
-    .quotes{
+
+    .quotes {
         max-width: 67%;
-      }
-      
+    }
+
 }
 
 
@@ -1229,11 +1335,11 @@
 
         padding: 200px 50px 100px 50px;
     }
-   
-    .quotes{
+
+    .quotes {
         max-width: 67%;
-      }
-      
+    }
+
     .banner-background {
         padding: 50px 60px 275px 60px;
     }

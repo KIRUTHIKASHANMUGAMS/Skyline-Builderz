@@ -20,7 +20,7 @@ function Footer() {
           <div className="main-footer" >
             <Row>
               <Col lg={3} md={6} sm={12} xs={12} className="pb-3">
-                <div style={{ textAlign: "left" , marginTop:"3px" }}>
+                <div style={{ textAlign: "left", marginTop: "3px" }}>
                   <img className="footer-img-logo" src={logo} alt="logo" />
 
                 </div>
@@ -89,8 +89,8 @@ function Footer() {
                   <h5 className="pb-2  ps-3 footer-content-head">Contact</h5>
                   <p className=" ps-3">(629) 555-0129</p>
                   <p className="ps-3">
-    <Link className="hover-link" to="mailto:info@example.com">info@example.com</Link>
-</p>
+                    <Link className="hover-link" to="mailto:info@example.com">info@example.com</Link>
+                  </p>
                   <p className=" ps-3">6391 Elgin St, Celina, 10299</p>
                 </div>
               </Col>

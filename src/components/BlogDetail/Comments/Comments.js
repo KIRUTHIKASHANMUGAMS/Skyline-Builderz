@@ -12,7 +12,7 @@ import arrow from "../../../images/arrow -button.svg"
 
 function Comments() {
     return (
-        <div>
+        <div className='comment-bottom'>
             <Container>
                 <Row>
                     <Col lg="9">
@@ -129,7 +129,7 @@ function Comments() {
                                 </Col>
                             </Row>
                             <Row>
-                                <Col className="mb-5 d-flex justify-content-start">
+                                <Col className=" d-flex justify-content-start">
                                     <button className='contact-btn-blog grow_spin'> Submit <img src={arrow} alt='' style={{ paddingLeft: "10px" }} /> </button>
                                 </Col>
                             </Row>
