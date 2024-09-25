@@ -87,7 +87,7 @@ function Details() {
 
                         </Col>
                         <Col lg="4" md="4">
-                            <div className='blog-main-details'>
+                            <div className='blog-main-details-content'>
                                 <Form>
                                     <InputGroup>
 
@@ -110,7 +110,7 @@ function Details() {
                                     </InputGroup>
                                 </Form>
 
-                                <div className='pt-5' style={{ textAlign: "justify" }}>
+                                <div className='blog-padding' style={{ textAlign: "justify" }}>
                                     <div className='blog-post'>
                                         <p className="blog-card-main">Post Categories</p>
                                         {categories.map((category, index) => (
@@ -132,7 +132,7 @@ function Details() {
                                 </div>
 
 
-                                <div className='pt-5' style={{ textAlign: "justify" }}>
+                                <div className='blog-padding' style={{ textAlign: "justify" }}>
                                     <div className='blog-post'>
 
                                         <p className="blog-card-main">Recent News</p>
@@ -158,7 +158,7 @@ function Details() {
                                     </div>
 
                                 </div>
-                                <div className='pt-5'>
+                                <div className='blog-padding'>
                                 <div className='blog-post'>
 
                                     <p className="blog-card-main">Tags</p>

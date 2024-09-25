@@ -916,6 +916,9 @@
     .service {
         margin: 50px 0px;
     }
+    .blog-main-details-content{
+        margin-left: 0px;
+      }
     .timeline-content{
         margin-bottom: 0px;
     }

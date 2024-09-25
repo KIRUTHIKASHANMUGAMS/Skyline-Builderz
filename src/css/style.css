@@ -1430,12 +1430,20 @@ color: #474747;
 .comment-contents {
   background-color: #F1F1F1;
   padding: 20px 20px 20px 20px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   display: flex;
 }
+.comment-design{
+  margin-bottom: 30px;
+}
+.construction-main-head-content{
+font-size: 24px;
+font-weight: 700;
+line-height: 30px;
+text-align: left;
 
-
+}
 .contact-btn-blog {
   background-color: #ffcc29;
   border: none;
@@ -1931,7 +1939,12 @@ button.grow_spin:hover::after {
 .service-content-main{
   margin-left: 25px;
 }
-
+.blog-main-details-content{
+  margin-left: 30px;
+}
+.blog-padding{
+  padding-top: 30px;
+}
 /* .nav-icon {
   margin-top: 7px;
 } */

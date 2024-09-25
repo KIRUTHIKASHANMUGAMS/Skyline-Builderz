@@ -25,7 +25,7 @@ function Comments() {
 
 
                             <div style={{ textAlign: "start", marginLeft: "20px" }}>
-                                <p className="construction-main-head">Darlene Robertson</p>
+                                <p className="construction-main-head-content">Darlene Robertson</p>
                                 <p className="blog-card-content">1 Month ago</p>
                                 <p className="blog-card-content">Sed sed risus pretium quam vulputate dignissim suspendisse in est. In dictum non consectetur a erat nam at lectus.</p>
 
@@ -45,7 +45,7 @@ function Comments() {
                             <div>   <img src={blog2} alt='' className='command-image' /></div>
 
                             <div style={{ textAlign: "start", marginLeft: "20px" }}>
-                                <p className="construction-main-head">Wade Warren</p>
+                                <p className="construction-main-head-content">Wade Warren</p>
                                 <p className="blog-card-content">1 Month ago</p>
                                 <p className="blog-card-content">Sed sed risus pretium quam vulputate dignissim suspendisse in est. In dictum non consectetur a erat nam at lectus.</p>
 
@@ -64,7 +64,7 @@ function Comments() {
                                 <div >   <img src={blog3} alt='' className='command-image' /></div>
 
                                 <div style={{ textAlign: "start", marginLeft: "20px" }}>
-                                    <p className="construction-main-head">Annette Black</p>
+                                    <p className="construction-main-head-content">Annette Black</p>
                                     <p className="blog-card-content">1 Month ago</p>
                                     <p className="blog-card-content">Sed sed risus pretium quam vulputate dignissim suspendisse in est. In dictum non consectetur a erat nam at lectus.</p>
 
@@ -84,7 +84,7 @@ function Comments() {
                             <div >   <img src={blog4} alt='' className='command-image' /></div>
 
                             <div style={{ textAlign: "start", marginLeft: "20px" }}>
-                                <p className="construction-main-head">Ralph Edwards</p>
+                                <p className="construction-main-head-content">Ralph Edwards</p>
                                 <p className="blog-card-content">1 Month ago</p>
                                 <p className="blog-card-content">Sed sed risus pretium quam vulputate dignissim suspendisse in est. In dictum non consectetur a erat nam at lectus.</p>
 
@@ -105,7 +105,7 @@ function Comments() {
                         <p className="construction-main-head construction-details-head">Leave a comment</p>
 
                         <Form>
-                            <Row className="mb-5">
+                            <Row className=" comment-design">
                                 <Col>
                                     <Form.Control size="lg" placeholder="First name" />
                                 </Col>
@@ -113,12 +113,12 @@ function Comments() {
                                     <Form.Control size="lg" placeholder="Last name" />
                                 </Col>
                             </Row>
-                            <Row className="mb-5">
+                            <Row className=" comment-design">
                                 <Col>
                                     <Form.Control size="lg" placeholder="Email" />
                                 </Col>
                             </Row>
-                            <Row className="mb-5">
+                            <Row className=" comment-design">
                                 <Col>
                                     <Form.Control
                                         size="lg"
@@ -128,8 +128,8 @@ function Comments() {
                                     />
                                 </Col>
                             </Row>
-                            <Row>
-                                <Col className=" d-flex justify-content-start">
+                            <Row> 
+                                <Col className=" d-flex justify-content-start ">
                                     <button className='contact-btn-blog grow_spin'> Submit <img src={arrow} alt='' style={{ paddingLeft: "10px" }} /> </button>
                                 </Col>
                             </Row>
