@@ -239,9 +239,7 @@
         padding-left: 0px;
     }
 
-    .about-experience {
-        padding-top: 50px;
-    }
+    
 
     .main-footer {
         padding-top: 50px;
@@ -542,9 +540,7 @@
         max-width: fit-content;
     }
 
-    .about-experience-content {
-        padding: 100px 10px;
-    }
+    
 
     .timeline-line {
         display: none;
@@ -812,7 +808,7 @@
     }
 
     .about-experience-content {
-        padding: 100px 10px;
+        padding: 50px 10px;
     }
 
     .timeline-line {
@@ -838,9 +834,6 @@
         margin-bottom: 50px;
     }
 
-    .about-experience-content {
-        padding: 50px 10px 0px 10px;
-    }
 
     .nav-auto {
         justify-content: flex-start;
@@ -914,9 +907,17 @@
     .footer-image-head {
         padding-left: 1rem;
     }
-
+    .timeline-item{
+        margin-bottom: 50px;
+    }
+    .about-experience-content {
+        padding: 50px 10px 0px 10px;
+    }
     .service {
         margin: 50px 0px;
+    }
+    .timeline-content{
+        margin-bottom: 0px;
     }
 
     .service-page-subscription {
