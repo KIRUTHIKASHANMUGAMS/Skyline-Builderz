@@ -8,7 +8,10 @@
   background-size: cover;
   background-repeat: no-repeat, repeat;
 }
-
+.card-img-top {
+  max-width: 100%;
+  height: auto;    
+}
 .navbar-div-menu {
   margin-top: 12px;
   margin-bottom: 12px;
