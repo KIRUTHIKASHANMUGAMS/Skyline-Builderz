@@ -18,7 +18,7 @@ function ProjectCard() {
                 <Card style={{ marginBottom: "30px" }}>
                   <div className="service-main-card-team">
                     <div style={{ textAlign: "justify" }}>
-                      <Card.Img variant="top" src={person4} />
+                      <Card.Img variant="top" src={person4}  style={{ width: "100%", height: "auto" }}   alt="Description of the image"/>
                     </div>
 
                     <p className="service-head-main-team">Electrical & Maintanace </p>
@@ -30,7 +30,7 @@ function ProjectCard() {
                 <Card style={{ marginBottom: "30px" }}>
                   <div className="service-main-card-team">
                     <div style={{ textAlign: "justify" }}>
-                      <Card.Img variant="top" src={person5} />
+                      <Card.Img variant="top" src={person5}  style={{ width: "100%", height: "auto" }}   alt="Description of the image" />
                     </div>
 
                     <p className="service-head-main-team">Industry machine issue </p>
@@ -42,7 +42,7 @@ function ProjectCard() {
                 <Card style={{ marginBottom: "30px" }}>
                   <div className="service-main-card-team">
                     <div style={{ textAlign: "justify" }}>
-                      <Card.Img variant="top" src={person6} />
+                      <Card.Img variant="top" src={person6}  style={{ width: "100%", height: "auto" }}   alt="Description of the image"/>
                     </div>
 
                     <p className="service-head-main-team">Industry machine issue </p>

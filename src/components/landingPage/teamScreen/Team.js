@@ -41,7 +41,7 @@ function Team() {
                 <Card style={{ marginBottom: "30px" }}>
                   <div className="service-main-card-team">
                     <div style={{ textAlign: "justify" }}>
-                      <Card.Img variant="top" src={person1} />
+                      <Card.Img variant="top" src={person1} className="card-img-top"  alt="person" />
                     </div>
 
                     <p className="service-head-main-team"> David James </p>
@@ -53,7 +53,7 @@ function Team() {
                 <Card style={{ marginBottom: "30px" }}>
                   <div className="service-main-card-team">
                     <div style={{ textAlign: "justify" }}>
-                      <Card.Img variant="top" src={person2} />
+                      <Card.Img variant="top" src={person2} className="card-img-top"  alt="Description of the image"/>
                     </div>
 
                     <p className="service-head-main-team">Hinata Hyuga </p>
@@ -66,7 +66,7 @@ function Team() {
                 <Card style={{ marginBottom: "30px" }}>
                   <div className="service-main-card-team">
                     <div style={{ textAlign: "justify" }}>
-                      <Card.Img variant="top" src={person3} />
+                      <Card.Img variant="top" src={person3} className="card-img-top"   alt="Description of the image"/>
                     </div>
 
                     <p className="service-head-main-team">Sarrah Albert </p>

@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Container, Col, Row } from 'react-bootstrap'
 import person from "../../../images/person-1.webp";
 import clock from "../../../images/clock-service.svg";

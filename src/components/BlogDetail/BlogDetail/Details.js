@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Construction from "../../../images/blog2.webp"
 import { Container, Col, Row } from 'react-bootstrap'
 import quotation1 from "../../../images/quotation1.svg"
@@ -14,14 +14,10 @@ import { Link } from 'react-router-dom';
 
 
 function Details() {
-    const [activeCategory, setActiveCategory] = useState([0]);
-    const [activeTag, setActiveTag] = useState('Design');
+ 
 
     const tags = ['Design', 'Building', 'Interior', 'Idea', 'Project', 'Service'];
 
-    const handleTagClick = (tag) => {
-        setActiveTag(tag);
-    };
 
 
     const categories = [
@@ -43,10 +39,7 @@ function Details() {
 
 
 
-    const handleCategoryClick = (category) => {
-        setActiveCategory(category);
-    };
-
+  
 
     return (
         <div>

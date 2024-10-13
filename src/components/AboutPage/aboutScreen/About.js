@@ -11,8 +11,6 @@ function About() {
   return (
     <div>
       <div className="about-page">
-
-
         <Container>
           <Row>
             <Col lg="7" md="12" xs="12">

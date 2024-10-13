@@ -78,7 +78,7 @@ function Service() {
                                     <Card style={{ marginBottom: "30px" }}>
 
                                         <div style={{ textAlign: "justify" }} onClick={() => handleShow(details)}>
-                                            <Card.Img variant="top" className='service-details-main' src={details.img} />
+                                            <Card.Img variant="top" className='service-details-main' src={details.img}  style={{ width: "100%", height: "auto" }}   alt="Description of the image" />
                                         </div>
                                         <div className="service-card">
                                             <p ><button className="service-card-team">{details.name}</button>  </p>
@@ -98,7 +98,7 @@ function Service() {
                     {selectedBlog && (
                 <Modal show={showModal} onHide={handleClose}>
 
-                        <Card.Img   className="mx-auto"  src={selectedBlog.img} />
+                        <Card.Img   className="mx-auto"  src={selectedBlog.img}  style={{ width: "100%", height: "auto" }}   alt="Description of the image"/>
 
                   
                 </Modal>

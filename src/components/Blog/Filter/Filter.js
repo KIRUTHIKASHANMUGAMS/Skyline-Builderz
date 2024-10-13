@@ -155,7 +155,7 @@ function FilterPage() {
                                     <Card style={{ marginBottom: "30px" }}>
                                         <div className='card-filter'>
                                             <div style={{ textAlign: "justify" }} onClick={() => handleShow(blog)}>
-                                                <Card.Img variant="top" src={blog.img} style={{ cursor: 'pointer' }} />
+                                                <Card.Img variant="top" src={blog.img}   style={{ width: "100%", height: "auto",cursor: 'pointer' }}   alt="Description of the image" />
                                             </div>
                                             <div style={{ textAlign: "justify", marginTop: "15px" }}>
                                                 <Card.Title>
@@ -204,7 +204,7 @@ function FilterPage() {
             {selectedBlog && (
                 <Modal show={showModal} onHide={handleClose}>
 
-                    <Card.Img className="mx-auto" src={selectedBlog.img} />
+                    <Card.Img className="mx-auto" src={selectedBlog.img}  style={{ width: "100%", height: "auto" }}   alt="Description of the image" />
 
 
                 </Modal>

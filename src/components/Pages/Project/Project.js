@@ -54,7 +54,7 @@ function Project() {
                       <Card style={{ marginBottom: "30px" }}>
                         <div className="service-main-card-team">
                           <div onClick={() => handleShow(details)} style={{ textAlign: "justify" }}>
-                            <Card.Img variant="top" src={details.img} />
+                            <Card.Img variant="top" src={details.img}  style={{ width: "100%", height: "auto" }}   alt="Description of the image"/>
                           </div>
 
                           <p className="page-heading"> {details.name} </p>
@@ -75,7 +75,7 @@ function Project() {
           {selectedBlog && (
             <Modal show={showModal} onHide={handleClose}>
 
-              <Card.Img className="mx-auto" src={selectedBlog.img} />
+              <Card.Img className="mx-auto" src={selectedBlog.img}  style={{ width: "100%", height: "auto" }}   alt="Description of the image" />
 
 
             </Modal>

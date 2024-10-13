@@ -47,7 +47,7 @@ function Blog() {
                   <Card className="card-rotate" style={{ marginBottom: "30px" }}>
                     <div className="service-main-card-blog">
                       <div style={{ textAlign: "justify" }}>
-                        <Card.Img variant="top" src={Blog1} />
+                        <Card.Img variant="top" src={Blog1}  style={{ width: "100%", height: "auto" }}   alt="Description of the image"/>
                         <div>
                           <div className="blog-details">
 
@@ -85,7 +85,7 @@ function Blog() {
                   <Card className="card-rotate" style={{ marginBottom: "30px" }}>
                     <div className="service-main-card-blog">
                       <div style={{ textAlign: "justify" }}>
-                        <Card.Img variant="top" src={Blog3} />
+                        <Card.Img variant="top" src={Blog3}   style={{ width: "100%", height: "auto" }}   alt="Description of the image"/>
                         <div>
 
                           <div className="blog-details">
@@ -126,7 +126,7 @@ function Blog() {
                   <Card className="card-rotate" style={{ marginBottom: "30px" }}>
                     <div className="service-main-card-blog">
                       <div style={{ textAlign: "justify" }}>
-                        <Card.Img variant="top" src={Blog2} />
+                        <Card.Img variant="top" src={Blog2}   style={{ width: "100%", height: "auto" }}   alt="Description of the image"/>
                         <div>
 
                           <div className="blog-details">
