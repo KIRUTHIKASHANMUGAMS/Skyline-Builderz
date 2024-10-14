@@ -1,39 +1,37 @@
-import React, { Suspense, lazy } from "react";
+import React from "react";
 
-const Home = lazy(() => import("../landingPage/homeScreen/index"));
-const About = lazy(() => import("../landingPage/aboutScreen/index"));
-const ChooseScreen = lazy(() => import("./chooseScreen"));
-const ServiceScreen = lazy(() => import("./serviceScreen"));
-const BlockScreen = lazy(() => import("./blogScreen"));
-const TeamScreen = lazy(() => import("./teamScreen"));
-const SubscriptionScreen = lazy(() => import("../landingPage/subscriptionScreen/index"));
-const TestimonialScreen = lazy(() => import("./testimonialScreen"));
-const Header = lazy(() => import("../Header/index"));
-const Footer = lazy(() => import("../Footer/index"));
-const ScrollButton = lazy(() => import("../ScrollButton/Scroll"));
-const MouseFollower = lazy(() => import("../Mouse/Mouse"));
+import Home from "../landingPage/homeScreen/index";
+import About from "../landingPage/aboutScreen/index";
+import Header from "../Header/index"
+import Footer from "../Footer/index";
+import ChooseScreen from "./chooseScreen";
+import ServiceScreen from "./serviceScreen";
+import BlockScreen from "./blogScreen";
+import TeamScreen from "./teamScreen";
+import SubscriptionScreen from "../landingPage/subscriptionScreen/index";
+import TestimonialScreen from "./testimonialScreen";
+import ScrollButton from "../ScrollButton/Scroll";
+import MouseFollower from "../Mouse/Mouse";
+
 
 function Landing() {
   return (
-    <div>
+    <div >
       <div className="banner-background">
-        <Suspense fallback={<div>Loading...</div>}>
-          <Header />
-          <Home />
-        </Suspense>
-      </div>
-      <Suspense fallback={<div>Loading...</div>}>
-        <About />
-        <ChooseScreen />
-        <ServiceScreen />
-        <BlockScreen />
-        <TeamScreen />
-        <SubscriptionScreen />
-        <TestimonialScreen />
-        <ScrollButton />
-        <MouseFollower />
-        <Footer />
-      </Suspense>
+      <Header />
+      <Home />
+      </div>     
+      <About />
+      <ChooseScreen />
+      <ServiceScreen />
+      <BlockScreen />
+      <TeamScreen />
+      <SubscriptionScreen />
+      <TestimonialScreen />
+      <ScrollButton/>
+      <MouseFollower/>
+
+      <Footer />
     </div>
   );
 }
