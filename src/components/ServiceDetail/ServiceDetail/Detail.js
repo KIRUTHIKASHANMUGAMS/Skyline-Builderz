@@ -43,7 +43,7 @@ function Details() {
 
                         <Col lg="8">
                             <div className='blog-details-content'>
-                                <img src={person} alt="" style={{ width: "100%" }} />
+                                <img src={person} alt="event" style={{ width: "100%" }} />
                                 <div className='construction-detail'>
 
                                     <p className="construction-main-head"> Description for Commercial Services</p>
@@ -59,7 +59,7 @@ function Details() {
                                     <Row>
                                         <Col lg="6" md="6" xs="12">
                                             <Row>
-                                                <Col lg="2" xs="2"><img src={clock} style={{ width: "100%" }} alt='' />
+                                                <Col lg="2" xs="2"><img src={clock} style={{ width: "100%" }} alt='event' />
                                                 </Col>
                                                 <Col className='ps-3'>
 
@@ -75,7 +75,7 @@ function Details() {
                                         <Col lg="6" md="6" xs="12">
 
                                             <Row>
-                                                <Col lg="2" xs="2"><img src={price} style={{ width: "100%" }} alt='' />
+                                                <Col lg="2" xs="2"><img src={price} style={{ width: "100%" }} alt='event' />
                                                 </Col>
                                                 <Col className='ps-3'>
 
@@ -90,7 +90,7 @@ function Details() {
                                         <Col lg="6" md="6" xs="12">
 
                                             <Row>
-                                                <Col lg="2" xs="2"><img src={technology} style={{ width: "100%" }} alt='' />
+                                                <Col lg="2" xs="2"><img src={technology} style={{ width: "100%" }} alt='event'  />
                                                 </Col>
                                                 <Col className='ps-3'>
 
@@ -105,7 +105,7 @@ function Details() {
                                         <Col lg="6" md="6" xs="12">
 
                                             <Row>
-                                                <Col lg="2" xs="2"><img src={estimate} style={{ width: "100%" }} alt='' />
+                                                <Col lg="2" xs="2"><img src={estimate} style={{ width: "100%" }} alt='event'  />
                                                 </Col>
                                                 <Col className='ps-3'>
 
@@ -129,16 +129,16 @@ function Details() {
                                         <Col lg="6" md="6" xs="12">
                                             <div className='construction-key'>
 
-                                                <p className='pb-1 d-flex'><img style={{ height: "fit-content" }} src={tick} alt='' /><span className='construct-key' style={{ marginLeft: "14px" }}>Experience Investor Technician.</span> </p>
-                                                <p className='pb-1 d-flex' ><img style={{ height: "fit-content" }} src={tick} alt='' /><span className='construct-key' style={{ marginLeft: "14px" }}>Your Electrical and Security System.</span>  </p>
-                                                <p className='pb-1 d-flex'><img style={{ height: "fit-content" }} src={tick} alt='' /> <span className='construct-key' style={{ marginLeft: "14px" }}>Sources Whereas High Standards</span> </p>
-                                                <p className='pb-1 d-flex'><img style={{ height: "fit-content" }} src={tick} alt='' /> <span className='construct-key' style={{ marginLeft: "14px" }}>Credibly Innovate Granular Internal</span></p>
-                                                <p className='pb-1 d-flex'><img style={{ height: "fit-content" }} src={tick} alt='' /><span className='construct-key' style={{ marginLeft: "14px" }}>Services For Domestic And Commercial.</span> </p>
+                                                <p className='pb-1 d-flex'><img style={{ height: "fit-content" }} src={tick} alt='event'  /><span className='construct-key' style={{ marginLeft: "14px" }}>Experience Investor Technician.</span> </p>
+                                                <p className='pb-1 d-flex' ><img style={{ height: "fit-content" }} src={tick} alt='event'  /><span className='construct-key' style={{ marginLeft: "14px" }}>Your Electrical and Security System.</span>  </p>
+                                                <p className='pb-1 d-flex'><img style={{ height: "fit-content" }} src={tick} alt='event'  /> <span className='construct-key' style={{ marginLeft: "14px" }}>Sources Whereas High Standards</span> </p>
+                                                <p className='pb-1 d-flex'><img style={{ height: "fit-content" }} src={tick}alt='event'  /> <span className='construct-key' style={{ marginLeft: "14px" }}>Credibly Innovate Granular Internal</span></p>
+                                                <p className='pb-1 d-flex'><img style={{ height: "fit-content" }} src={tick} alt='event'  /><span className='construct-key' style={{ marginLeft: "14px" }}>Services For Domestic And Commercial.</span> </p>
                                             </div>
 
                                         </Col>
                                         <Col lg="6" md="6" xs="12">
-                                            <img src={construction} style={{ width: "100%" , height:"-webkit-fill-available" }} alt='' />
+                                            <img src={construction} style={{ width: "100%" , height:"-webkit-fill-available" }}alt='event'  />
                                         </Col>
                                     </Row>
 
@@ -181,7 +181,7 @@ function Details() {
 
 
 
-                                                <img style={{ height: "fit-content" }} src={tick} alt='' />
+                                                <img style={{ height: "fit-content" }} src={tick} alt='event'  />
                                                 <span
                                                     className="tele-service"
                                                     style={{

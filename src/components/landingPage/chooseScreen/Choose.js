@@ -59,7 +59,7 @@ function Choose() {
               <div className="project-experience">
                 <ul>
                   <li>
-                    <img src={tick} alt="" /> <small className="project-li">35 Years Experience</small> 
+                    <img src={tick} alt="event" /> <small className="project-li">35 Years Experience</small> 
                     <p
                       className="banner-sub-about "
                       style={{ paddingLeft: "46px" }}
@@ -70,7 +70,7 @@ function Choose() {
                   </li>
                   <li>
                     {" "}
-                    <img src={tick} alt="" /> <small className="project-li">Excellence Certificate</small> 
+                    <img src={tick} alt="event" /> <small className="project-li">Excellence Certificate</small> 
                     
                        <p className="banner-sub-about "
                       style={{ paddingLeft: "46px" }}
@@ -81,7 +81,7 @@ function Choose() {
                   </li>
                   <li>
                     {" "}
-                    <img src={tick} alt="" /> <small className="project-li"> Affordable Price</small>
+                    <img src={tick} alt="event" /> <small className="project-li"> Affordable Price</small>
                     <p
                       className="banner-sub-about "
                       style={{ paddingLeft: "46px" }}

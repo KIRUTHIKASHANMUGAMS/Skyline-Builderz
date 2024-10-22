@@ -84,7 +84,7 @@ function Service() {
                                             <p ><button className="service-card-team">{details.name}</button>  </p>
                                             <p className="service-card-sub"> {details.content}</p>
 
-                                            <Link to="/service-details" ><button className='contact-btn-service grow_spin'> {details.button} <img src={arrow} alt='' style={{ paddingLeft: "10px" }} /> </button>
+                                            <Link to="/service-details" ><button className='contact-btn-service grow_spin'> {details.button} <img src={arrow} alt='arrow' style={{ paddingLeft: "10px" }} /> </button>
                                             </Link>
                                         </div>
                                     </Card>

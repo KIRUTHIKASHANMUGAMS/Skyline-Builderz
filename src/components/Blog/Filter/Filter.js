@@ -171,7 +171,7 @@ function FilterPage() {
                                                     <div>
 
 
-                                                        <img src={blog.person} alt='' className='filter-img' />
+                                                        <img src={blog.person} alt='image' className='filter-img' />
                                                         <small className='filter-tum-content'>{blog.author}</small>
                                                     </div>
 

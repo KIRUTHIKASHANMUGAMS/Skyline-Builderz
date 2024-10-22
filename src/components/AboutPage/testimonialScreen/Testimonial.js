@@ -51,7 +51,7 @@ function Testimonial() {
                         </Col>
                         <Col>
                           <div>
-                            <img src={qoutes} style={{ width: "47%" }} alt="" />
+                            <img src={qoutes} style={{ width: "47%" }} alt="image" />
                           </div>
                         </Col>
                       </Row>
@@ -59,7 +59,7 @@ function Testimonial() {
                       <div>
                         {[...Array(5)].map((_, index) => (
                           <small key={index}>
-                            <img src={star} alt="" />
+                            <img src={star} alt="image" />
                           </small>
                         ))}
                       </div>

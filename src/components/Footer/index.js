@@ -147,11 +147,12 @@ function Footer() {
                         placeholder="Get product"
                         aria-label="Search"
                       />
-                      <InputGroup.Text className="button-spin-hover " style={{ backgroundColor: "#FFCC29" }}>
-                        <Link to="#">     <img src={arrow} alt='' />
-
+                      <InputGroup.Text className="button-spin-hover" style={{ backgroundColor: "#FFCC29" }}>
+                        <Link to="#" aria-label="Navigate to next section">
+                          <img src={arrow} alt="Arrow icon indicating next" />
                         </Link>
                       </InputGroup.Text>
+
                     </InputGroup>
                   </Form>
                 </div>
