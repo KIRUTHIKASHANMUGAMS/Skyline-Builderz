@@ -140,7 +140,7 @@ function FilterPage() {
                                         opacity: activeIcon === icon.image ? 1 : 0.5, 
                                         background: activeIcon === icon.image ? '#C10023' : '#474747'
                                     }} 
-                                    alt='' 
+                                    alt='event' 
                                     className='filter-img' 
                                 />
                             ))}
@@ -171,7 +171,7 @@ function FilterPage() {
                                                     <div>
 
 
-                                                        <img src={blog.person} alt='image' className='filter-img' />
+                                                        <img src={blog.person} alt='event' className='filter-img' />
                                                         <small className='filter-tum-content'>{blog.author}</small>
                                                     </div>
 
