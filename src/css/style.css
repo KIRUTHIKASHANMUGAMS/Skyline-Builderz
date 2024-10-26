@@ -619,6 +619,9 @@
 .service-right {
   text-align: left;
 }
+.service-right-page {
+  text-align: center;
+}
 
 .service-main-card .service-read-more {
   color: #c10023;
@@ -1842,15 +1845,6 @@ button.grow_spin:hover::after {
 
 
 
-
-.card-rotate {
-  transition: transform 2.5s ease;
-}
-
-.card-rotate:hover {
-  transform: rotateY(180deg);
-
-}
 
 
 .service-main-card .service-image {
